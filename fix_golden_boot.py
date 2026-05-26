@@ -8,13 +8,13 @@ def fix_rank_formula(ws):
         "Enter one row per goal scorer per match (multiple scorers per match OK)"
     )
     for row in range(6, 306):
-        # New formula: MATCH identifies first occurrences globally
-        # Tiebreaker: same goals broken by row order (earlier entry = higher rank)
+        # Uses 1/COUNTIF trick to count unique players correctly
+        # Tiebreaker: alphabetical by player name (ensures no tied ranks)
         formula = (
             f'=IF(OR(B{row}="",COUNTIF($B$6:$B{row},B{row})>1),"",'
-            f'SUMPRODUCT((MATCH($B$6:$B$305,$B$6:$B$305,0)=ROW($B$6:$B$305)-ROW($B$5))'
-            f'*($B$6:$B$305<>"")'
-            f'*(($R$6:$R$305>R{row})+(($R$6:$R$305=R{row})*(ROW($B$6:$B$305)<ROW(B{row})))))+1)'
+            f'ROUND(SUMPRODUCT(($B$6:$B$305<>"")'
+            f'*(($R$6:$R$305>R{row})+(($R$6:$R$305=R{row})*($B$6:$B$305<B{row})))'
+            f'/COUNTIF($B$6:$B$305,$B$6:$B$305)),0)+1)'
         )
         ws.cell(row=row, column=19).value = formula
 
