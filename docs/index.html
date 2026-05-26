@@ -30,8 +30,37 @@
             <button class="nav-btn active" data-tab="leaderboard">Leaderboard</button>
             <button class="nav-btn" data-tab="fixtures">Fixtures</button>
             <button class="nav-btn" data-tab="groups">Groups</button>
+            <button class="nav-btn info-btn" id="openRules">&#9432; How It Works</button>
         </div>
     </nav>
+
+    <!-- Rules Modal -->
+    <div class="modal-overlay" id="rulesModal">
+        <div class="modal">
+            <button class="modal-close" id="closeRules">&times;</button>
+            <h2>How The Sweepstake Works</h2>
+            <div class="modal-body">
+                <h3>Points System</h3>
+                <ul>
+                    <li><strong>Win</strong> = 3 points</li>
+                    <li><strong>Draw</strong> = 1 point</li>
+                    <li><strong>Loss</strong> = 0 points</li>
+                </ul>
+                <p>Your team earns points for every match they play in the tournament (group stage and knockouts).</p>
+
+                <h3>Tiebreakers</h3>
+                <p>If two or more participants have the same points, the ranking is determined by:</p>
+                <ol>
+                    <li><strong>Goal Difference</strong> (goals scored minus goals conceded)</li>
+                    <li><strong>Goals Scored</strong> (most goals first)</li>
+                    <li><strong>Alphabetical</strong> by participant name</li>
+                </ol>
+
+                <h3>How It&rsquo;s Updated</h3>
+                <p>Scores are entered into the master spreadsheet after each match day. The website is then regenerated and updated automatically.</p>
+            </div>
+        </div>
+    </div>
 
     <main>
         <!-- LEADERBOARD TAB -->
@@ -86,5 +115,18 @@
     </footer>
 
     <script src="app.js"></script>
+    <script>
+        document.getElementById('openRules').addEventListener('click', () => {
+            document.getElementById('rulesModal').classList.add('active');
+        });
+        document.getElementById('closeRules').addEventListener('click', () => {
+            document.getElementById('rulesModal').classList.remove('active');
+        });
+        document.getElementById('rulesModal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                e.currentTarget.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>
