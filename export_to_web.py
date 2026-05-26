@@ -123,9 +123,9 @@ def build_group_standings(wb):
             team_stats[away]["l"] += 1
         elif home_score == away_score:
             team_stats[home]["d"] += 1
-            team_stats[home]["pts"] += 1
+            team_stats[home]["pts"] += 2
             team_stats[away]["d"] += 1
-            team_stats[away]["pts"] += 1
+            team_stats[away]["pts"] += 2
         else:
             team_stats[away]["w"] += 1
             team_stats[away]["pts"] += 3
@@ -186,8 +186,8 @@ def extract_leaderboard(wb):
             team_points[home] += 3
             team_wins[home] += 1
         elif home_score == away_score:
-            team_points[home] += 1
-            team_points[away] += 1
+            team_points[home] += 2
+            team_points[away] += 2
             team_draws[home] += 1
             team_draws[away] += 1
         else:
