@@ -1,36 +1,36 @@
-// World Cup 2026 Sweepstake - Frontend Logic
+// World Cup 2026 Sweepstake - Frontend
 
 let DATA = null;
 
-// Country flag emoji mapping
-const FLAGS = {
-    "Mexico": "🇲🇽", "South Africa": "🇿🇦", "South Korea": "🇰🇷", "Czechia": "🇨🇿",
-    "Canada": "🇨🇦", "Bosnia and Herzegovina": "🇧🇦", "Qatar": "🇶🇦", "Switzerland": "🇨🇭",
-    "Brazil": "🇧🇷", "Morocco": "🇲🇦", "Haiti": "🇭🇹", "Scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "United States": "🇺🇸", "Paraguay": "🇵🇾", "Australia": "🇦🇺", "Türkiye": "🇹🇷",
-    "Germany": "🇩🇪", "Curaçao": "🇨🇼", "Ivory Coast": "🇨🇮", "Ecuador": "🇪🇨",
-    "Netherlands": "🇳🇱", "Japan": "🇯🇵", "Sweden": "🇸🇪", "Tunisia": "🇹🇳",
-    "Belgium": "🇧🇪", "Egypt": "🇪🇬", "Iran": "🇮🇷", "New Zealand": "🇳🇿",
-    "Spain": "🇪🇸", "Cape Verde": "🇨🇻", "Saudi Arabia": "🇸🇦", "Uruguay": "🇺🇾",
-    "France": "🇫🇷", "Senegal": "🇸🇳", "Iraq": "🇮🇶", "Norway": "🇳🇴",
-    "Argentina": "🇦🇷", "Algeria": "🇩🇿", "Austria": "🇦🇹", "Jordan": "🇯🇴",
-    "Portugal": "🇵🇹", "DR Congo": "🇨🇩", "Uzbekistan": "🇺🇿", "Colombia": "🇨🇴",
-    "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "Croatia": "🇭🇷", "Ghana": "🇬🇭", "Panama": "🇵🇦"
+// ISO country codes for flag images via flagcdn.com
+const COUNTRY_CODES = {
+    "Mexico": "mx", "South Africa": "za", "South Korea": "kr", "Czechia": "cz",
+    "Canada": "ca", "Bosnia and Herzegovina": "ba", "Qatar": "qa", "Switzerland": "ch",
+    "Brazil": "br", "Morocco": "ma", "Haiti": "ht", "Scotland": "gb-sct",
+    "United States": "us", "Paraguay": "py", "Australia": "au", "Türkiye": "tr",
+    "Germany": "de", "Curaçao": "cw", "Ivory Coast": "ci", "Ecuador": "ec",
+    "Netherlands": "nl", "Japan": "jp", "Sweden": "se", "Tunisia": "tn",
+    "Belgium": "be", "Egypt": "eg", "Iran": "ir", "New Zealand": "nz",
+    "Spain": "es", "Cape Verde": "cv", "Saudi Arabia": "sa", "Uruguay": "uy",
+    "France": "fr", "Senegal": "sn", "Iraq": "iq", "Norway": "no",
+    "Argentina": "ar", "Algeria": "dz", "Austria": "at", "Jordan": "jo",
+    "Portugal": "pt", "DR Congo": "cd", "Uzbekistan": "uz", "Colombia": "co",
+    "England": "gb-eng", "Croatia": "hr", "Ghana": "gh", "Panama": "pa"
 };
 
-function getFlag(team) {
-    return FLAGS[team] || '🏳️';
-}
-
-function teamWithFlag(team) {
-    return `<span class="team-flag">${getFlag(team)}</span> ${escapeHtml(team)}`;
+function flagImg(team, width) {
+    width = width || 24;
+    const code = COUNTRY_CODES[team];
+    if (!code) return '';
+    return `<img src="https://flagcdn.com/w${width * 2}/${code}.png" width="${width}" alt="${escapeHtml(team)}" loading="lazy">`;
 }
 
 async function init() {
     try {
         const resp = await fetch('data.json');
         DATA = await resp.json();
-        renderLastUpdated();
+        document.getElementById('lastUpdated').textContent =
+            DATA.lastUpdated ? `Updated ${DATA.lastUpdated}` : '';
         renderLeaderboard();
         renderFixtures();
         renderGroups();
@@ -38,7 +38,7 @@ async function init() {
         setupFilters();
     } catch (err) {
         document.querySelector('main').innerHTML =
-            '<p style="text-align:center;padding:3rem;color:var(--text-secondary)">No data available yet. Run <code>python export_to_web.py</code> to generate data.</p>';
+            '<div class="card" style="padding:3rem;text-align:center;color:#999">No data yet. Run <code>python export_to_web.py</code></div>';
     }
 }
 
@@ -54,12 +54,6 @@ function setupNav() {
     });
 }
 
-// --- LAST UPDATED ---
-function renderLastUpdated() {
-    document.getElementById('lastUpdated').textContent =
-        DATA.lastUpdated ? `Last updated: ${DATA.lastUpdated}` : '';
-}
-
 // --- LEADERBOARD ---
 function renderLeaderboard() {
     const lb = DATA.leaderboard;
@@ -67,14 +61,15 @@ function renderLeaderboard() {
 
     // Podium
     const podium = document.getElementById('podium');
-    const medals = ['gold', 'silver', 'bronze'];
-    const icons = ['🥇', '🥈', '🥉'];
+    const classes = ['first', 'second', 'third'];
+    const labels = ['1st Place', '2nd Place', '3rd Place'];
 
     podium.innerHTML = lb.slice(0, 3).map((e, i) => `
-        <div class="podium-card ${medals[i]}">
-            <div class="podium-rank">${icons[i]}</div>
+        <div class="podium-card ${classes[i]}">
+            <div class="podium-position">${labels[i]}</div>
+            ${flagImg(e.team, 48)}
             <div class="podium-name">${escapeHtml(e.participant)}</div>
-            <div class="podium-team">${getFlag(e.team)} ${escapeHtml(e.team)}</div>
+            <div class="podium-team">${escapeHtml(e.team)}</div>
             <div class="podium-pts">${e.points}</div>
             <div class="podium-pts-label">points</div>
         </div>
@@ -82,20 +77,23 @@ function renderLeaderboard() {
 
     // Table
     const tbody = document.querySelector('#leaderboardTable tbody');
-    tbody.innerHTML = lb.map(e => `
-        <tr>
-            <td class="rank-cell rank-${e.rank <= 3 ? e.rank : ''}">${e.rank}</td>
+    tbody.innerHTML = lb.map(e => {
+        const rankClass = e.rank <= 3 ? `top-${e.rank}` : '';
+        return `<tr>
+            <td class="rank-cell ${rankClass}">${e.rank}</td>
             <td>${escapeHtml(e.participant)}</td>
-            <td><span class="team-name">${teamWithFlag(e.team)}</span></td>
-            <td><strong>${e.points}</strong></td>
-            <td>${e.wins}</td>
-            <td>${e.draws}</td>
-        </tr>
-    `).join('');
+            <td><div class="team-cell">${flagImg(e.team)} <span>${escapeHtml(e.team)}</span></div></td>
+            <td class="pts-cell">${e.points}</td>
+            <td class="num-cell">${e.wins}</td>
+            <td class="num-cell">${e.draws}</td>
+        </tr>`;
+    }).join('');
 }
 
 // --- FIXTURES ---
-function renderFixtures(stageFilter = 'all', playedOnly = false) {
+function renderFixtures(stageFilter, playedOnly) {
+    stageFilter = stageFilter || 'all';
+    playedOnly = playedOnly || false;
     const container = document.getElementById('fixturesList');
     let fixtures = DATA.fixtures;
 
@@ -111,18 +109,22 @@ function renderFixtures(stageFilter = 'all', playedOnly = false) {
 
     container.innerHTML = fixtures.map(f => {
         const played = f.homeScore !== null;
-        const scoreText = played
-            ? `${f.homeScore} - ${f.awayScore}`
-            : f.date || 'TBD';
+        const scoreText = played ? `${f.homeScore} — ${f.awayScore}` : 'vs';
 
         return `
             <div class="fixture-card ${played ? 'played' : ''}">
-                <div class="fixture-home">${getFlag(f.home)} ${escapeHtml(f.home)}</div>
+                <div class="fixture-home">
+                    <span>${escapeHtml(f.home)}</span>
+                    ${flagImg(f.home)}
+                </div>
                 <div class="fixture-score ${played ? '' : 'pending'}">${scoreText}</div>
-                <div class="fixture-away">${escapeHtml(f.away)} ${getFlag(f.away)}</div>
+                <div class="fixture-away">
+                    ${flagImg(f.away)}
+                    <span>${escapeHtml(f.away)}</span>
+                </div>
                 <div class="fixture-meta">
-                    <span>Match ${f.match}</span>
-                    <span>${f.date} &middot; ${formatStage(f.stage)}</span>
+                    <span>${f.date} &middot; Match ${f.match}</span>
+                    <span class="fixture-stage-badge">${formatStage(f.stage)}</span>
                 </div>
             </div>
         `;
@@ -132,18 +134,13 @@ function renderFixtures(stageFilter = 'all', playedOnly = false) {
 function setupFilters() {
     const stageSelect = document.getElementById('stageFilter');
     const playedCheck = document.getElementById('showPlayedOnly');
-
-    stageSelect.addEventListener('change', () => {
-        renderFixtures(stageSelect.value, playedCheck.checked);
-    });
-    playedCheck.addEventListener('change', () => {
-        renderFixtures(stageSelect.value, playedCheck.checked);
-    });
+    stageSelect.addEventListener('change', () => renderFixtures(stageSelect.value, playedCheck.checked));
+    playedCheck.addEventListener('change', () => renderFixtures(stageSelect.value, playedCheck.checked));
 }
 
 function formatStage(stage) {
     if (stage.length === 1) return `Group ${stage}`;
-    const map = { R32: 'Round of 32', R16: 'Round of 16', QF: 'Quarter-Final', SF: 'Semi-Final', '3rd': '3rd Place', Final: 'Final' };
+    const map = { R32: 'R32', R16: 'R16', QF: 'QF', SF: 'Semi', '3rd': '3rd', Final: 'Final' };
     return map[stage] || stage;
 }
 
@@ -159,13 +156,11 @@ function renderGroups() {
         const teams = groups[g];
         const rows = teams.map((t, i) => `
             <tr class="${i < 2 ? 'qualified' : ''}">
-                <td style="text-align:left"><span class="team-name">${teamWithFlag(t.team)}</span></td>
+                <td><div class="group-team-cell">${flagImg(t.team, 20)} <span>${escapeHtml(t.team)}</span></div></td>
                 <td>${t.p}</td>
                 <td>${t.w}</td>
                 <td>${t.d}</td>
                 <td>${t.l}</td>
-                <td>${t.gf}</td>
-                <td>${t.ga}</td>
                 <td>${t.gf - t.ga}</td>
                 <td><strong>${t.pts}</strong></td>
             </tr>
@@ -173,7 +168,7 @@ function renderGroups() {
 
         return `
             <div class="group-card">
-                <h3>Group ${g}</h3>
+                <div class="group-header">Group ${g}</div>
                 <table>
                     <thead>
                         <tr>
@@ -182,8 +177,6 @@ function renderGroups() {
                             <th>W</th>
                             <th>D</th>
                             <th>L</th>
-                            <th>GF</th>
-                            <th>GA</th>
                             <th>GD</th>
                             <th>Pts</th>
                         </tr>
@@ -195,13 +188,12 @@ function renderGroups() {
     }).join('');
 }
 
-// --- UTILITIES ---
+// --- UTIL ---
 function escapeHtml(str) {
     if (!str) return '';
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    const d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
 }
 
-// Boot
 document.addEventListener('DOMContentLoaded', init);

@@ -6,54 +6,47 @@
     <title>World Cup 2026 Sweepstake</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-pattern"></div>
     <header>
-        <div class="header-content">
-            <div class="tournament-badge">
-                <span class="badge-year">2026</span>
+        <div class="header-inner">
+            <div class="header-top">
+                <span class="header-tag">FIFA World Cup 2026&trade;</span>
+                <span class="header-updated" id="lastUpdated"></span>
             </div>
-            <h1>FIFA World Cup Sweepstake</h1>
-            <p class="subtitle">USA &bull; Mexico &bull; Canada</p>
-            <p class="last-updated" id="lastUpdated"></p>
+            <h1>Sweepstake</h1>
+            <p class="header-hosts">
+                <img src="https://flagcdn.com/w40/us.png" alt="" class="host-flag">
+                <img src="https://flagcdn.com/w40/mx.png" alt="" class="host-flag">
+                <img src="https://flagcdn.com/w40/ca.png" alt="" class="host-flag">
+            </p>
         </div>
     </header>
 
     <nav>
-        <button class="nav-btn active" data-tab="leaderboard">
-            <span class="nav-icon">🏆</span>
-            <span class="nav-label">Leaderboard</span>
-        </button>
-        <button class="nav-btn" data-tab="fixtures">
-            <span class="nav-icon">⚽</span>
-            <span class="nav-label">Fixtures</span>
-        </button>
-        <button class="nav-btn" data-tab="groups">
-            <span class="nav-icon">📊</span>
-            <span class="nav-label">Groups</span>
-        </button>
+        <div class="nav-inner">
+            <button class="nav-btn active" data-tab="leaderboard">Leaderboard</button>
+            <button class="nav-btn" data-tab="fixtures">Fixtures</button>
+            <button class="nav-btn" data-tab="groups">Groups</button>
+        </div>
     </nav>
 
     <main>
         <!-- LEADERBOARD TAB -->
         <section id="leaderboard" class="tab-content active">
-            <div class="section-header">
-                <h2>Sweepstake Standings</h2>
-            </div>
             <div class="podium" id="podium"></div>
-            <div class="table-container">
+            <div class="card">
                 <table id="leaderboardTable">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>Participant</th>
-                            <th>Team</th>
-                            <th>Pts</th>
-                            <th>W</th>
-                            <th>D</th>
+                            <th class="col-rank">#</th>
+                            <th class="col-name">Participant</th>
+                            <th class="col-team">Team</th>
+                            <th class="col-num">Pts</th>
+                            <th class="col-num">W</th>
+                            <th class="col-num">D</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -63,9 +56,6 @@
 
         <!-- FIXTURES TAB -->
         <section id="fixtures" class="tab-content">
-            <div class="section-header">
-                <h2>Match Results</h2>
-            </div>
             <div class="filter-bar">
                 <select id="stageFilter">
                     <option value="all">All Stages</option>
@@ -78,7 +68,8 @@
                     <option value="Final">Final</option>
                 </select>
                 <label class="toggle-label">
-                    <input type="checkbox" id="showPlayedOnly"> Played only
+                    <input type="checkbox" id="showPlayedOnly">
+                    <span>Played only</span>
                 </label>
             </div>
             <div class="fixtures-list" id="fixturesList"></div>
@@ -86,15 +77,12 @@
 
         <!-- GROUPS TAB -->
         <section id="groups" class="tab-content">
-            <div class="section-header">
-                <h2>Group Standings</h2>
-            </div>
             <div class="groups-grid" id="groupsGrid"></div>
         </section>
     </main>
 
     <footer>
-        <p>FIFA World Cup 2026™ Sweepstake</p>
+        <p>World Cup 2026 Sweepstake</p>
     </footer>
 
     <script src="app.js"></script>
