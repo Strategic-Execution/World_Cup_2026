@@ -36,6 +36,7 @@ async function init() {
         renderLeaderboard();
         renderFixtures();
         renderGroups();
+        renderGoldenBoot();
         setupNav();
         setupFilters();
     } catch (err) {
@@ -196,6 +197,21 @@ function escapeHtml(str) {
     const d = document.createElement('div');
     d.textContent = str;
     return d.innerHTML;
+}
+
+// --- GOLDEN BOOT ---
+function renderGoldenBoot() {
+    if (!DATA.goldenBoot) return;
+    const tbody = document.querySelector('#goldenBootTable tbody');
+    tbody.innerHTML = DATA.goldenBoot.map((e, i) => {
+        const cls = i < 3 ? ' class="top-three"' : '';
+        return `<tr${cls}>
+            <td class="col-rank">${e.rank}</td>
+            <td class="col-name">${escapeHtml(e.participant)}</td>
+            <td class="col-team">${escapeHtml(e.player)}</td>
+            <td class="col-num">${e.goals}</td>
+        </tr>`;
+    }).join('');
 }
 
 document.addEventListener('DOMContentLoaded', init);

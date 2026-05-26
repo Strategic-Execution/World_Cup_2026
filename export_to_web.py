@@ -29,6 +29,7 @@ def export():
         "fixtures": extract_fixtures(wb),
         "groups": build_group_standings(wb),
         "leaderboard": extract_leaderboard(wb),
+        "goldenBoot": extract_golden_boot(wb),
     }
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -224,6 +225,29 @@ def extract_leaderboard(wb):
     for i, e in enumerate(entries):
         e["rank"] = i + 1
 
+    return entries
+
+
+def extract_golden_boot(wb):
+    ws = wb["Golden Boot"]
+    entries = []
+    for row in range(6, 200):
+        rank = ws.cell(row=row, column=11).value
+        participant = ws.cell(row=row, column=12).value
+        player = ws.cell(row=row, column=13).value
+        goals = ws.cell(row=row, column=14).value
+        if not participant:
+            break
+        entries.append({
+            "rank": int(rank) if rank else row - 5,
+            "participant": str(participant),
+            "player": str(player) if player else "",
+            "goals": int(goals) if goals else 0,
+        })
+    # Sort by goals desc, then alphabetical
+    entries.sort(key=lambda x: (-x["goals"], x["participant"]))
+    for i, e in enumerate(entries):
+        e["rank"] = i + 1
     return entries
 
 

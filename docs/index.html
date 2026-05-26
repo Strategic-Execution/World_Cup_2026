@@ -30,6 +30,7 @@
             <button class="nav-btn active" data-tab="leaderboard">Leaderboard</button>
             <button class="nav-btn" data-tab="fixtures">Fixtures</button>
             <button class="nav-btn" data-tab="groups">Groups</button>
+            <button class="nav-btn" data-tab="goldenBoot">Golden Boot</button>
             <button class="nav-btn info-btn" id="openRules">&#9432; How It Works</button>
         </div>
     </nav>
@@ -107,6 +108,23 @@
         <!-- GROUPS TAB -->
         <section id="groups" class="tab-content">
             <div class="groups-grid" id="groupsGrid"></div>
+        </section>
+
+        <!-- GOLDEN BOOT TAB -->
+        <section id="goldenBoot" class="tab-content">
+            <div class="card">
+                <table id="goldenBootTable">
+                    <thead>
+                        <tr>
+                            <th class="col-rank">#</th>
+                            <th class="col-name">Participant</th>
+                            <th class="col-team">Player</th>
+                            <th class="col-num">Goals</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </section>
     </main>
 
