@@ -2,27 +2,44 @@
 from openpyxl import load_workbook
 
 
-def fix_rank_formula(ws):
-    """Update column S (19) rank formulas for rows 6-305."""
+def fix_helper_columns(ws):
+    """Redesign columns P-S to use simple COUNTIFS (no SUMPRODUCT/array formulas).
+    
+    P = player name (first occurrence only, "" for duplicates)
+    Q = team (first occurrence only)
+    R = total goals (SUMIF, first occurrence only)
+    S = rank (COUNTIFS-based, same pattern as Participant Standings col W)
+    """
     ws.cell(row=4, column=4).value = (
         "Enter one row per goal scorer per match (multiple scorers per match OK)"
     )
+    
     for row in range(6, 306):
-        # Uses 1/COUNTIF trick to count unique players correctly
-        # Tiebreaker: alphabetical by player name (ensures no tied ranks)
-        formula = (
-            f'=IF(OR(B{row}="",COUNTIF($B$6:$B{row},B{row})>1),"",'
-            f'ROUND(SUMPRODUCT(($B$6:$B$305<>"")'
-            f'*(($R$6:$R$305>R{row})+(($R$6:$R$305=R{row})*($B$6:$B$305<B{row})))'
-            f'/COUNTIF($B$6:$B$305,$B$6:$B$305)),0)+1)'
+        # P: player name only for first occurrence of this player in the log
+        ws.cell(row=row, column=16).value = (
+            f'=IF(OR(B{row}="",COUNTIF($B$6:$B{row},B{row})>1),"",B{row})'
         )
-        ws.cell(row=row, column=19).value = formula
+        # Q: team (only if P is populated)
+        ws.cell(row=row, column=17).value = (
+            f'=IF(P{row}="","",C{row})'
+        )
+        # R: total goals via SUMIF (only if P is populated)
+        ws.cell(row=row, column=18).value = (
+            f'=IF(P{row}="","",SUMIF($B$6:$B$305,B{row},$D$6:$D$305))'
+        )
+        # S: rank using COUNTIFS (same approach as Participant Standings)
+        # Count first-occurrence rows with MORE goals + count same-goals rows up to here
+        ws.cell(row=row, column=19).value = (
+            f'=IF(P{row}="","",'
+            f'COUNTIFS($R$6:$R$305,">"&R{row},$P$6:$P$305,"<>")'
+            f'+COUNTIFS($R$6:$R{row},"="&R{row},$P$6:$P{row},"<>"))'
+        )
 
 
 # Fix .xlsx
 print("Fixing .xlsx...")
 wb = load_workbook('WorldCup2026_Sweepstake.xlsx')
-fix_rank_formula(wb['Golden Boot'])
+fix_helper_columns(wb['Golden Boot'])
 wb.save('WorldCup2026_Sweepstake.xlsx')
 print("  Done")
 
@@ -30,7 +47,7 @@ print("  Done")
 print("Fixing .xlsm...")
 try:
     wb2 = load_workbook('WorldCup2026_Sweepstake.xlsm', keep_vba=True)
-    fix_rank_formula(wb2['Golden Boot'])
+    fix_helper_columns(wb2['Golden Boot'])
     wb2.save('WorldCup2026_Sweepstake.xlsm')
     print("  Done")
 except PermissionError:
