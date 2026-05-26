@@ -154,6 +154,8 @@ def extract_leaderboard(wb):
     team_points = {}
     team_wins = {}
     team_draws = {}
+    team_gf = {}
+    team_ga = {}
 
     for row in range(5, 109):
         home = ws_fix.cell(row=row, column=4).value
@@ -172,6 +174,13 @@ def extract_leaderboard(wb):
                 team_points[t] = 0
                 team_wins[t] = 0
                 team_draws[t] = 0
+                team_gf[t] = 0
+                team_ga[t] = 0
+
+        team_gf[home] += home_score
+        team_ga[home] += away_score
+        team_gf[away] += away_score
+        team_ga[away] += home_score
 
         if home_score > away_score:
             team_points[home] += 3
@@ -195,16 +204,21 @@ def extract_leaderboard(wb):
         pts = team_points.get(team, 0)
         wins = team_wins.get(team, 0)
         draws = team_draws.get(team, 0)
+        gf = team_gf.get(team, 0)
+        ga = team_ga.get(team, 0)
+        gd = gf - ga
         entries.append({
             "participant": str(participant),
             "team": str(team),
             "points": pts,
             "wins": wins,
             "draws": draws,
+            "gd": gd,
+            "gf": gf,
         })
 
-    # Sort by points desc, then wins desc
-    entries.sort(key=lambda x: (-x["points"], -x["wins"]))
+    # Sort: points desc → goal difference desc → goals scored desc → alphabetical
+    entries.sort(key=lambda x: (-x["points"], -x["gd"], -x["gf"], x["participant"]))
 
     # Add rank
     for i, e in enumerate(entries):

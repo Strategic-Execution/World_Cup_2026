@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26 13:35",
+  "lastUpdated": "2026-05-26 13:40",
   "teams": [
     {
       "name": "Mexico",
@@ -1693,6 +1693,8 @@
       "points": 3,
       "wins": 1,
       "draws": 0,
+      "gd": 1,
+      "gf": 3,
       "rank": 1
     },
     {
@@ -1701,223 +1703,9 @@
       "points": 3,
       "wins": 1,
       "draws": 0,
+      "gd": 1,
+      "gf": 2,
       "rank": 2
-    },
-    {
-      "participant": "James Wilson",
-      "team": "Argentina",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 3
-    },
-    {
-      "participant": "Sarah Chen",
-      "team": "Brazil",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 4
-    },
-    {
-      "participant": "Michael O'Brien",
-      "team": "Uruguay",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 5
-    },
-    {
-      "participant": "Emma Thompson",
-      "team": "Scotland",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 6
-    },
-    {
-      "participant": "David Kumar",
-      "team": "DR Congo",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 7
-    },
-    {
-      "participant": "Rachel Stewart",
-      "team": "Türkiye",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 8
-    },
-    {
-      "participant": "Chris Martinez",
-      "team": "Belgium",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 9
-    },
-    {
-      "participant": "Jessica Park",
-      "team": "Sweden",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 10
-    },
-    {
-      "participant": "Andrew Collins",
-      "team": "Senegal",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 11
-    },
-    {
-      "participant": "Laura Bennett",
-      "team": "Tunisia",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 12
-    },
-    {
-      "participant": "Tom Nguyen",
-      "team": "Czechia",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 13
-    },
-    {
-      "participant": "Sophie Williams",
-      "team": "Spain",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 14
-    },
-    {
-      "participant": "Ryan O'Connor",
-      "team": "Jordan",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 15
-    },
-    {
-      "participant": "Hannah Lee",
-      "team": "Panama",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 16
-    },
-    {
-      "participant": "Mark Davidson",
-      "team": "Japan",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 17
-    },
-    {
-      "participant": "Priya Sharma",
-      "team": "Iran",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 18
-    },
-    {
-      "participant": "Luke Anderson",
-      "team": "Ecuador",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 19
-    },
-    {
-      "participant": "Megan Taylor",
-      "team": "Cape Verde",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 20
-    },
-    {
-      "participant": "Daniel Brown",
-      "team": "Algeria",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 21
-    },
-    {
-      "participant": "Nathan Scott",
-      "team": "Bosnia and Herzegovina",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 22
-    },
-    {
-      "participant": "Amy Richardson",
-      "team": "Saudi Arabia",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 23
-    },
-    {
-      "participant": "Ben Harper",
-      "team": "Iraq",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 24
-    },
-    {
-      "participant": "Chloe Morgan",
-      "team": "Netherlands",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 25
-    },
-    {
-      "participant": "Sam Mitchell",
-      "team": "Curaçao",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 26
-    },
-    {
-      "participant": "Emily Zhang",
-      "team": "Paraguay",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 27
-    },
-    {
-      "participant": "Jake Turner",
-      "team": "Morocco",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 28
-    },
-    {
-      "participant": "Fiona Campbell",
-      "team": "Colombia",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 29
     },
     {
       "participant": "Alex Patel",
@@ -1925,47 +1713,59 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 30
+      "gd": 0,
+      "gf": 0,
+      "rank": 3
     },
     {
-      "participant": "Grace Murphy",
-      "team": "France",
+      "participant": "Amber Long",
+      "team": "Ghana",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 31
+      "gd": 0,
+      "gf": 0,
+      "rank": 4
     },
     {
-      "participant": "Owen Phillips",
-      "team": "Austria",
+      "participant": "Amy Richardson",
+      "team": "Saudi Arabia",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 32
+      "gd": 0,
+      "gf": 0,
+      "rank": 5
     },
     {
-      "participant": "Liam Hughes",
-      "team": "Croatia",
+      "participant": "Andrew Collins",
+      "team": "Senegal",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 33
+      "gd": 0,
+      "gf": 0,
+      "rank": 6
     },
     {
-      "participant": "Isabella Ross",
-      "team": "Norway",
+      "participant": "Ben Harper",
+      "team": "Iraq",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 34
+      "gd": 0,
+      "gf": 0,
+      "rank": 7
     },
     {
-      "participant": "Ethan Wright",
-      "team": "South Africa",
+      "participant": "Callum Fraser",
+      "team": "Canada",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 35
+      "gd": 0,
+      "gf": 0,
+      "rank": 8
     },
     {
       "participant": "Charlotte King",
@@ -1973,39 +1773,129 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 36
+      "gd": 0,
+      "gf": 0,
+      "rank": 9
     },
     {
-      "participant": "Josh Evans",
-      "team": "Egypt",
+      "participant": "Chloe Morgan",
+      "team": "Netherlands",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 37
+      "gd": 0,
+      "gf": 0,
+      "rank": 10
     },
     {
-      "participant": "Katie Adams",
-      "team": "Uzbekistan",
+      "participant": "Chris Martinez",
+      "team": "Belgium",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 38
+      "gd": 0,
+      "gf": 0,
+      "rank": 11
     },
     {
-      "participant": "Will Jackson",
-      "team": "United States",
+      "participant": "Daniel Brown",
+      "team": "Algeria",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 39
+      "gd": 0,
+      "gf": 0,
+      "rank": 12
     },
     {
-      "participant": "Natalie Green",
-      "team": "Haiti",
+      "participant": "David Kumar",
+      "team": "DR Congo",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 40
+      "gd": 0,
+      "gf": 0,
+      "rank": 13
+    },
+    {
+      "participant": "Declan Burke",
+      "team": "Bosnia and Herzegovina",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 14
+    },
+    {
+      "participant": "Ella Dixon",
+      "team": "Ivory Coast",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 15
+    },
+    {
+      "participant": "Emily Zhang",
+      "team": "Paraguay",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 16
+    },
+    {
+      "participant": "Emma Thompson",
+      "team": "Scotland",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 17
+    },
+    {
+      "participant": "Finn O'Sullivan",
+      "team": "Germany",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 18
+    },
+    {
+      "participant": "Fiona Campbell",
+      "team": "Colombia",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 19
+    },
+    {
+      "participant": "Grace Murphy",
+      "team": "France",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 20
+    },
+    {
+      "participant": "Hannah Lee",
+      "team": "Panama",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 21
     },
     {
       "participant": "Harry Cooper",
@@ -2013,6 +1903,198 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 22
+    },
+    {
+      "participant": "Isabella Ross",
+      "team": "Norway",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 23
+    },
+    {
+      "participant": "Jake Turner",
+      "team": "Morocco",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 24
+    },
+    {
+      "participant": "James Wilson",
+      "team": "Argentina",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 25
+    },
+    {
+      "participant": "Jessica Park",
+      "team": "Sweden",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 26
+    },
+    {
+      "participant": "Josh Evans",
+      "team": "Egypt",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 27
+    },
+    {
+      "participant": "Katie Adams",
+      "team": "Uzbekistan",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 28
+    },
+    {
+      "participant": "Laura Bennett",
+      "team": "Tunisia",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 29
+    },
+    {
+      "participant": "Liam Hughes",
+      "team": "Croatia",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 30
+    },
+    {
+      "participant": "Luke Anderson",
+      "team": "Ecuador",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 31
+    },
+    {
+      "participant": "Mark Davidson",
+      "team": "Japan",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 32
+    },
+    {
+      "participant": "Megan Taylor",
+      "team": "Cape Verde",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 33
+    },
+    {
+      "participant": "Michael O'Brien",
+      "team": "Uruguay",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 34
+    },
+    {
+      "participant": "Molly Price",
+      "team": "Portugal",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 35
+    },
+    {
+      "participant": "Natalie Green",
+      "team": "Haiti",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 36
+    },
+    {
+      "participant": "Nathan Scott",
+      "team": "Bosnia and Herzegovina",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 37
+    },
+    {
+      "participant": "Owen Phillips",
+      "team": "Austria",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 38
+    },
+    {
+      "participant": "Patrick Ward",
+      "team": "Qatar",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 39
+    },
+    {
+      "participant": "Priya Sharma",
+      "team": "Iran",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 40
+    },
+    {
+      "participant": "Rachel Stewart",
+      "team": "Türkiye",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
       "rank": 41
     },
     {
@@ -2021,63 +2103,39 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
+      "gd": 0,
+      "gf": 0,
       "rank": 42
     },
     {
-      "participant": "Finn O'Sullivan",
-      "team": "Germany",
+      "participant": "Ryan O'Connor",
+      "team": "Jordan",
       "points": 0,
       "wins": 0,
       "draws": 0,
+      "gd": 0,
+      "gf": 0,
       "rank": 43
     },
     {
-      "participant": "Ella Dixon",
-      "team": "Ivory Coast",
+      "participant": "Sam Mitchell",
+      "team": "Curaçao",
       "points": 0,
       "wins": 0,
       "draws": 0,
+      "gd": 0,
+      "gf": 0,
       "rank": 44
     },
     {
-      "participant": "Patrick Ward",
-      "team": "Qatar",
+      "participant": "Sarah Chen",
+      "team": "Brazil",
       "points": 0,
       "wins": 0,
       "draws": 0,
+      "gd": 0,
+      "gf": 0,
       "rank": 45
-    },
-    {
-      "participant": "Amber Long",
-      "team": "Ghana",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 46
-    },
-    {
-      "participant": "Callum Fraser",
-      "team": "Canada",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 47
-    },
-    {
-      "participant": "Molly Price",
-      "team": "Portugal",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 48
-    },
-    {
-      "participant": "Declan Burke",
-      "team": "Bosnia and Herzegovina",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 49
     },
     {
       "participant": "Sienna Cole",
@@ -2085,6 +2143,48 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 46
+    },
+    {
+      "participant": "Sophie Williams",
+      "team": "Spain",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 47
+    },
+    {
+      "participant": "Will Jackson",
+      "team": "United States",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": 0,
+      "gf": 0,
+      "rank": 48
+    },
+    {
+      "participant": "Ethan Wright",
+      "team": "South Africa",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -1,
+      "gf": 2,
+      "rank": 49
+    },
+    {
+      "participant": "Tom Nguyen",
+      "team": "Czechia",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -1,
+      "gf": 1,
       "rank": 50
     }
   ]
