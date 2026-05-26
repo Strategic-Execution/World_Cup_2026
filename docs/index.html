@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup 2026 Sweepstake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>⚽ World Cup 2026 Sweepstake</h1>
+            <p class="last-updated" id="lastUpdated"></p>
+        </div>
+    </header>
+
+    <nav>
+        <button class="nav-btn active" data-tab="leaderboard">🏆 Leaderboard</button>
+        <button class="nav-btn" data-tab="fixtures">📋 Fixtures</button>
+        <button class="nav-btn" data-tab="groups">📊 Groups</button>
+    </nav>
+
+    <main>
+        <!-- LEADERBOARD TAB -->
+        <section id="leaderboard" class="tab-content active">
+            <div class="podium" id="podium"></div>
+            <div class="table-container">
+                <table id="leaderboardTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Participant</th>
+                            <th>Team</th>
+                            <th>Pts</th>
+                            <th>W</th>
+                            <th>D</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- FIXTURES TAB -->
+        <section id="fixtures" class="tab-content">
+            <div class="filter-bar">
+                <select id="stageFilter">
+                    <option value="all">All Stages</option>
+                    <option value="group">Group Stage</option>
+                    <option value="R32">Round of 32</option>
+                    <option value="R16">Round of 16</option>
+                    <option value="QF">Quarter-Finals</option>
+                    <option value="SF">Semi-Finals</option>
+                    <option value="3rd">3rd Place</option>
+                    <option value="Final">Final</option>
+                </select>
+                <label class="toggle-label">
+                    <input type="checkbox" id="showPlayedOnly"> Played only
+                </label>
+            </div>
+            <div class="fixtures-list" id="fixturesList"></div>
+        </section>
+
+        <!-- GROUPS TAB -->
+        <section id="groups" class="tab-content">
+            <div class="groups-grid" id="groupsGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>FIFA World Cup 2026™ Sweepstake &middot; Updated automatically from the master spreadsheet</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
