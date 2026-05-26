@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26 12:51",
+  "lastUpdated": "2026-05-26 13:35",
   "teams": [
     {
       "name": "Mexico",
@@ -210,8 +210,8 @@
       "stage": "A",
       "home": "South Korea",
       "away": "Czechia",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "match": 3,
@@ -1148,24 +1148,13 @@
       {
         "team": "South Korea",
         "group": "A",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "Czechia",
-        "group": "A",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 2,
+        "ga": 1,
+        "pts": 3
       },
       {
         "team": "South Africa",
@@ -1176,6 +1165,17 @@
         "l": 1,
         "gf": 2,
         "ga": 3,
+        "pts": 0
+      },
+      {
+        "team": "Czechia",
+        "group": "A",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
         "pts": 0
       }
     ],
@@ -1696,12 +1696,20 @@
       "rank": 1
     },
     {
+      "participant": "Zoe Carter",
+      "team": "South Korea",
+      "points": 3,
+      "wins": 1,
+      "draws": 0,
+      "rank": 2
+    },
+    {
       "participant": "James Wilson",
       "team": "Argentina",
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 2
+      "rank": 3
     },
     {
       "participant": "Sarah Chen",
@@ -1709,7 +1717,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 3
+      "rank": 4
     },
     {
       "participant": "Michael O'Brien",
@@ -1717,7 +1725,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 4
+      "rank": 5
     },
     {
       "participant": "Emma Thompson",
@@ -1725,7 +1733,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "participant": "David Kumar",
@@ -1733,7 +1741,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "participant": "Rachel Stewart",
@@ -1741,7 +1749,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "participant": "Chris Martinez",
@@ -1749,7 +1757,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "participant": "Jessica Park",
@@ -1757,7 +1765,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Andrew Collins",
@@ -1765,7 +1773,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Laura Bennett",
@@ -1773,7 +1781,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "participant": "Tom Nguyen",
@@ -1781,7 +1789,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "participant": "Sophie Williams",
@@ -1789,7 +1797,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Ryan O'Connor",
@@ -1797,7 +1805,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "participant": "Hannah Lee",
@@ -1805,7 +1813,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "participant": "Mark Davidson",
@@ -1813,7 +1821,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 16
+      "rank": 17
     },
     {
       "participant": "Priya Sharma",
@@ -1821,7 +1829,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 17
+      "rank": 18
     },
     {
       "participant": "Luke Anderson",
@@ -1829,7 +1837,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 18
+      "rank": 19
     },
     {
       "participant": "Megan Taylor",
@@ -1837,7 +1845,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 19
+      "rank": 20
     },
     {
       "participant": "Daniel Brown",
@@ -1845,7 +1853,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 20
+      "rank": 21
     },
     {
       "participant": "Nathan Scott",
@@ -1853,7 +1861,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 21
+      "rank": 22
     },
     {
       "participant": "Amy Richardson",
@@ -1861,7 +1869,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 22
+      "rank": 23
     },
     {
       "participant": "Ben Harper",
@@ -1869,7 +1877,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 23
+      "rank": 24
     },
     {
       "participant": "Chloe Morgan",
@@ -1877,7 +1885,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 24
+      "rank": 25
     },
     {
       "participant": "Sam Mitchell",
@@ -1885,7 +1893,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 25
+      "rank": 26
     },
     {
       "participant": "Emily Zhang",
@@ -1893,7 +1901,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 26
+      "rank": 27
     },
     {
       "participant": "Jake Turner",
@@ -1901,7 +1909,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 27
+      "rank": 28
     },
     {
       "participant": "Fiona Campbell",
@@ -1909,7 +1917,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 28
+      "rank": 29
     },
     {
       "participant": "Alex Patel",
@@ -1917,7 +1925,7 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 29
+      "rank": 30
     },
     {
       "participant": "Grace Murphy",
@@ -1925,19 +1933,11 @@
       "points": 0,
       "wins": 0,
       "draws": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "participant": "Owen Phillips",
       "team": "Austria",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "rank": 31
-    },
-    {
-      "participant": "Zoe Carter",
-      "team": "South Korea",
       "points": 0,
       "wins": 0,
       "draws": 0,
