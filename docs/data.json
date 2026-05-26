@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26 14:20",
+  "lastUpdated": "2026-05-26 15:58",
   "teams": [
     {
       "name": "Mexico",
@@ -2191,278 +2191,278 @@
   "goldenBoot": [
     {
       "rank": 1,
+      "participant": "James Wilson",
+      "player": "Kylian Mbappé",
+      "goals": 3
+    },
+    {
+      "rank": 2,
+      "participant": "Michael O'Brien",
+      "player": "Erling Haaland",
+      "goals": 2
+    },
+    {
+      "rank": 3,
+      "participant": "Sienna Cole",
+      "player": "Donyell Malen",
+      "goals": 2
+    },
+    {
+      "rank": 4,
       "participant": "Alex Patel",
       "player": "Álvaro Morata",
       "goals": 0
     },
     {
-      "rank": 2,
+      "rank": 5,
       "participant": "Amber Long",
       "player": "Tim Weah",
       "goals": 0
     },
     {
-      "rank": 3,
+      "rank": 6,
       "participant": "Amy Richardson",
       "player": "Ollie Watkins",
       "goals": 0
     },
     {
-      "rank": 4,
+      "rank": 7,
       "participant": "Andrew Collins",
       "player": "Bukayo Saka",
       "goals": 0
     },
     {
-      "rank": 5,
+      "rank": 8,
       "participant": "Ben Harper",
       "player": "Lautaro Martínez",
       "goals": 0
     },
     {
-      "rank": 6,
+      "rank": 9,
       "participant": "Callum Fraser",
       "player": "Alphonso Davies",
       "goals": 0
     },
     {
-      "rank": 7,
+      "rank": 10,
       "participant": "Charlotte King",
       "player": "Mehdi Taremi",
       "goals": 0
     },
     {
-      "rank": 8,
+      "rank": 11,
       "participant": "Chloe Morgan",
       "player": "Florian Wirtz",
       "goals": 0
     },
     {
-      "rank": 9,
+      "rank": 12,
       "participant": "Chris Martinez",
       "player": "Jude Bellingham",
       "goals": 0
     },
     {
-      "rank": 10,
+      "rank": 13,
       "participant": "Daniel Brown",
       "player": "Kai Havertz",
       "goals": 0
     },
     {
-      "rank": 11,
+      "rank": 14,
       "participant": "David Kumar",
       "player": "Harry Kane",
       "goals": 0
     },
     {
-      "rank": 12,
+      "rank": 15,
       "participant": "Declan Burke",
       "player": "Mathys Tel",
       "goals": 0
     },
     {
-      "rank": 13,
+      "rank": 16,
       "participant": "Ella Dixon",
       "player": "Bryan Mbeumo",
       "goals": 0
     },
     {
-      "rank": 14,
+      "rank": 17,
       "participant": "Emily Zhang",
       "player": "Marcus Rashford",
       "goals": 0
     },
     {
-      "rank": 15,
+      "rank": 18,
       "participant": "Emma Thompson",
       "player": "Vinícius Júnior",
       "goals": 0
     },
     {
-      "rank": 16,
+      "rank": 19,
       "participant": "Ethan Wright",
       "player": "Islam Slimani",
       "goals": 0
     },
     {
-      "rank": 17,
+      "rank": 20,
       "participant": "Finn O'Sullivan",
       "player": "Achraf Hakimi",
       "goals": 0
     },
     {
-      "rank": 18,
+      "rank": 21,
       "participant": "Fiona Campbell",
       "player": "Serhou Guirassy",
       "goals": 0
     },
     {
-      "rank": 19,
+      "rank": 22,
       "participant": "Grace Murphy",
       "player": "Ademola Lookman",
       "goals": 0
     },
     {
-      "rank": 20,
+      "rank": 23,
       "participant": "Hannah Lee",
       "player": "Julian Álvarez",
       "goals": 0
     },
     {
-      "rank": 21,
+      "rank": 24,
       "participant": "Harry Cooper",
       "player": "Saleh Al-Shehri",
       "goals": 0
     },
     {
-      "rank": 22,
+      "rank": 25,
       "participant": "Isabella Ross",
       "player": "Nicolas Jackson",
       "goals": 0
     },
     {
-      "rank": 23,
+      "rank": 26,
       "participant": "Jake Turner",
       "player": "Antoine Griezmann",
       "goals": 0
     },
     {
-      "rank": 24,
-      "participant": "James Wilson",
-      "player": "Kylian Mbappé",
-      "goals": 0
-    },
-    {
-      "rank": 25,
+      "rank": 27,
       "participant": "Jessica Park",
       "player": "Lamine Yamal",
       "goals": 0
     },
     {
-      "rank": 26,
+      "rank": 28,
       "participant": "Josh Evans",
       "player": "Rafael Leão",
       "goals": 0
     },
     {
-      "rank": 27,
+      "rank": 29,
       "participant": "Katie Adams",
       "player": "Artem Dovbyk",
       "goals": 0
     },
     {
-      "rank": 28,
+      "rank": 30,
       "participant": "Laura Bennett",
       "player": "Victor Osimhen",
       "goals": 0
     },
     {
-      "rank": 29,
+      "rank": 31,
       "participant": "Liam Hughes",
       "player": "Memphis Depay",
       "goals": 0
     },
     {
-      "rank": 30,
+      "rank": 32,
       "participant": "Luke Anderson",
       "player": "Alexander Isak",
       "goals": 0
     },
     {
-      "rank": 31,
+      "rank": 33,
       "participant": "Mark Davidson",
       "player": "Romelu Lukaku",
       "goals": 0
     },
     {
-      "rank": 32,
+      "rank": 34,
       "participant": "Megan Taylor",
       "player": "Randal Kolo Muani",
       "goals": 0
     },
     {
-      "rank": 33,
-      "participant": "Michael O'Brien",
-      "player": "Erling Haaland",
-      "goals": 0
-    },
-    {
-      "rank": 34,
+      "rank": 35,
       "participant": "Molly Price",
       "player": "Santiago Giménez",
       "goals": 0
     },
     {
-      "rank": 35,
+      "rank": 36,
       "participant": "Natalie Green",
       "player": "Matheus Cunha",
       "goals": 0
     },
     {
-      "rank": 36,
+      "rank": 37,
       "participant": "Nathan Scott",
       "player": "Rasmus Højlund",
       "goals": 0
     },
     {
-      "rank": 37,
+      "rank": 38,
       "participant": "Olivia White",
       "player": "Dusan Vlahovic",
       "goals": 0
     },
     {
-      "rank": 38,
+      "rank": 39,
       "participant": "Owen Phillips",
       "player": "Jonathan David",
       "goals": 0
     },
     {
-      "rank": 39,
+      "rank": 40,
       "participant": "Patrick Ward",
       "player": "Amine Harit",
       "goals": 0
     },
     {
-      "rank": 40,
+      "rank": 41,
       "participant": "Priya Sharma",
       "player": "Cody Gakpo",
       "goals": 0
     },
     {
-      "rank": 41,
+      "rank": 42,
       "participant": "Rachel Stewart",
       "player": "Mohamed Salah",
       "goals": 0
     },
     {
-      "rank": 42,
+      "rank": 43,
       "participant": "Rebecca Hall",
       "player": "Sadio Mané",
       "goals": 0
     },
     {
-      "rank": 43,
+      "rank": 44,
       "participant": "Ryan O'Connor",
       "player": "Darwin Núñez",
       "goals": 0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "participant": "Sam Mitchell",
       "player": "Son Heung-min",
       "goals": 0
     },
     {
-      "rank": 45,
+      "rank": 46,
       "participant": "Sarah Chen",
       "player": "Lionel Messi",
-      "goals": 0
-    },
-    {
-      "rank": 46,
-      "participant": "Sienna Cole",
-      "player": "Donyell Malen",
       "goals": 0
     },
     {
