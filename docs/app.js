@@ -22,7 +22,9 @@ function flagImg(team, width) {
     width = width || 24;
     const code = COUNTRY_CODES[team];
     if (!code) return '';
-    return `<img src="https://flagcdn.com/w${width * 2}/${code}.png" width="${width}" alt="${escapeHtml(team)}" loading="lazy">`;
+    // flagcdn.com only supports w20, w40, w80, w160, w320
+    const cdnWidth = width <= 20 ? 20 : width <= 40 ? 40 : width <= 80 ? 80 : 160;
+    return `<img src="https://flagcdn.com/w${cdnWidth}/${code}.png" width="${width}" alt="" loading="lazy" style="width:${width}px;height:auto;">`;
 }
 
 async function init() {
