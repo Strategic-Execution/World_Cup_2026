@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12 07:21",
+  "lastUpdated": "2026-06-12 07:25",
   "teams": [
     {
       "name": "Mexico",
@@ -201,8 +201,8 @@
       "stage": "A",
       "home": "Mexico",
       "away": "South Africa",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "match": 2,
@@ -1137,24 +1137,13 @@
       {
         "team": "Mexico",
         "group": "A",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
+        "gf": 2,
         "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "South Africa",
-        "group": "A",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "pts": 3
       },
       {
         "team": "South Korea",
@@ -1176,6 +1165,17 @@
         "l": 0,
         "gf": 0,
         "ga": 0,
+        "pts": 0
+      },
+      {
+        "team": "South Africa",
+        "group": "A",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
         "pts": 0
       }
     ],
@@ -1688,6 +1688,16 @@
   },
   "leaderboard": [
     {
+      "participant": "Connor Scicluna",
+      "team": "Mexico",
+      "points": 3,
+      "wins": 1,
+      "draws": 0,
+      "gd": 2,
+      "gf": 2,
+      "rank": 1
+    },
+    {
       "participant": "Andrew Kagis",
       "team": "Iran",
       "points": 0,
@@ -1695,7 +1705,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 1
+      "rank": 2
     },
     {
       "participant": "Andrew Sinnott",
@@ -1705,7 +1715,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 2
+      "rank": 3
     },
     {
       "participant": "Angelique Bilyk",
@@ -1715,7 +1725,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 3
+      "rank": 4
     },
     {
       "participant": "Beau Prendergast",
@@ -1725,7 +1735,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 4
+      "rank": 5
     },
     {
       "participant": "Brad McLaren",
@@ -1735,21 +1745,11 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "participant": "Cheari Lee",
       "team": "Sweden",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 6
-    },
-    {
-      "participant": "Connor Scicluna",
-      "team": "Mexico",
       "points": 0,
       "wins": 0,
       "draws": 0,
@@ -2108,16 +2108,6 @@
       "rank": 42
     },
     {
-      "participant": "Shane Shookry",
-      "team": "South Africa",
-      "points": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 43
-    },
-    {
       "participant": "Suhail Janardhanan",
       "team": "DR Congo",
       "points": 0,
@@ -2125,7 +2115,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 44
+      "rank": 43
     },
     {
       "participant": "Tamara Evans",
@@ -2135,7 +2125,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 45
+      "rank": 44
     },
     {
       "participant": "Tanya Olive",
@@ -2145,7 +2135,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 46
+      "rank": 45
     },
     {
       "participant": "Theo Panagopoulos",
@@ -2155,7 +2145,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 47
+      "rank": 46
     },
     {
       "participant": "Theresa McDonough",
@@ -2164,6 +2154,16 @@
       "wins": 0,
       "draws": 0,
       "gd": 0,
+      "gf": 0,
+      "rank": 47
+    },
+    {
+      "participant": "Shane Shookry",
+      "team": "South Africa",
+      "points": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -2,
       "gf": 0,
       "rank": 48
     }
