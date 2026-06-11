@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12 07:53",
+  "lastUpdated": "2026-06-12 07:57",
   "teams": [
     {
       "name": "Mexico",
@@ -1690,9 +1690,9 @@
     {
       "participant": "Connor Scicluna",
       "team": "Mexico",
-      "points": 4,
+      "points": 3,
       "matchPoints": 3,
-      "quiz": 1,
+      "quiz": 0,
       "wins": 1,
       "draws": 0,
       "gd": 2,
