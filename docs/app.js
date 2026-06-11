@@ -87,6 +87,7 @@ function renderLeaderboard() {
             <td>${escapeHtml(e.participant)}</td>
             <td><div class="team-cell">${flagImg(e.team)} <span>${escapeHtml(e.team)}</span></div></td>
             <td class="pts-cell">${e.points}</td>
+            <td class="num-cell">${e.quiz}</td>
             <td class="num-cell">${e.wins}</td>
             <td class="num-cell">${e.draws}</td>
         </tr>`;

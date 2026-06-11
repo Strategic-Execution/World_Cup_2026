@@ -195,6 +195,17 @@ def extract_leaderboard(wb):
             team_points[away] += 3
             team_wins[away] += 1
 
+    # Read quiz scores from Quiz sheet (col B = participant, col M = total)
+    quiz_scores = {}
+    if "Quiz" in wb.sheetnames:
+        ws_quiz = wb["Quiz"]
+        for row in range(5, 200):
+            name = ws_quiz.cell(row=row, column=2).value
+            if not name:
+                break
+            total = ws_quiz.cell(row=row, column=13).value
+            quiz_scores[str(name).strip()] = int(total) if total else 0
+
     # Read allocation
     entries = []
     for row in range(6, 200):
@@ -202,16 +213,19 @@ def extract_leaderboard(wb):
         team = ws.cell(row=row, column=3).value
         if not participant or not team:
             break
-        pts = team_points.get(team, 0)
+        match_pts = team_points.get(team, 0)
         wins = team_wins.get(team, 0)
         draws = team_draws.get(team, 0)
         gf = team_gf.get(team, 0)
         ga = team_ga.get(team, 0)
         gd = gf - ga
+        quiz = quiz_scores.get(str(participant).strip(), 0)
         entries.append({
             "participant": str(participant),
             "team": str(team),
-            "points": pts,
+            "points": match_pts + quiz,
+            "matchPoints": match_pts,
+            "quiz": quiz,
             "wins": wins,
             "draws": draws,
             "gd": gd,
