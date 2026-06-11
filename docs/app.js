@@ -113,6 +113,19 @@ const KICKOFF_AEST = {
     100:"10:00",101:"06:00",102:"07:00",103:"07:00",104:"05:00"
 };
 
+// Convert local date (e.g. "11-Jun") to AEST date (+1 day, since all US kicks are next day in AEST)
+function toAESTDate(dateStr) {
+    const months = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+    const parts = dateStr.split('-');
+    if (parts.length !== 2) return dateStr;
+    const day = parseInt(parts[0]);
+    const mon = months[parts[1]];
+    if (mon === undefined) return dateStr;
+    const d = new Date(2026, mon, day + 1);
+    const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return d.getDate() + '-' + monthNames[d.getMonth()];
+}
+
 function renderFixtures(stageFilter, playedOnly) {
     stageFilter = stageFilter || 'all';
     playedOnly = playedOnly || false;
@@ -134,6 +147,7 @@ function renderFixtures(stageFilter, playedOnly) {
         const scoreText = played ? `${f.homeScore} — ${f.awayScore}` : 'vs';
         const aest = KICKOFF_AEST[f.match] || '';
         const timeStr = aest ? `${aest} AEST` : '';
+        const displayDate = toAESTDate(f.date);
 
         return `
             <div class="fixture-card ${played ? 'played' : ''}">
@@ -147,7 +161,7 @@ function renderFixtures(stageFilter, playedOnly) {
                     <span>${escapeHtml(f.away)}</span>
                 </div>
                 <div class="fixture-meta">
-                    <span>${f.date}${timeStr ? ' ' + timeStr : ''} &middot; Match ${f.match}</span>
+                    <span>${displayDate}${timeStr ? ' ' + timeStr : ''} &middot; Match ${f.match}</span>
                     <span class="fixture-stage-badge">${formatStage(f.stage)}</span>
                 </div>
             </div>
