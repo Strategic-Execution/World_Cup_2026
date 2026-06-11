@@ -94,6 +94,25 @@ function renderLeaderboard() {
 }
 
 // --- FIXTURES ---
+// AEST (UTC+10) kickoff times for all 104 matches
+const KICKOFF_AEST = {
+    1:"05:00",2:"12:00",3:"05:00",4:"11:00",5:"10:00",6:"14:00",7:"08:00",8:"05:00",
+    9:"09:00",10:"04:00",11:"06:00",12:"12:00",13:"08:00",14:"02:00",15:"11:00",
+    16:"05:00",17:"05:00",18:"08:00",19:"11:00",20:"14:00",21:"09:00",22:"06:00",
+    23:"04:00",24:"12:00",25:"02:00",26:"05:00",27:"08:00",28:"11:00",29:"10:30",
+    30:"08:00",31:"12:00",32:"05:00",33:"06:00",34:"09:00",35:"04:00",36:"14:00",
+    37:"08:00",38:"02:00",39:"05:00",40:"11:00",41:"10:00",42:"07:00",43:"04:00",
+    44:"13:00",45:"06:00",46:"09:00",47:"04:00",48:"12:00",49:"08:00",50:"08:00",
+    51:"05:00",52:"05:00",53:"11:00",54:"11:00",55:"06:00",56:"06:00",57:"09:00",
+    58:"09:00",59:"12:00",60:"12:00",61:"05:00",62:"05:00",63:"13:00",64:"13:00",
+    65:"10:00",66:"10:00",67:"07:00",68:"07:00",69:"12:00",70:"12:00",71:"09:30",
+    72:"09:30",73:"05:00",74:"06:30",75:"11:00",76:"04:00",77:"07:00",78:"02:00",
+    79:"11:00",80:"02:00",81:"10:00",82:"05:00",83:"09:00",84:"05:00",85:"13:00",
+    86:"08:00",87:"10:30",88:"04:00",89:"07:00",90:"02:00",91:"06:00",92:"10:00",
+    93:"06:00",94:"10:00",95:"02:00",96:"06:00",97:"06:00",98:"05:00",99:"07:00",
+    100:"10:00",101:"06:00",102:"07:00",103:"07:00",104:"05:00"
+};
+
 function renderFixtures(stageFilter, playedOnly) {
     stageFilter = stageFilter || 'all';
     playedOnly = playedOnly || false;
@@ -113,6 +132,8 @@ function renderFixtures(stageFilter, playedOnly) {
     container.innerHTML = fixtures.map(f => {
         const played = f.homeScore !== null;
         const scoreText = played ? `${f.homeScore} — ${f.awayScore}` : 'vs';
+        const aest = KICKOFF_AEST[f.match] || '';
+        const timeStr = aest ? `${aest} AEST` : '';
 
         return `
             <div class="fixture-card ${played ? 'played' : ''}">
@@ -126,7 +147,7 @@ function renderFixtures(stageFilter, playedOnly) {
                     <span>${escapeHtml(f.away)}</span>
                 </div>
                 <div class="fixture-meta">
-                    <span>${f.date} &middot; Match ${f.match}</span>
+                    <span>${f.date}${timeStr ? ' ' + timeStr : ''} &middot; Match ${f.match}</span>
                     <span class="fixture-stage-badge">${formatStage(f.stage)}</span>
                 </div>
             </div>
