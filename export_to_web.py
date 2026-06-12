@@ -12,6 +12,7 @@ Run this after updating scores, then commit & push to update GitHub Pages.
 
 import json
 import os
+import re
 from openpyxl import load_workbook
 from datetime import datetime
 
@@ -41,6 +42,15 @@ def export():
     print(f"  Teams: {len(data['teams'])}")
     print(f"  Fixtures: {len(data['fixtures'])}")
     print(f"  Leaderboard entries: {len(data['leaderboard'])}")
+
+    # Bust browser cache by updating version in index.html
+    index_path = os.path.join(OUTPUT_DIR, "index.html")
+    if os.path.exists(index_path):
+        ver = datetime.now().strftime("%Y%m%d%H%M")
+        html = open(index_path, "r", encoding="utf-8").read()
+        html = re.sub(r'(style\.css|app\.js)\?v=\d+', rf'\1?v={ver}', html)
+        open(index_path, "w", encoding="utf-8").write(html)
+
     print(f"\nCommit & push to update GitHub Pages!")
 
 
