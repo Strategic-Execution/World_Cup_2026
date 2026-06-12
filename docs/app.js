@@ -204,6 +204,37 @@ const KICKOFF_AEST = {
     104: {date:"20-Jul", time:"05:00"},
 };
 
+// Venue/stadium for all 104 matches
+const VENUE = {
+    1:"Estadio Azteca, Mexico City",2:"Estadio Akron, Guadalajara",3:"BMO Field, Toronto",4:"SoFi Stadium, Los Angeles",
+    5:"Gillette Stadium, Foxborough",6:"BC Place, Vancouver",7:"MetLife Stadium, East Rutherford",8:"Levi's Stadium, Santa Clara",
+    9:"Lincoln Financial Field, Philadelphia",10:"NRG Stadium, Houston",11:"AT&T Stadium, Arlington",12:"Estadio BBVA, Monterrey",
+    13:"Hard Rock Stadium, Miami",14:"Mercedes-Benz Stadium, Atlanta",15:"SoFi Stadium, Los Angeles",16:"Lumen Field, Seattle",
+    17:"MetLife Stadium, East Rutherford",18:"Gillette Stadium, Foxborough",19:"Arrowhead Stadium, Kansas City",20:"Levi's Stadium, Santa Clara",
+    21:"BMO Field, Toronto",22:"AT&T Stadium, Arlington",23:"NRG Stadium, Houston",24:"Estadio Azteca, Mexico City",
+    25:"Mercedes-Benz Stadium, Atlanta",26:"SoFi Stadium, Los Angeles",27:"BC Place, Vancouver",28:"Estadio Akron, Guadalajara",
+    29:"Lincoln Financial Field, Philadelphia",30:"Gillette Stadium, Foxborough",31:"Levi's Stadium, Santa Clara",32:"Lumen Field, Seattle",
+    33:"BMO Field, Toronto",34:"Arrowhead Stadium, Kansas City",35:"NRG Stadium, Houston",36:"Estadio BBVA, Monterrey",
+    37:"Hard Rock Stadium, Miami",38:"Mercedes-Benz Stadium, Atlanta",39:"SoFi Stadium, Los Angeles",40:"BC Place, Vancouver",
+    41:"MetLife Stadium, East Rutherford",42:"Lincoln Financial Field, Philadelphia",43:"AT&T Stadium, Arlington",44:"Levi's Stadium, Santa Clara",
+    45:"Gillette Stadium, Foxborough",46:"BMO Field, Toronto",47:"NRG Stadium, Houston",48:"Estadio Akron, Guadalajara",
+    49:"Hard Rock Stadium, Miami",50:"Mercedes-Benz Stadium, Atlanta",51:"BC Place, Vancouver",52:"Lumen Field, Seattle",
+    53:"Estadio Azteca, Mexico City",54:"Estadio BBVA, Monterrey",55:"Lincoln Financial Field, Philadelphia",56:"MetLife Stadium, East Rutherford",
+    57:"AT&T Stadium, Arlington",58:"Arrowhead Stadium, Kansas City",59:"SoFi Stadium, Los Angeles",60:"Levi's Stadium, Santa Clara",
+    61:"Gillette Stadium, Foxborough",62:"BMO Field, Toronto",63:"Lumen Field, Seattle",64:"BC Place, Vancouver",
+    65:"NRG Stadium, Houston",66:"Estadio Akron, Guadalajara",67:"MetLife Stadium, East Rutherford",68:"Lincoln Financial Field, Philadelphia",
+    69:"Arrowhead Stadium, Kansas City",70:"AT&T Stadium, Arlington",71:"Hard Rock Stadium, Miami",72:"Mercedes-Benz Stadium, Atlanta",
+    73:"SoFi Stadium, Los Angeles",74:"Gillette Stadium, Foxborough",75:"Estadio BBVA, Monterrey",76:"NRG Stadium, Houston",
+    77:"MetLife Stadium, East Rutherford",78:"AT&T Stadium, Arlington",79:"Estadio Azteca, Mexico City",80:"Mercedes-Benz Stadium, Atlanta",
+    81:"Levi's Stadium, Santa Clara",82:"Lumen Field, Seattle",83:"BMO Field, Toronto",84:"SoFi Stadium, Los Angeles",
+    85:"BC Place, Vancouver",86:"Hard Rock Stadium, Miami",87:"Arrowhead Stadium, Kansas City",88:"AT&T Stadium, Arlington",
+    89:"Lincoln Financial Field, Philadelphia",90:"NRG Stadium, Houston",91:"MetLife Stadium, East Rutherford",92:"Estadio Azteca, Mexico City",
+    93:"AT&T Stadium, Arlington",94:"Lumen Field, Seattle",95:"Mercedes-Benz Stadium, Atlanta",96:"BC Place, Vancouver",
+    97:"Gillette Stadium, Foxborough",98:"SoFi Stadium, Los Angeles",99:"Hard Rock Stadium, Miami",100:"Arrowhead Stadium, Kansas City",
+    101:"AT&T Stadium, Arlington",102:"Mercedes-Benz Stadium, Atlanta",
+    103:"Hard Rock Stadium, Miami",104:"MetLife Stadium, East Rutherford",
+};
+
 function renderFixtures(stageFilter, playedOnly) {
     stageFilter = stageFilter || 'all';
     playedOnly = playedOnly || false;
@@ -226,6 +257,7 @@ function renderFixtures(stageFilter, playedOnly) {
         const aestData = KICKOFF_AEST[f.match];
         const timeStr = aestData ? `${aestData.time} AEST` : '';
         const displayDate = aestData ? aestData.date : f.date;
+        const venue = VENUE[f.match] || '';
 
         return `
             <div class="fixture-card ${played ? 'played' : ''}">
@@ -242,6 +274,7 @@ function renderFixtures(stageFilter, playedOnly) {
                     <span>${displayDate}${timeStr ? ' ' + timeStr : ''} &middot; Match ${f.match}</span>
                     <span class="fixture-stage-badge">${formatStage(f.stage)}</span>
                 </div>
+                ${venue ? `<div class="fixture-venue">${venue}</div>` : ''}
             </div>
         `;
     }).join('');
