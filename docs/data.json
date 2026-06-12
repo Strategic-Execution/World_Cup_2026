@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12 07:57",
+  "lastUpdated": "2026-06-12 14:01",
   "teams": [
     {
       "name": "Mexico",
@@ -210,8 +210,8 @@
       "stage": "A",
       "home": "South Korea",
       "away": "Czechia",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "match": 3,
@@ -1148,23 +1148,23 @@
       {
         "team": "South Korea",
         "group": "A",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 2,
+        "ga": 1,
+        "pts": 3
       },
       {
         "team": "Czechia",
         "group": "A",
-        "p": 0,
+        "p": 1,
         "w": 0,
         "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
         "pts": 0
       },
       {
@@ -1700,6 +1700,18 @@
       "rank": 1
     },
     {
+      "participant": "Kamini Gounder",
+      "team": "South Korea",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 1,
+      "gf": 2,
+      "rank": 2
+    },
+    {
       "participant": "Andrew Kagis",
       "team": "Iran",
       "points": 0,
@@ -1709,7 +1721,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 2
+      "rank": 3
     },
     {
       "participant": "Andrew Sinnott",
@@ -1721,7 +1733,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 3
+      "rank": 4
     },
     {
       "participant": "Angelique Bilyk",
@@ -1733,7 +1745,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 4
+      "rank": 5
     },
     {
       "participant": "Beau Prendergast",
@@ -1745,7 +1757,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "participant": "Brad McLaren",
@@ -1757,7 +1769,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "participant": "Cheari Lee",
@@ -1769,7 +1781,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "participant": "Cyndie Bowen",
@@ -1781,7 +1793,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "participant": "Dionne Hunter",
@@ -1793,7 +1805,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Elizabeth Delfs",
@@ -1805,7 +1817,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Gerard Corboz",
@@ -1817,7 +1829,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "participant": "Helen Pennock",
@@ -1829,7 +1841,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "participant": "Hugh Kuiper",
@@ -1841,7 +1853,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Jackson Whiteside",
@@ -1853,7 +1865,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "participant": "Jigar Vashi",
@@ -1865,7 +1877,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "participant": "Joel Geysen",
@@ -1877,23 +1889,11 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 16
+      "rank": 17
     },
     {
       "participant": "Joel Reid",
       "team": "Netherlands",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 17
-    },
-    {
-      "participant": "Kamini Gounder",
-      "team": "South Korea",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
@@ -2012,18 +2012,6 @@
       "rank": 27
     },
     {
-      "participant": "Mitchell Wild",
-      "team": "Czechia",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 28
-    },
-    {
       "participant": "Owen Saliba",
       "team": "Egypt",
       "points": 0,
@@ -2033,7 +2021,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 29
+      "rank": 28
     },
     {
       "participant": "Phantom 1",
@@ -2045,7 +2033,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 30
+      "rank": 29
     },
     {
       "participant": "Phantom 2",
@@ -2057,7 +2045,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 31
+      "rank": 30
     },
     {
       "participant": "Phantom 3",
@@ -2069,7 +2057,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 32
+      "rank": 31
     },
     {
       "participant": "Phantom 4",
@@ -2081,7 +2069,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 33
+      "rank": 32
     },
     {
       "participant": "Phantom 5",
@@ -2093,7 +2081,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 34
+      "rank": 33
     },
     {
       "participant": "Phantom 6",
@@ -2105,7 +2093,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 35
+      "rank": 34
     },
     {
       "participant": "Phantom 7",
@@ -2117,7 +2105,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 36
+      "rank": 35
     },
     {
       "participant": "Phantom 8",
@@ -2129,7 +2117,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 37
+      "rank": 36
     },
     {
       "participant": "Prasantha Nandulamatam",
@@ -2141,7 +2129,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 38
+      "rank": 37
     },
     {
       "participant": "Reg Poonan",
@@ -2153,7 +2141,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 39
+      "rank": 38
     },
     {
       "participant": "Rodney Teggins",
@@ -2165,7 +2153,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 40
+      "rank": 39
     },
     {
       "participant": "Sarah Knowles",
@@ -2177,7 +2165,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 41
+      "rank": 40
     },
     {
       "participant": "Sean Farley",
@@ -2189,7 +2177,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 42
+      "rank": 41
     },
     {
       "participant": "Suhail Janardhanan",
@@ -2201,7 +2189,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 43
+      "rank": 42
     },
     {
       "participant": "Tamara Evans",
@@ -2213,7 +2201,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 44
+      "rank": 43
     },
     {
       "participant": "Tanya Olive",
@@ -2225,7 +2213,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 45
+      "rank": 44
     },
     {
       "participant": "Theo Panagopoulos",
@@ -2237,7 +2225,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 46
+      "rank": 45
     },
     {
       "participant": "Theresa McDonough",
@@ -2249,6 +2237,18 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
+      "rank": 46
+    },
+    {
+      "participant": "Mitchell Wild",
+      "team": "Czechia",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -1,
+      "gf": 1,
       "rank": 47
     },
     {
@@ -2267,284 +2267,284 @@
   "goldenBoot": [
     {
       "rank": 1,
-      "participant": "Andrew Sinnott",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 2,
-      "participant": "Beau Prendergast",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 3,
-      "participant": "Cheari Lee",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 4,
-      "participant": "Cyndie Bowen",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 5,
-      "participant": "Elizabeth Delfs",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 6,
-      "participant": "Gerard Corboz",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 7,
-      "participant": "Joel Reid",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 8,
-      "participant": "Lorraine Medina",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 9,
-      "participant": "Mark Keppie",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 10,
-      "participant": "Phantom 1",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 11,
-      "participant": "Phantom 2",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 12,
-      "participant": "Phantom 3",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 13,
-      "participant": "Phantom 4",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 14,
-      "participant": "Phantom 5",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 15,
-      "participant": "Phantom 6",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 16,
-      "participant": "Phantom 7",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 17,
-      "participant": "Phantom 8",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 18,
-      "participant": "Reg Poonan",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 19,
-      "participant": "Sean Farley",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 20,
-      "participant": "Suhail Janardhanan",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 21,
-      "participant": "Tamara Evans",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 22,
-      "participant": "Theo Panagopoulos",
-      "player": "Kylian Mbappé",
-      "goals": 2
-    },
-    {
-      "rank": 23,
       "participant": "Andrew Kagis",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 24,
+      "rank": 2,
+      "participant": "Andrew Sinnott",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 3,
       "participant": "Angelique Bilyk",
       "player": "Erling Haaland",
       "goals": 0
     },
     {
-      "rank": 25,
+      "rank": 4,
+      "participant": "Beau Prendergast",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 5,
       "participant": "Brad McLaren",
       "player": "Lautaro Martínez",
       "goals": 0
     },
     {
-      "rank": 26,
+      "rank": 6,
+      "participant": "Cheari Lee",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 7,
       "participant": "Connor Scicluna",
       "player": "Erling Haaland",
       "goals": 0
     },
     {
-      "rank": 27,
+      "rank": 8,
+      "participant": "Cyndie Bowen",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 9,
       "participant": "Dionne Hunter",
       "player": "Erling Haaland",
       "goals": 0
     },
     {
-      "rank": 28,
+      "rank": 10,
+      "participant": "Elizabeth Delfs",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 11,
+      "participant": "Gerard Corboz",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 12,
       "participant": "Helen Pennock",
       "player": "Harry Kane",
       "goals": 0
     },
     {
-      "rank": 29,
+      "rank": 13,
       "participant": "Hugh Kuiper",
       "player": "Cody Gapko",
       "goals": 0
     },
     {
-      "rank": 30,
+      "rank": 14,
       "participant": "Jackson Whiteside",
       "player": "Ousmane Dembele",
       "goals": 0
     },
     {
-      "rank": 31,
+      "rank": 15,
       "participant": "Jigar Vashi",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 32,
+      "rank": 16,
       "participant": "Joel Geysen",
       "player": "Lamine Yamal",
       "goals": 0
     },
     {
-      "rank": 33,
+      "rank": 17,
+      "participant": "Joel Reid",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 18,
       "participant": "Kamini Gounder",
       "player": "Harry Kane",
       "goals": 0
     },
     {
-      "rank": 34,
+      "rank": 19,
       "participant": "Kate Higgs",
       "player": "Mikel Oyarzabal",
       "goals": 0
     },
     {
-      "rank": 35,
+      "rank": 20,
       "participant": "Kate Ingrey",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 36,
+      "rank": 21,
       "participant": "Krystal Gerrie",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 37,
+      "rank": 22,
+      "participant": "Lorraine Medina",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 23,
+      "participant": "Mark Keppie",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 24,
       "participant": "Matthew Johnson",
       "player": "Erling Haaland",
       "goals": 0
     },
     {
-      "rank": 38,
+      "rank": 25,
       "participant": "Michael Curran",
       "player": "Harry Kane",
       "goals": 0
     },
     {
-      "rank": 39,
+      "rank": 26,
       "participant": "Michael van Eldik",
       "player": "Lamine Yamal",
       "goals": 0
     },
     {
-      "rank": 40,
+      "rank": 27,
       "participant": "Mitchell Thompson",
       "player": "Mikel Oyarzabal",
       "goals": 0
     },
     {
-      "rank": 41,
+      "rank": 28,
       "participant": "Mitchell Wild",
       "player": "Erling Haaland",
       "goals": 0
     },
     {
-      "rank": 42,
+      "rank": 29,
       "participant": "Owen Saliba",
       "player": "Harry Kane",
       "goals": 0
     },
     {
-      "rank": 43,
+      "rank": 30,
+      "participant": "Phantom 1",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 31,
+      "participant": "Phantom 2",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 32,
+      "participant": "Phantom 3",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 33,
+      "participant": "Phantom 4",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 34,
+      "participant": "Phantom 5",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 35,
+      "participant": "Phantom 6",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 36,
+      "participant": "Phantom 7",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 37,
+      "participant": "Phantom 8",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 38,
       "participant": "Prasantha Nandulamatam",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 44,
+      "rank": 39,
+      "participant": "Reg Poonan",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 40,
       "participant": "Rodney Teggins",
       "player": "Memphis Depay",
       "goals": 0
     },
     {
-      "rank": 45,
+      "rank": 41,
       "participant": "Sarah Knowles",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 46,
+      "rank": 42,
+      "participant": "Sean Farley",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 43,
       "participant": "Shane Shookry",
       "player": "Lionel Messi",
       "goals": 0
     },
     {
-      "rank": 47,
+      "rank": 44,
+      "participant": "Suhail Janardhanan",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 45,
+      "participant": "Tamara Evans",
+      "player": "Kylian Mbappé",
+      "goals": 0
+    },
+    {
+      "rank": 46,
       "participant": "Tanya Olive",
       "player": "Julian Alvarez",
+      "goals": 0
+    },
+    {
+      "rank": 47,
+      "participant": "Theo Panagopoulos",
+      "player": "Kylian Mbappé",
       "goals": 0
     },
     {
