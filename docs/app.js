@@ -29,7 +29,7 @@ function flagImg(team, width) {
 
 async function init() {
     try {
-        const resp = await fetch('data.json');
+        const resp = await fetch('data.json?v=' + Date.now());
         DATA = await resp.json();
         document.getElementById('lastUpdated').textContent =
             DATA.lastUpdated ? `Updated ${DATA.lastUpdated}` : '';
