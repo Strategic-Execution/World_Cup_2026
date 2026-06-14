@@ -90,6 +90,9 @@ function renderLeaderboard() {
             <td class="num-cell">${e.quiz}</td>
             <td class="num-cell">${e.wins}</td>
             <td class="num-cell">${e.draws}</td>
+            <td class="num-cell">${e.gf}</td>
+            <td class="num-cell">${e.ga}</td>
+            <td class="num-cell">${e.gd}</td>
         </tr>`;
     }).join('');
 }

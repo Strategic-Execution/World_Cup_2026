@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=202606150811">
+    <link rel="stylesheet" href="style.css?v=202606150921">
 </head>
 <body>
     <header>
@@ -58,10 +58,11 @@
                 <h3>Tiebreakers</h3>
                 <p>If two or more participants have the same total points, the ranking is determined by:</p>
                 <ol>
-                    <li><strong>Goal Difference</strong> (goals scored minus goals conceded)</li>
-                    <li><strong>Goals Scored</strong> (most goals first)</li>
+                    <li><strong>Goal Difference (GD)</strong> &mdash; goals scored minus goals conceded (highest first)</li>
+                    <li><strong>Goals Scored (GF)</strong> &mdash; most goals first</li>
                     <li><strong>Alphabetical</strong> by participant first name</li>
                 </ol>
+                <p>GF, GA, and GD columns are shown on the leaderboard so you can see how tiebreakers apply.</p>
 
                 <h3>How It&rsquo;s Updated</h3>
                 <p>Scores are entered into the master spreadsheet after each match day. The website is then regenerated and updated automatically.</p>
@@ -84,6 +85,9 @@
                             <th class="col-num">Quiz</th>
                             <th class="col-num">W</th>
                             <th class="col-num">D</th>
+                            <th class="col-num">GF</th>
+                            <th class="col-num">GA</th>
+                            <th class="col-num">GD</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -139,7 +143,7 @@
         <p>World Cup 2026 Sweepstake</p>
     </footer>
 
-    <script src="app.js?v=202606150811"></script>
+    <script src="app.js?v=202606150921"></script>
     <script>
         document.getElementById('openRules').addEventListener('click', () => {
             document.getElementById('rulesModal').classList.add('active');

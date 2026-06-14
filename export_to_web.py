@@ -240,6 +240,7 @@ def extract_leaderboard(wb):
             "draws": draws,
             "gd": gd,
             "gf": gf,
+            "ga": ga,
         })
 
     # Sort: points desc → goal difference desc → goals scored desc → alphabetical
