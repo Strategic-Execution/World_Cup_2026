@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12 14:14",
+  "lastUpdated": "2026-06-15 06:06",
   "teams": [
     {
       "name": "Mexico",
@@ -219,8 +219,8 @@
       "stage": "B",
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "match": 4,
@@ -228,8 +228,8 @@
       "stage": "D",
       "home": "United States",
       "away": "Paraguay",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 1
     },
     {
       "match": 5,
@@ -237,8 +237,8 @@
       "stage": "C",
       "home": "Haiti",
       "away": "Scotland",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "match": 6,
@@ -246,8 +246,8 @@
       "stage": "D",
       "home": "Australia",
       "away": "Türkiye",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "match": 7,
@@ -255,8 +255,8 @@
       "stage": "C",
       "home": "Brazil",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "match": 8,
@@ -264,8 +264,8 @@
       "stage": "B",
       "home": "Qatar",
       "away": "Switzerland",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "match": 9,
@@ -282,8 +282,8 @@
       "stage": "E",
       "home": "Germany",
       "away": "Curaçao",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 7,
+      "awayScore": 1
     },
     {
       "match": 11,
@@ -1183,91 +1183,91 @@
       {
         "team": "Canada",
         "group": "B",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Bosnia and Herzegovina",
         "group": "B",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Qatar",
         "group": "B",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Switzerland",
         "group": "B",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       }
     ],
     "C": [
       {
-        "team": "Brazil",
+        "team": "Scotland",
         "group": "C",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
+        "gf": 1,
         "ga": 0,
-        "pts": 0
+        "pts": 3
+      },
+      {
+        "team": "Brazil",
+        "group": "C",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Morocco",
         "group": "C",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Haiti",
         "group": "C",
-        "p": 0,
+        "p": 1,
         "w": 0,
         "d": 0,
-        "l": 0,
+        "l": 1,
         "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "Scotland",
-        "group": "C",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "ga": 1,
         "pts": 0
       }
     ],
@@ -1275,45 +1275,45 @@
       {
         "team": "United States",
         "group": "D",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
+        "gf": 4,
+        "ga": 1,
+        "pts": 3
+      },
+      {
+        "team": "Australia",
+        "group": "D",
+        "p": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
         "ga": 0,
+        "pts": 3
+      },
+      {
+        "team": "Türkiye",
+        "group": "D",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
         "pts": 0
       },
       {
         "team": "Paraguay",
         "group": "D",
-        "p": 0,
+        "p": 1,
         "w": 0,
         "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "Australia",
-        "group": "D",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "Türkiye",
-        "group": "D",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 4,
         "pts": 0
       }
     ],
@@ -1321,24 +1321,13 @@
       {
         "team": "Germany",
         "group": "E",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "Curaçao",
-        "group": "E",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 7,
+        "ga": 1,
+        "pts": 3
       },
       {
         "team": "Ivory Coast",
@@ -1360,6 +1349,17 @@
         "l": 0,
         "gf": 0,
         "ga": 0,
+        "pts": 0
+      },
+      {
+        "team": "Curaçao",
+        "group": "E",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
         "pts": 0
       }
     ],
@@ -1688,6 +1688,30 @@
   },
   "leaderboard": [
     {
+      "participant": "Angelique Bilyk",
+      "team": "Germany",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 6,
+      "gf": 7,
+      "rank": 1
+    },
+    {
+      "participant": "Sean Farley",
+      "team": "United States",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 3,
+      "gf": 4,
+      "rank": 2
+    },
+    {
       "participant": "Connor Scicluna",
       "team": "Mexico",
       "points": 3,
@@ -1697,7 +1721,19 @@
       "draws": 0,
       "gd": 2,
       "gf": 2,
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "participant": "Prasantha Nandulamatam",
+      "team": "Australia",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 2,
+      "gf": 2,
+      "rank": 4
     },
     {
       "participant": "Kamini Gounder",
@@ -1709,7 +1745,91 @@
       "draws": 0,
       "gd": 1,
       "gf": 2,
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "participant": "Elizabeth Delfs",
+      "team": "Scotland",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 1,
+      "gf": 1,
+      "rank": 6
+    },
+    {
+      "participant": "Andrew Sinnott",
+      "team": "Switzerland",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "rank": 7
+    },
+    {
+      "participant": "Beau Prendergast",
+      "team": "Brazil",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "rank": 8
+    },
+    {
+      "participant": "Kate Higgs",
+      "team": "Canada",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "rank": 9
+    },
+    {
+      "participant": "Krystal Gerrie",
+      "team": "Morocco",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "rank": 10
+    },
+    {
+      "participant": "Matthew Johnson",
+      "team": "Qatar",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "rank": 11
+    },
+    {
+      "participant": "Phantom 3",
+      "team": "Bosnia and Herzegovina",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "rank": 12
     },
     {
       "participant": "Andrew Kagis",
@@ -1721,43 +1841,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 3
-    },
-    {
-      "participant": "Andrew Sinnott",
-      "team": "Switzerland",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 4
-    },
-    {
-      "participant": "Angelique Bilyk",
-      "team": "Germany",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 5
-    },
-    {
-      "participant": "Beau Prendergast",
-      "team": "Brazil",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 6
+      "rank": 13
     },
     {
       "participant": "Brad McLaren",
@@ -1769,7 +1853,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 7
+      "rank": 14
     },
     {
       "participant": "Cheari Lee",
@@ -1781,7 +1865,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 8
+      "rank": 15
     },
     {
       "participant": "Cyndie Bowen",
@@ -1793,7 +1877,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 9
+      "rank": 16
     },
     {
       "participant": "Dionne Hunter",
@@ -1805,19 +1889,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 10
-    },
-    {
-      "participant": "Elizabeth Delfs",
-      "team": "Scotland",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 11
+      "rank": 17
     },
     {
       "participant": "Gerard Corboz",
@@ -1829,7 +1901,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 12
+      "rank": 18
     },
     {
       "participant": "Helen Pennock",
@@ -1841,7 +1913,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 13
+      "rank": 19
     },
     {
       "participant": "Hugh Kuiper",
@@ -1853,7 +1925,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 14
+      "rank": 20
     },
     {
       "participant": "Jackson Whiteside",
@@ -1865,7 +1937,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 15
+      "rank": 21
     },
     {
       "participant": "Jigar Vashi",
@@ -1877,7 +1949,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 16
+      "rank": 22
     },
     {
       "participant": "Joel Geysen",
@@ -1889,7 +1961,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 17
+      "rank": 23
     },
     {
       "participant": "Joel Reid",
@@ -1901,19 +1973,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 18
-    },
-    {
-      "participant": "Kate Higgs",
-      "team": "Canada",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 19
+      "rank": 24
     },
     {
       "participant": "Kate Ingrey",
@@ -1925,19 +1985,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 20
-    },
-    {
-      "participant": "Krystal Gerrie",
-      "team": "Morocco",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 21
+      "rank": 25
     },
     {
       "participant": "Lorraine Medina",
@@ -1949,7 +1997,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 22
+      "rank": 26
     },
     {
       "participant": "Mark Keppie",
@@ -1961,19 +2009,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 23
-    },
-    {
-      "participant": "Matthew Johnson",
-      "team": "Qatar",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 24
+      "rank": 27
     },
     {
       "participant": "Michael Curran",
@@ -1985,7 +2021,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 25
+      "rank": 28
     },
     {
       "participant": "Michael van Eldik",
@@ -1997,7 +2033,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 26
+      "rank": 29
     },
     {
       "participant": "Mitchell Thompson",
@@ -2009,7 +2045,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 27
+      "rank": 30
     },
     {
       "participant": "Owen Saliba",
@@ -2021,7 +2057,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 28
+      "rank": 31
     },
     {
       "participant": "Phantom 1",
@@ -2033,7 +2069,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 29
+      "rank": 32
     },
     {
       "participant": "Phantom 2",
@@ -2045,19 +2081,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 30
-    },
-    {
-      "participant": "Phantom 3",
-      "team": "Bosnia and Herzegovina",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 31
+      "rank": 33
     },
     {
       "participant": "Phantom 4",
@@ -2069,35 +2093,11 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 32
+      "rank": 34
     },
     {
       "participant": "Phantom 5",
       "team": "Ghana",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 33
-    },
-    {
-      "participant": "Phantom 6",
-      "team": "Curaçao",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 34
-    },
-    {
-      "participant": "Phantom 7",
-      "team": "Haiti",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
@@ -2120,42 +2120,6 @@
       "rank": 36
     },
     {
-      "participant": "Prasantha Nandulamatam",
-      "team": "Australia",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 37
-    },
-    {
-      "participant": "Reg Poonan",
-      "team": "Paraguay",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 38
-    },
-    {
-      "participant": "Rodney Teggins",
-      "team": "Türkiye",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 39
-    },
-    {
       "participant": "Sarah Knowles",
       "team": "Ecuador",
       "points": 0,
@@ -2165,19 +2129,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 40
-    },
-    {
-      "participant": "Sean Farley",
-      "team": "United States",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 41
+      "rank": 37
     },
     {
       "participant": "Suhail Janardhanan",
@@ -2189,7 +2141,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 42
+      "rank": 38
     },
     {
       "participant": "Tamara Evans",
@@ -2201,7 +2153,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 43
+      "rank": 39
     },
     {
       "participant": "Tanya Olive",
@@ -2213,7 +2165,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 44
+      "rank": 40
     },
     {
       "participant": "Theo Panagopoulos",
@@ -2225,7 +2177,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 45
+      "rank": 41
     },
     {
       "participant": "Theresa McDonough",
@@ -2237,7 +2189,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 46
+      "rank": 42
     },
     {
       "participant": "Mitchell Wild",
@@ -2249,7 +2201,31 @@
       "draws": 0,
       "gd": -1,
       "gf": 1,
-      "rank": 47
+      "rank": 43
+    },
+    {
+      "participant": "Phantom 7",
+      "team": "Haiti",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -1,
+      "gf": 0,
+      "rank": 44
+    },
+    {
+      "participant": "Rodney Teggins",
+      "team": "Türkiye",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -2,
+      "gf": 0,
+      "rank": 45
     },
     {
       "participant": "Shane Shookry",
@@ -2261,6 +2237,30 @@
       "draws": 0,
       "gd": -2,
       "gf": 0,
+      "rank": 46
+    },
+    {
+      "participant": "Reg Poonan",
+      "team": "Paraguay",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -3,
+      "gf": 1,
+      "rank": 47
+    },
+    {
+      "participant": "Phantom 6",
+      "team": "Curaçao",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -6,
+      "gf": 1,
       "rank": 48
     }
   ],
