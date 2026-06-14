@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15 06:06",
+  "lastUpdated": "2026-06-15 08:11",
   "teams": [
     {
       "name": "Mexico",
@@ -291,8 +291,8 @@
       "stage": "F",
       "home": "Netherlands",
       "away": "Japan",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "match": 12,
@@ -1367,24 +1367,24 @@
       {
         "team": "Netherlands",
         "group": "F",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 2,
+        "ga": 2,
+        "pts": 2
       },
       {
         "team": "Japan",
         "group": "F",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 2,
+        "ga": 2,
+        "pts": 2
       },
       {
         "team": "Sweden",
@@ -1760,6 +1760,30 @@
       "rank": 6
     },
     {
+      "participant": "Jackson Whiteside",
+      "team": "Japan",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 2,
+      "rank": 7
+    },
+    {
+      "participant": "Joel Reid",
+      "team": "Netherlands",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 2,
+      "rank": 8
+    },
+    {
       "participant": "Andrew Sinnott",
       "team": "Switzerland",
       "points": 2,
@@ -1769,7 +1793,7 @@
       "draws": 1,
       "gd": 0,
       "gf": 1,
-      "rank": 7
+      "rank": 9
     },
     {
       "participant": "Beau Prendergast",
@@ -1781,7 +1805,7 @@
       "draws": 1,
       "gd": 0,
       "gf": 1,
-      "rank": 8
+      "rank": 10
     },
     {
       "participant": "Kate Higgs",
@@ -1793,7 +1817,7 @@
       "draws": 1,
       "gd": 0,
       "gf": 1,
-      "rank": 9
+      "rank": 11
     },
     {
       "participant": "Krystal Gerrie",
@@ -1805,7 +1829,7 @@
       "draws": 1,
       "gd": 0,
       "gf": 1,
-      "rank": 10
+      "rank": 12
     },
     {
       "participant": "Matthew Johnson",
@@ -1817,7 +1841,7 @@
       "draws": 1,
       "gd": 0,
       "gf": 1,
-      "rank": 11
+      "rank": 13
     },
     {
       "participant": "Phantom 3",
@@ -1829,7 +1853,7 @@
       "draws": 1,
       "gd": 0,
       "gf": 1,
-      "rank": 12
+      "rank": 14
     },
     {
       "participant": "Andrew Kagis",
@@ -1841,7 +1865,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 13
+      "rank": 15
     },
     {
       "participant": "Brad McLaren",
@@ -1853,7 +1877,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 14
+      "rank": 16
     },
     {
       "participant": "Cheari Lee",
@@ -1865,7 +1889,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 15
+      "rank": 17
     },
     {
       "participant": "Cyndie Bowen",
@@ -1877,7 +1901,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 16
+      "rank": 18
     },
     {
       "participant": "Dionne Hunter",
@@ -1889,7 +1913,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 17
+      "rank": 19
     },
     {
       "participant": "Gerard Corboz",
@@ -1901,7 +1925,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 18
+      "rank": 20
     },
     {
       "participant": "Helen Pennock",
@@ -1913,7 +1937,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 19
+      "rank": 21
     },
     {
       "participant": "Hugh Kuiper",
@@ -1925,19 +1949,7 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 20
-    },
-    {
-      "participant": "Jackson Whiteside",
-      "team": "Japan",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 21
+      "rank": 22
     },
     {
       "participant": "Jigar Vashi",
@@ -1949,23 +1961,11 @@
       "draws": 0,
       "gd": 0,
       "gf": 0,
-      "rank": 22
+      "rank": 23
     },
     {
       "participant": "Joel Geysen",
       "team": "Croatia",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "rank": 23
-    },
-    {
-      "participant": "Joel Reid",
-      "team": "Netherlands",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
