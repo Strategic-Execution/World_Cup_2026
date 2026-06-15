@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15 14:28",
+  "lastUpdated": "2026-06-16 09:19",
   "teams": [
     {
       "name": "Mexico",
@@ -318,8 +318,8 @@
       "stage": "H",
       "home": "Spain",
       "away": "Cape Verde",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "match": 15,
@@ -336,8 +336,8 @@
       "stage": "G",
       "home": "Belgium",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "match": 17,
@@ -1413,24 +1413,24 @@
       {
         "team": "Belgium",
         "group": "G",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Egypt",
         "group": "G",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Iran",
@@ -1459,24 +1459,24 @@
       {
         "team": "Spain",
         "group": "H",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
         "gf": 0,
         "ga": 0,
-        "pts": 0
+        "pts": 2
       },
       {
         "team": "Cape Verde",
         "group": "H",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
         "gf": 0,
         "ga": 0,
-        "pts": 0
+        "pts": 2
       },
       {
         "team": "Saudi Arabia",
@@ -1870,6 +1870,19 @@
       "rank": 14
     },
     {
+      "participant": "Lorraine M",
+      "team": "Belgium",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "ga": 1,
+      "rank": 15
+    },
+    {
       "participant": "Matthew J",
       "team": "Qatar",
       "points": 2,
@@ -1880,7 +1893,20 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "participant": "Owen S",
+      "team": "Egypt",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "ga": 1,
+      "rank": 17
     },
     {
       "participant": "Phantom 3",
@@ -1893,7 +1919,33 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 16
+      "rank": 18
+    },
+    {
+      "participant": "Gerard C",
+      "team": "Spain",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 0,
+      "ga": 0,
+      "rank": 19
+    },
+    {
+      "participant": "Phantom 4",
+      "team": "Cape Verde",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 0,
+      "ga": 0,
+      "rank": 20
     },
     {
       "participant": "Andrew K",
@@ -1906,7 +1958,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 17
+      "rank": 21
     },
     {
       "participant": "Brad M",
@@ -1919,7 +1971,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 18
+      "rank": 22
     },
     {
       "participant": "Dionne H",
@@ -1932,20 +1984,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 19
-    },
-    {
-      "participant": "Gerard C",
-      "team": "Spain",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 20
+      "rank": 23
     },
     {
       "participant": "Helen P",
@@ -1958,7 +1997,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 21
+      "rank": 24
     },
     {
       "participant": "Hugh K",
@@ -1971,7 +2010,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 22
+      "rank": 25
     },
     {
       "participant": "Jigar V",
@@ -1984,7 +2023,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 23
+      "rank": 26
     },
     {
       "participant": "Joel G",
@@ -1997,20 +2036,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 24
-    },
-    {
-      "participant": "Lorraine M",
-      "team": "Belgium",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 25
+      "rank": 27
     },
     {
       "participant": "Mark K",
@@ -2023,7 +2049,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 26
+      "rank": 28
     },
     {
       "participant": "Michael C",
@@ -2036,7 +2062,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 27
+      "rank": 29
     },
     {
       "participant": "Michael E",
@@ -2049,7 +2075,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 28
+      "rank": 30
     },
     {
       "participant": "Mitchell T",
@@ -2062,20 +2088,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 29
-    },
-    {
-      "participant": "Owen S",
-      "team": "Egypt",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "participant": "Phantom 1",
@@ -2088,24 +2101,11 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 31
+      "rank": 32
     },
     {
       "participant": "Phantom 2",
       "team": "Jordan",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 32
-    },
-    {
-      "participant": "Phantom 4",
-      "team": "Cape Verde",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
