@@ -230,8 +230,11 @@ def extract_leaderboard(wb):
         ga = team_ga.get(team, 0)
         gd = gf - ga
         quiz = quiz_scores.get(str(participant).strip(), 0)
+        # Privacy: show "First L" instead of full name
+        name_parts = str(participant).strip().split()
+        display_name = name_parts[0] + " " + name_parts[-1][0] if len(name_parts) > 1 else name_parts[0]
         entries.append({
-            "participant": str(participant),
+            "participant": display_name,
             "team": str(team),
             "points": match_pts + quiz,
             "matchPoints": match_pts,
