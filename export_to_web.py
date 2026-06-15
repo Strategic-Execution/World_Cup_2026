@@ -266,9 +266,12 @@ def extract_golden_boot(wb):
         goals = ws.cell(row=row, column=14).value
         if not participant:
             break
+        # Privacy: show "First L" instead of full name
+        name_parts = str(participant).strip().split()
+        display_name = name_parts[0] + " " + name_parts[-1][0] if len(name_parts) > 1 else name_parts[0]
         entries.append({
             "rank": int(rank) if rank else row - 5,
-            "participant": str(participant),
+            "participant": display_name,
             "player": str(player) if player else "",
             "goals": int(goals) if goals else 0,
         })
