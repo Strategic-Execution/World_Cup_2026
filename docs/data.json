@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16 10:32",
+  "lastUpdated": "2026-06-16 13:07",
   "teams": [
     {
       "name": "Mexico",
@@ -327,8 +327,8 @@
       "stage": "G",
       "home": "Iran",
       "away": "New Zealand",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "match": 16,
@@ -1411,6 +1411,28 @@
     ],
     "G": [
       {
+        "team": "Iran",
+        "group": "G",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "pts": 2
+      },
+      {
+        "team": "New Zealand",
+        "group": "G",
+        "p": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "pts": 2
+      },
+      {
         "team": "Belgium",
         "group": "G",
         "p": 1,
@@ -1431,28 +1453,6 @@
         "gf": 1,
         "ga": 1,
         "pts": 2
-      },
-      {
-        "team": "Iran",
-        "group": "G",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "New Zealand",
-        "group": "G",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
       }
     ],
     "H": [
@@ -1792,6 +1792,19 @@
       "rank": 8
     },
     {
+      "participant": "Andrew K",
+      "team": "Iran",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 2,
+      "ga": 2,
+      "rank": 9
+    },
+    {
       "participant": "Jackson W",
       "team": "Japan",
       "points": 2,
@@ -1802,7 +1815,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Joel R",
@@ -1815,7 +1828,20 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 10
+      "rank": 11
+    },
+    {
+      "participant": "Phantom 8",
+      "team": "New Zealand",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 2,
+      "ga": 2,
+      "rank": 12
     },
     {
       "participant": "Andrew S",
@@ -1828,7 +1854,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 11
+      "rank": 13
     },
     {
       "participant": "Beau P",
@@ -1841,7 +1867,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 12
+      "rank": 14
     },
     {
       "participant": "Hugh K",
@@ -1854,7 +1880,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 13
+      "rank": 15
     },
     {
       "participant": "Kate H",
@@ -1867,7 +1893,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 14
+      "rank": 16
     },
     {
       "participant": "Krystal G",
@@ -1880,7 +1906,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 15
+      "rank": 17
     },
     {
       "participant": "Lorraine M",
@@ -1893,7 +1919,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 16
+      "rank": 18
     },
     {
       "participant": "Matthew J",
@@ -1906,7 +1932,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 17
+      "rank": 19
     },
     {
       "participant": "Owen S",
@@ -1919,7 +1945,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 18
+      "rank": 20
     },
     {
       "participant": "Phantom 1",
@@ -1932,7 +1958,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 19
+      "rank": 21
     },
     {
       "participant": "Phantom 3",
@@ -1945,7 +1971,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 20
+      "rank": 22
     },
     {
       "participant": "Gerard C",
@@ -1958,7 +1984,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 21
+      "rank": 23
     },
     {
       "participant": "Phantom 4",
@@ -1971,20 +1997,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 22
-    },
-    {
-      "participant": "Andrew K",
-      "team": "Iran",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 23
+      "rank": 24
     },
     {
       "participant": "Brad M",
@@ -1997,7 +2010,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 24
+      "rank": 25
     },
     {
       "participant": "Dionne H",
@@ -2010,7 +2023,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 25
+      "rank": 26
     },
     {
       "participant": "Helen P",
@@ -2023,7 +2036,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 26
+      "rank": 27
     },
     {
       "participant": "Jigar V",
@@ -2036,7 +2049,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 27
+      "rank": 28
     },
     {
       "participant": "Joel G",
@@ -2049,7 +2062,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 28
+      "rank": 29
     },
     {
       "participant": "Mark K",
@@ -2062,7 +2075,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 29
+      "rank": 30
     },
     {
       "participant": "Michael C",
@@ -2075,7 +2088,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "participant": "Michael E",
@@ -2088,7 +2101,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 31
+      "rank": 32
     },
     {
       "participant": "Mitchell T",
@@ -2101,7 +2114,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 32
+      "rank": 33
     },
     {
       "participant": "Phantom 2",
@@ -2114,24 +2127,11 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 33
+      "rank": 34
     },
     {
       "participant": "Phantom 5",
       "team": "Ghana",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 34
-    },
-    {
-      "participant": "Phantom 8",
-      "team": "New Zealand",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
