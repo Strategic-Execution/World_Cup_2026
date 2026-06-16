@@ -352,10 +352,13 @@ function escapeHtml(str) {
 function renderGoldenBoot() {
     if (!DATA.goldenBoot) return;
     const tbody = document.querySelector('#goldenBootTable tbody');
-    tbody.innerHTML = DATA.goldenBoot.map((e, i) => {
+    const filtered = DATA.goldenBoot.filter(e => !/^Phantom\s?\d*$/i.test(e.participant));
+    let rank = 0;
+    tbody.innerHTML = filtered.map((e, i) => {
+        rank = i + 1;
         const cls = i < 3 ? ' class="top-three"' : '';
         return `<tr${cls}>
-            <td class="col-rank">${e.rank}</td>
+            <td class="col-rank">${rank}</td>
             <td class="col-name">${escapeHtml(e.participant)}</td>
             <td class="col-team">${escapeHtml(e.player)}</td>
             <td class="col-num">${e.goals}</td>
