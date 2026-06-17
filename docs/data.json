@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17 13:36",
+  "lastUpdated": "2026-06-17 16:42",
   "teams": [
     {
       "name": "Mexico",
@@ -372,8 +372,8 @@
       "stage": "J",
       "home": "Austria",
       "away": "Jordan",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 3,
+      "awayScore": 1
     },
     {
       "match": 21,
@@ -1562,23 +1562,23 @@
       {
         "team": "Austria",
         "group": "J",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 3,
+        "ga": 1,
+        "pts": 3
       },
       {
         "team": "Jordan",
         "group": "J",
-        "p": 0,
+        "p": 1,
         "w": 0,
         "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
         "pts": 0
       },
       {
@@ -1766,6 +1766,19 @@
       "rank": 6
     },
     {
+      "participant": "Theo P",
+      "team": "Austria",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 2,
+      "gf": 3,
+      "ga": 1,
+      "rank": 7
+    },
+    {
       "participant": "Connor S",
       "team": "Mexico",
       "points": 3,
@@ -1776,7 +1789,7 @@
       "gd": 2,
       "gf": 2,
       "ga": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "participant": "Prasantha N",
@@ -1789,7 +1802,7 @@
       "gd": 2,
       "gf": 2,
       "ga": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "participant": "Kamini G",
@@ -1802,7 +1815,7 @@
       "gd": 1,
       "gf": 2,
       "ga": 1,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Elizabeth D",
@@ -1815,7 +1828,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Kate I",
@@ -1828,7 +1841,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "participant": "Andrew K",
@@ -1841,7 +1854,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 12
+      "rank": 13
     },
     {
       "participant": "Jackson W",
@@ -1854,7 +1867,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Joel R",
@@ -1867,7 +1880,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 14
+      "rank": 15
     },
     {
       "participant": "Phantom 8",
@@ -1880,7 +1893,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 15
+      "rank": 16
     },
     {
       "participant": "Andrew S",
@@ -1893,7 +1906,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 16
+      "rank": 17
     },
     {
       "participant": "Beau P",
@@ -1906,7 +1919,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 17
+      "rank": 18
     },
     {
       "participant": "Hugh K",
@@ -1919,7 +1932,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 18
+      "rank": 19
     },
     {
       "participant": "Kate H",
@@ -1932,7 +1945,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 19
+      "rank": 20
     },
     {
       "participant": "Krystal G",
@@ -1945,7 +1958,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 20
+      "rank": 21
     },
     {
       "participant": "Lorraine M",
@@ -1958,7 +1971,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 21
+      "rank": 22
     },
     {
       "participant": "Matthew J",
@@ -1971,7 +1984,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 22
+      "rank": 23
     },
     {
       "participant": "Owen S",
@@ -1984,7 +1997,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 23
+      "rank": 24
     },
     {
       "participant": "Phantom 1",
@@ -1997,7 +2010,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 24
+      "rank": 25
     },
     {
       "participant": "Phantom 3",
@@ -2010,7 +2023,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 25
+      "rank": 26
     },
     {
       "participant": "Gerard C",
@@ -2023,7 +2036,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 26
+      "rank": 27
     },
     {
       "participant": "Phantom 4",
@@ -2036,7 +2049,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 27
+      "rank": 28
     },
     {
       "participant": "Brad M",
@@ -2049,7 +2062,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 28
+      "rank": 29
     },
     {
       "participant": "Dionne H",
@@ -2062,7 +2075,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 29
+      "rank": 30
     },
     {
       "participant": "Joel G",
@@ -2075,7 +2088,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "participant": "Mark K",
@@ -2088,24 +2101,11 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 31
+      "rank": 32
     },
     {
       "participant": "Mitchell T",
       "team": "Portugal",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 32
-    },
-    {
-      "participant": "Phantom 2",
-      "team": "Jordan",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
@@ -2156,19 +2156,6 @@
       "rank": 36
     },
     {
-      "participant": "Theo P",
-      "team": "Austria",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 37
-    },
-    {
       "participant": "Mitchell W",
       "team": "Czechia",
       "points": 0,
@@ -2179,7 +2166,7 @@
       "gd": -1,
       "gf": 1,
       "ga": 2,
-      "rank": 38
+      "rank": 37
     },
     {
       "participant": "Phantom 7",
@@ -2192,7 +2179,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 39
+      "rank": 38
     },
     {
       "participant": "Sarah K",
@@ -2205,11 +2192,24 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 40
+      "rank": 39
     },
     {
       "participant": "Jigar V",
       "team": "Senegal",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -2,
+      "gf": 1,
+      "ga": 3,
+      "rank": 40
+    },
+    {
+      "participant": "Phantom 2",
+      "team": "Jordan",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
