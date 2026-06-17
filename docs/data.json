@@ -390,8 +390,8 @@
       "stage": "L",
       "home": "England",
       "away": "Croatia",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 2
     },
     {
       "match": 23,
@@ -399,8 +399,8 @@
       "stage": "K",
       "home": "Portugal",
       "away": "DR Congo",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "match": 24,
@@ -1597,24 +1597,24 @@
       {
         "team": "Portugal",
         "group": "K",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "DR Congo",
         "group": "K",
-        "p": 0,
+        "p": 1,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 1,
+        "ga": 1,
+        "pts": 2
       },
       {
         "team": "Uzbekistan",
@@ -1643,24 +1643,13 @@
       {
         "team": "England",
         "group": "L",
-        "p": 0,
-        "w": 0,
+        "p": 1,
+        "w": 1,
         "d": 0,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
-      },
-      {
-        "team": "Croatia",
-        "group": "L",
-        "p": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0
+        "gf": 4,
+        "ga": 2,
+        "pts": 3
       },
       {
         "team": "Ghana",
@@ -1682,6 +1671,17 @@
         "l": 0,
         "gf": 0,
         "ga": 0,
+        "pts": 0
+      },
+      {
+        "team": "Croatia",
+        "group": "L",
+        "p": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
         "pts": 0
       }
     ]
@@ -1753,6 +1753,19 @@
       "rank": 5
     },
     {
+      "participant": "Tanya O",
+      "team": "England",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 2,
+      "gf": 4,
+      "ga": 2,
+      "rank": 6
+    },
+    {
       "participant": "Michael C",
       "team": "France",
       "points": 3,
@@ -1763,7 +1776,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 6
+      "rank": 7
     },
     {
       "participant": "Theo P",
@@ -1776,7 +1789,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 7
+      "rank": 8
     },
     {
       "participant": "Connor S",
@@ -1789,7 +1802,7 @@
       "gd": 2,
       "gf": 2,
       "ga": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "participant": "Prasantha N",
@@ -1802,7 +1815,7 @@
       "gd": 2,
       "gf": 2,
       "ga": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Kamini G",
@@ -1815,7 +1828,7 @@
       "gd": 1,
       "gf": 2,
       "ga": 1,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Elizabeth D",
@@ -1828,7 +1841,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "participant": "Kate I",
@@ -1841,7 +1854,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "participant": "Andrew K",
@@ -1854,7 +1867,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Jackson W",
@@ -1867,7 +1880,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 14
+      "rank": 15
     },
     {
       "participant": "Joel R",
@@ -1880,7 +1893,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 15
+      "rank": 16
     },
     {
       "participant": "Phantom 8",
@@ -1893,7 +1906,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 16
+      "rank": 17
     },
     {
       "participant": "Andrew S",
@@ -1906,7 +1919,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 17
+      "rank": 18
     },
     {
       "participant": "Beau P",
@@ -1919,7 +1932,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 18
+      "rank": 19
     },
     {
       "participant": "Hugh K",
@@ -1932,7 +1945,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 19
+      "rank": 20
     },
     {
       "participant": "Kate H",
@@ -1945,7 +1958,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 20
+      "rank": 21
     },
     {
       "participant": "Krystal G",
@@ -1958,7 +1971,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 21
+      "rank": 22
     },
     {
       "participant": "Lorraine M",
@@ -1971,7 +1984,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 22
+      "rank": 23
     },
     {
       "participant": "Matthew J",
@@ -1984,7 +1997,20 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 23
+      "rank": 24
+    },
+    {
+      "participant": "Mitchell T",
+      "team": "Portugal",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "ga": 1,
+      "rank": 25
     },
     {
       "participant": "Owen S",
@@ -1997,7 +2023,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 24
+      "rank": 26
     },
     {
       "participant": "Phantom 1",
@@ -2010,7 +2036,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 25
+      "rank": 27
     },
     {
       "participant": "Phantom 3",
@@ -2023,7 +2049,20 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 26
+      "rank": 28
+    },
+    {
+      "participant": "Suhail J",
+      "team": "DR Congo",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": 0,
+      "gf": 1,
+      "ga": 1,
+      "rank": 29
     },
     {
       "participant": "Gerard C",
@@ -2036,7 +2075,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 27
+      "rank": 30
     },
     {
       "participant": "Phantom 4",
@@ -2049,7 +2088,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 28
+      "rank": 31
     },
     {
       "participant": "Brad M",
@@ -2062,7 +2101,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 29
+      "rank": 32
     },
     {
       "participant": "Dionne H",
@@ -2075,20 +2114,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 30
-    },
-    {
-      "participant": "Joel G",
-      "team": "Croatia",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 31
+      "rank": 33
     },
     {
       "participant": "Mark K",
@@ -2101,20 +2127,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 32
-    },
-    {
-      "participant": "Mitchell T",
-      "team": "Portugal",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 33
+      "rank": 34
     },
     {
       "participant": "Phantom 5",
@@ -2127,33 +2140,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 34
-    },
-    {
-      "participant": "Suhail J",
-      "team": "DR Congo",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
       "rank": 35
-    },
-    {
-      "participant": "Tanya O",
-      "team": "England",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
-      "rank": 36
     },
     {
       "participant": "Mitchell W",
@@ -2166,7 +2153,7 @@
       "gd": -1,
       "gf": 1,
       "ga": 2,
-      "rank": 37
+      "rank": 36
     },
     {
       "participant": "Phantom 7",
@@ -2179,7 +2166,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 38
+      "rank": 37
     },
     {
       "participant": "Sarah K",
@@ -2192,6 +2179,19 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
+      "rank": 38
+    },
+    {
+      "participant": "Joel G",
+      "team": "Croatia",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -2,
+      "gf": 2,
+      "ga": 4,
       "rank": 39
     },
     {
@@ -2411,176 +2411,176 @@
     },
     {
       "rank": 17,
+      "participant": "Helen P",
+      "player": "Harry Kane",
+      "goals": 2
+    },
+    {
+      "rank": 18,
       "participant": "Joel R",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 18,
+      "rank": 19,
+      "participant": "Kamini G",
+      "player": "Harry Kane",
+      "goals": 2
+    },
+    {
+      "rank": 20,
       "participant": "Lorraine M",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 19,
+      "rank": 21,
       "participant": "Mark K",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 20,
+      "rank": 22,
       "participant": "Matthew J",
       "player": "Erling Haaland",
       "goals": 2
     },
     {
-      "rank": 21,
+      "rank": 23,
+      "participant": "Michael C",
+      "player": "Harry Kane",
+      "goals": 2
+    },
+    {
+      "rank": 24,
       "participant": "Mitchell W",
       "player": "Erling Haaland",
       "goals": 2
     },
     {
-      "rank": 22,
+      "rank": 25,
+      "participant": "Owen S",
+      "player": "Harry Kane",
+      "goals": 2
+    },
+    {
+      "rank": 26,
       "participant": "Phantom 1",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 23,
+      "rank": 27,
       "participant": "Phantom 2",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 24,
+      "rank": 28,
       "participant": "Phantom 3",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 25,
+      "rank": 29,
       "participant": "Phantom 4",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 26,
+      "rank": 30,
       "participant": "Phantom 5",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 27,
+      "rank": 31,
       "participant": "Phantom 6",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 28,
+      "rank": 32,
       "participant": "Phantom 7",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 29,
+      "rank": 33,
       "participant": "Phantom 8",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 30,
+      "rank": 34,
       "participant": "Reg P",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 31,
+      "rank": 35,
       "participant": "Sean F",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 32,
+      "rank": 36,
       "participant": "Suhail J",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 33,
+      "rank": 37,
       "participant": "Tamara E",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 34,
+      "rank": 38,
       "participant": "Theo P",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 35,
+      "rank": 39,
       "participant": "Brad M",
       "player": "Lautaro Martínez",
       "goals": 0
     },
     {
-      "rank": 36,
-      "participant": "Helen P",
-      "player": "Harry Kane",
-      "goals": 0
-    },
-    {
-      "rank": 37,
+      "rank": 40,
       "participant": "Hugh K",
       "player": "Cody Gapko",
       "goals": 0
     },
     {
-      "rank": 38,
+      "rank": 41,
       "participant": "Jackson W",
       "player": "Ousmane Dembele",
       "goals": 0
     },
     {
-      "rank": 39,
+      "rank": 42,
       "participant": "Joel G",
       "player": "Lamine Yamal",
       "goals": 0
     },
     {
-      "rank": 40,
-      "participant": "Kamini G",
-      "player": "Harry Kane",
-      "goals": 0
-    },
-    {
-      "rank": 41,
+      "rank": 43,
       "participant": "Kate H",
       "player": "Mikel Oyarzabal",
       "goals": 0
     },
     {
-      "rank": 42,
-      "participant": "Michael C",
-      "player": "Harry Kane",
-      "goals": 0
-    },
-    {
-      "rank": 43,
+      "rank": 44,
       "participant": "Michael E",
       "player": "Lamine Yamal",
       "goals": 0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "participant": "Mitchell T",
       "player": "Mikel Oyarzabal",
-      "goals": 0
-    },
-    {
-      "rank": 45,
-      "participant": "Owen S",
-      "player": "Harry Kane",
       "goals": 0
     },
     {
