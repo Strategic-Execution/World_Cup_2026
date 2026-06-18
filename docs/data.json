@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18 18:57",
+  "lastUpdated": "2026-06-19 08:54",
   "teams": [
     {
       "name": "Mexico",
@@ -417,8 +417,8 @@
       "stage": "A",
       "home": "Czechia",
       "away": "South Africa",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "match": 26,
@@ -426,8 +426,8 @@
       "stage": "B",
       "home": "Switzerland",
       "away": "Bosnia and Herzegovina",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 1
     },
     {
       "match": 27,
@@ -1159,40 +1159,40 @@
       {
         "team": "Czechia",
         "group": "A",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 1,
-        "gf": 1,
-        "ga": 2,
-        "pts": 0
+        "gf": 2,
+        "ga": 3,
+        "pts": 2
       },
       {
         "team": "South Africa",
         "group": "A",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 1,
-        "gf": 0,
-        "ga": 2,
-        "pts": 0
+        "gf": 1,
+        "ga": 3,
+        "pts": 2
       }
     ],
     "B": [
       {
-        "team": "Canada",
+        "team": "Switzerland",
         "group": "B",
-        "p": 1,
-        "w": 0,
+        "p": 2,
+        "w": 1,
         "d": 1,
         "l": 0,
-        "gf": 1,
-        "ga": 1,
-        "pts": 2
+        "gf": 5,
+        "ga": 2,
+        "pts": 5
       },
       {
-        "team": "Bosnia and Herzegovina",
+        "team": "Canada",
         "group": "B",
         "p": 1,
         "w": 0,
@@ -1214,14 +1214,14 @@
         "pts": 2
       },
       {
-        "team": "Switzerland",
+        "team": "Bosnia and Herzegovina",
         "group": "B",
-        "p": 1,
+        "p": 2,
         "w": 0,
         "d": 1,
-        "l": 0,
-        "gf": 1,
-        "ga": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 5,
         "pts": 2
       }
     ],
@@ -1688,6 +1688,19 @@
   },
   "leaderboard": [
     {
+      "participant": "Andrew S",
+      "team": "Switzerland",
+      "points": 5,
+      "matchPoints": 5,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 1,
+      "gd": 3,
+      "gf": 5,
+      "ga": 2,
+      "rank": 1
+    },
+    {
       "participant": "Angelique B",
       "team": "Germany",
       "points": 3,
@@ -1698,7 +1711,7 @@
       "gd": 6,
       "gf": 7,
       "ga": 1,
-      "rank": 1
+      "rank": 2
     },
     {
       "participant": "Cheari L",
@@ -1711,7 +1724,7 @@
       "gd": 4,
       "gf": 5,
       "ga": 1,
-      "rank": 2
+      "rank": 3
     },
     {
       "participant": "Sean F",
@@ -1724,7 +1737,7 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 3
+      "rank": 4
     },
     {
       "participant": "Tamara E",
@@ -1737,7 +1750,7 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 4
+      "rank": 5
     },
     {
       "participant": "Michael E",
@@ -1750,7 +1763,7 @@
       "gd": 3,
       "gf": 3,
       "ga": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "participant": "Tanya O",
@@ -1763,7 +1776,7 @@
       "gd": 2,
       "gf": 4,
       "ga": 2,
-      "rank": 6
+      "rank": 7
     },
     {
       "participant": "Brad M",
@@ -1776,7 +1789,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 7
+      "rank": 8
     },
     {
       "participant": "Michael C",
@@ -1789,7 +1802,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 8
+      "rank": 9
     },
     {
       "participant": "Theo P",
@@ -1802,7 +1815,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Connor S",
@@ -1815,7 +1828,7 @@
       "gd": 2,
       "gf": 2,
       "ga": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Prasantha N",
@@ -1828,7 +1841,7 @@
       "gd": 2,
       "gf": 2,
       "ga": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "participant": "Kamini G",
@@ -1841,7 +1854,7 @@
       "gd": 1,
       "gf": 2,
       "ga": 1,
-      "rank": 12
+      "rank": 13
     },
     {
       "participant": "Elizabeth D",
@@ -1854,7 +1867,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Kate I",
@@ -1867,7 +1880,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "participant": "Phantom 5",
@@ -1880,7 +1893,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "participant": "Andrew K",
@@ -1893,7 +1906,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 16
+      "rank": 17
     },
     {
       "participant": "Jackson W",
@@ -1906,7 +1919,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 17
+      "rank": 18
     },
     {
       "participant": "Joel R",
@@ -1919,7 +1932,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 18
+      "rank": 19
     },
     {
       "participant": "Phantom 8",
@@ -1932,19 +1945,6 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 19
-    },
-    {
-      "participant": "Andrew S",
-      "team": "Switzerland",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
       "rank": 20
     },
     {
@@ -2065,19 +2065,6 @@
       "rank": 29
     },
     {
-      "participant": "Phantom 3",
-      "team": "Bosnia and Herzegovina",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
-      "rank": 30
-    },
-    {
       "participant": "Suhail J",
       "team": "DR Congo",
       "points": 2,
@@ -2088,7 +2075,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 31
+      "rank": 30
     },
     {
       "participant": "Gerard C",
@@ -2101,7 +2088,7 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 32
+      "rank": 31
     },
     {
       "participant": "Phantom 4",
@@ -2114,20 +2101,46 @@
       "gd": 0,
       "gf": 0,
       "ga": 0,
-      "rank": 33
+      "rank": 32
     },
     {
       "participant": "Mitchell W",
       "team": "Czechia",
-      "points": 0,
-      "matchPoints": 0,
+      "points": 2,
+      "matchPoints": 2,
       "quiz": 0,
       "wins": 0,
-      "draws": 0,
+      "draws": 1,
       "gd": -1,
+      "gf": 2,
+      "ga": 3,
+      "rank": 33
+    },
+    {
+      "participant": "Shane S",
+      "team": "South Africa",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": -2,
       "gf": 1,
-      "ga": 2,
+      "ga": 3,
       "rank": 34
+    },
+    {
+      "participant": "Phantom 3",
+      "team": "Bosnia and Herzegovina",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": -3,
+      "gf": 2,
+      "ga": 5,
+      "rank": 35
     },
     {
       "participant": "Mark K",
@@ -2140,7 +2153,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 35
+      "rank": 36
     },
     {
       "participant": "Phantom 7",
@@ -2153,7 +2166,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 36
+      "rank": 37
     },
     {
       "participant": "Sarah K",
@@ -2166,7 +2179,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 37
+      "rank": 38
     },
     {
       "participant": "Joel G",
@@ -2179,7 +2192,7 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 38
+      "rank": 39
     },
     {
       "participant": "Dionne H",
@@ -2192,7 +2205,7 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 39
+      "rank": 40
     },
     {
       "participant": "Jigar V",
@@ -2205,7 +2218,7 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 40
+      "rank": 41
     },
     {
       "participant": "Phantom 2",
@@ -2218,24 +2231,11 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 41
+      "rank": 42
     },
     {
       "participant": "Rodney T",
       "team": "Türkiye",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": -2,
-      "gf": 0,
-      "ga": 2,
-      "rank": 42
-    },
-    {
-      "participant": "Shane S",
-      "team": "South Africa",
       "points": 0,
       "matchPoints": 0,
       "quiz": 0,
