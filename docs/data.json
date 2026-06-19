@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19 10:28",
+  "lastUpdated": "2026-06-19 13:18",
   "teams": [
     {
       "name": "Mexico",
@@ -444,8 +444,8 @@
       "stage": "A",
       "home": "Mexico",
       "away": "South Korea",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "match": 29,
@@ -1137,23 +1137,23 @@
       {
         "team": "Mexico",
         "group": "A",
-        "p": 1,
-        "w": 1,
+        "p": 2,
+        "w": 2,
         "d": 0,
         "l": 0,
-        "gf": 2,
+        "gf": 3,
         "ga": 0,
-        "pts": 3
+        "pts": 6
       },
       {
         "team": "South Korea",
         "group": "A",
-        "p": 1,
+        "p": 2,
         "w": 1,
         "d": 0,
-        "l": 0,
+        "l": 1,
         "gf": 2,
-        "ga": 1,
+        "ga": 2,
         "pts": 3
       },
       {
@@ -1688,6 +1688,19 @@
   },
   "leaderboard": [
     {
+      "participant": "Connor S",
+      "team": "Mexico",
+      "points": 6,
+      "matchPoints": 6,
+      "quiz": 0,
+      "wins": 2,
+      "draws": 0,
+      "gd": 3,
+      "gf": 3,
+      "ga": 0,
+      "rank": 1
+    },
+    {
       "participant": "Kate H",
       "team": "Canada",
       "points": 5,
@@ -1698,7 +1711,7 @@
       "gd": 6,
       "gf": 7,
       "ga": 1,
-      "rank": 1
+      "rank": 2
     },
     {
       "participant": "Andrew S",
@@ -1711,7 +1724,7 @@
       "gd": 3,
       "gf": 5,
       "ga": 2,
-      "rank": 2
+      "rank": 3
     },
     {
       "participant": "Angelique B",
@@ -1724,7 +1737,7 @@
       "gd": 6,
       "gf": 7,
       "ga": 1,
-      "rank": 3
+      "rank": 4
     },
     {
       "participant": "Cheari L",
@@ -1737,7 +1750,7 @@
       "gd": 4,
       "gf": 5,
       "ga": 1,
-      "rank": 4
+      "rank": 5
     },
     {
       "participant": "Sean F",
@@ -1750,7 +1763,7 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 5
+      "rank": 6
     },
     {
       "participant": "Tamara E",
@@ -1763,7 +1776,7 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 6
+      "rank": 7
     },
     {
       "participant": "Michael E",
@@ -1776,7 +1789,7 @@
       "gd": 3,
       "gf": 3,
       "ga": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "participant": "Tanya O",
@@ -1789,7 +1802,7 @@
       "gd": 2,
       "gf": 4,
       "ga": 2,
-      "rank": 8
+      "rank": 9
     },
     {
       "participant": "Brad M",
@@ -1802,7 +1815,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Michael C",
@@ -1815,7 +1828,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Theo P",
@@ -1828,19 +1841,6 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 11
-    },
-    {
-      "participant": "Connor S",
-      "team": "Mexico",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
-      "gd": 2,
-      "gf": 2,
-      "ga": 0,
       "rank": 12
     },
     {
@@ -1857,19 +1857,6 @@
       "rank": 13
     },
     {
-      "participant": "Kamini G",
-      "team": "South Korea",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
-      "gd": 1,
-      "gf": 2,
-      "ga": 1,
-      "rank": 14
-    },
-    {
       "participant": "Elizabeth D",
       "team": "Scotland",
       "points": 3,
@@ -1880,7 +1867,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 15
+      "rank": 14
     },
     {
       "participant": "Kate I",
@@ -1893,7 +1880,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 16
+      "rank": 15
     },
     {
       "participant": "Phantom 5",
@@ -1906,6 +1893,19 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
+      "rank": 16
+    },
+    {
+      "participant": "Kamini G",
+      "team": "South Korea",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 0,
+      "gf": 2,
+      "ga": 2,
       "rank": 17
     },
     {
