@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19 13:18",
+  "lastUpdated": "2026-06-22 07:47",
   "teams": [
     {
       "name": "Mexico",
@@ -453,8 +453,8 @@
       "stage": "C",
       "home": "Brazil",
       "away": "Haiti",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 3,
+      "awayScore": 0
     },
     {
       "match": 30,
@@ -462,8 +462,8 @@
       "stage": "C",
       "home": "Scotland",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "match": 31,
@@ -471,8 +471,8 @@
       "stage": "D",
       "home": "Türkiye",
       "away": "Paraguay",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "match": 32,
@@ -480,8 +480,8 @@
       "stage": "D",
       "home": "United States",
       "away": "Australia",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "match": 33,
@@ -489,8 +489,8 @@
       "stage": "E",
       "home": "Germany",
       "away": "Ivory Coast",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "match": 34,
@@ -498,8 +498,8 @@
       "stage": "E",
       "home": "Ecuador",
       "away": "Curaçao",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "match": 35,
@@ -507,8 +507,8 @@
       "stage": "F",
       "home": "Netherlands",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 5,
+      "awayScore": 1
     },
     {
       "match": 36,
@@ -516,8 +516,8 @@
       "stage": "F",
       "home": "Tunisia",
       "away": "Japan",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 4
     },
     {
       "match": 37,
@@ -534,8 +534,8 @@
       "stage": "H",
       "home": "Spain",
       "away": "Saudi Arabia",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 0
     },
     {
       "match": 39,
@@ -543,8 +543,8 @@
       "stage": "G",
       "home": "Belgium",
       "away": "Iran",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "match": 40,
@@ -1227,47 +1227,47 @@
     ],
     "C": [
       {
-        "team": "Scotland",
-        "group": "C",
-        "p": 1,
-        "w": 1,
-        "d": 0,
-        "l": 0,
-        "gf": 1,
-        "ga": 0,
-        "pts": 3
-      },
-      {
         "team": "Brazil",
         "group": "C",
-        "p": 1,
-        "w": 0,
+        "p": 2,
+        "w": 1,
         "d": 1,
         "l": 0,
-        "gf": 1,
+        "gf": 4,
         "ga": 1,
-        "pts": 2
+        "pts": 5
       },
       {
         "team": "Morocco",
         "group": "C",
-        "p": 1,
-        "w": 0,
+        "p": 2,
+        "w": 1,
         "d": 1,
         "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 5
+      },
+      {
+        "team": "Scotland",
+        "group": "C",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
         "gf": 1,
         "ga": 1,
-        "pts": 2
+        "pts": 3
       },
       {
         "team": "Haiti",
         "group": "C",
-        "p": 1,
+        "p": 2,
         "w": 0,
         "d": 0,
-        "l": 1,
+        "l": 2,
         "gf": 0,
-        "ga": 1,
+        "ga": 4,
         "pts": 0
       }
     ],
@@ -1275,45 +1275,45 @@
       {
         "team": "United States",
         "group": "D",
-        "p": 1,
-        "w": 1,
+        "p": 2,
+        "w": 2,
         "d": 0,
         "l": 0,
-        "gf": 4,
+        "gf": 6,
         "ga": 1,
-        "pts": 3
+        "pts": 6
       },
       {
         "team": "Australia",
         "group": "D",
-        "p": 1,
+        "p": 2,
         "w": 1,
         "d": 0,
-        "l": 0,
+        "l": 1,
         "gf": 2,
-        "ga": 0,
+        "ga": 2,
+        "pts": 3
+      },
+      {
+        "team": "Paraguay",
+        "group": "D",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
         "pts": 3
       },
       {
         "team": "Türkiye",
         "group": "D",
-        "p": 1,
+        "p": 2,
         "w": 0,
         "d": 0,
-        "l": 1,
+        "l": 2,
         "gf": 0,
-        "ga": 2,
-        "pts": 0
-      },
-      {
-        "team": "Paraguay",
-        "group": "D",
-        "p": 1,
-        "w": 0,
-        "d": 0,
-        "l": 1,
-        "gf": 1,
-        "ga": 4,
+        "ga": 3,
         "pts": 0
       }
     ],
@@ -1321,91 +1321,91 @@
       {
         "team": "Germany",
         "group": "E",
-        "p": 1,
-        "w": 1,
+        "p": 2,
+        "w": 2,
         "d": 0,
         "l": 0,
-        "gf": 7,
-        "ga": 1,
-        "pts": 3
+        "gf": 9,
+        "ga": 2,
+        "pts": 6
       },
       {
         "team": "Ivory Coast",
         "group": "E",
-        "p": 1,
+        "p": 2,
         "w": 1,
         "d": 0,
-        "l": 0,
-        "gf": 1,
-        "ga": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
         "pts": 3
       },
       {
         "team": "Ecuador",
         "group": "E",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 1,
         "gf": 0,
         "ga": 1,
-        "pts": 0
+        "pts": 2
       },
       {
         "team": "Curaçao",
         "group": "E",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 0,
+        "d": 1,
         "l": 1,
         "gf": 1,
         "ga": 7,
-        "pts": 0
+        "pts": 2
       }
     ],
     "F": [
       {
-        "team": "Sweden",
-        "group": "F",
-        "p": 1,
-        "w": 1,
-        "d": 0,
-        "l": 0,
-        "gf": 5,
-        "ga": 1,
-        "pts": 3
-      },
-      {
         "team": "Netherlands",
         "group": "F",
-        "p": 1,
-        "w": 0,
+        "p": 2,
+        "w": 1,
         "d": 1,
         "l": 0,
-        "gf": 2,
-        "ga": 2,
-        "pts": 2
+        "gf": 7,
+        "ga": 3,
+        "pts": 5
       },
       {
         "team": "Japan",
         "group": "F",
-        "p": 1,
-        "w": 0,
+        "p": 2,
+        "w": 1,
         "d": 1,
         "l": 0,
-        "gf": 2,
+        "gf": 6,
         "ga": 2,
-        "pts": 2
+        "pts": 5
+      },
+      {
+        "team": "Sweden",
+        "group": "F",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 6,
+        "ga": 6,
+        "pts": 3
       },
       {
         "team": "Tunisia",
         "group": "F",
-        "p": 1,
+        "p": 2,
         "w": 0,
         "d": 0,
-        "l": 1,
+        "l": 2,
         "gf": 1,
-        "ga": 5,
+        "ga": 9,
         "pts": 0
       }
     ],
@@ -1413,13 +1413,24 @@
       {
         "team": "Iran",
         "group": "G",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 0,
         "gf": 2,
         "ga": 2,
-        "pts": 2
+        "pts": 4
+      },
+      {
+        "team": "Belgium",
+        "group": "G",
+        "p": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 4
       },
       {
         "team": "New Zealand",
@@ -1430,17 +1441,6 @@
         "l": 0,
         "gf": 2,
         "ga": 2,
-        "pts": 2
-      },
-      {
-        "team": "Belgium",
-        "group": "G",
-        "p": 1,
-        "w": 0,
-        "d": 1,
-        "l": 0,
-        "gf": 1,
-        "ga": 1,
         "pts": 2
       },
       {
@@ -1457,15 +1457,15 @@
     ],
     "H": [
       {
-        "team": "Saudi Arabia",
+        "team": "Spain",
         "group": "H",
-        "p": 1,
-        "w": 0,
+        "p": 2,
+        "w": 1,
         "d": 1,
         "l": 0,
-        "gf": 1,
-        "ga": 1,
-        "pts": 2
+        "gf": 4,
+        "ga": 0,
+        "pts": 5
       },
       {
         "team": "Uruguay",
@@ -1479,7 +1479,7 @@
         "pts": 2
       },
       {
-        "team": "Spain",
+        "team": "Cape Verde",
         "group": "H",
         "p": 1,
         "w": 0,
@@ -1490,14 +1490,14 @@
         "pts": 2
       },
       {
-        "team": "Cape Verde",
+        "team": "Saudi Arabia",
         "group": "H",
-        "p": 1,
+        "p": 2,
         "w": 0,
         "d": 1,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 5,
         "pts": 2
       }
     ],
@@ -1688,6 +1688,32 @@
   },
   "leaderboard": [
     {
+      "participant": "Angelique B",
+      "team": "Germany",
+      "points": 6,
+      "matchPoints": 6,
+      "quiz": 0,
+      "wins": 2,
+      "draws": 0,
+      "gd": 7,
+      "gf": 9,
+      "ga": 2,
+      "rank": 1
+    },
+    {
+      "participant": "Sean F",
+      "team": "United States",
+      "points": 6,
+      "matchPoints": 6,
+      "quiz": 0,
+      "wins": 2,
+      "draws": 0,
+      "gd": 5,
+      "gf": 6,
+      "ga": 1,
+      "rank": 2
+    },
+    {
       "participant": "Connor S",
       "team": "Mexico",
       "points": 6,
@@ -1698,7 +1724,7 @@
       "gd": 3,
       "gf": 3,
       "ga": 0,
-      "rank": 1
+      "rank": 3
     },
     {
       "participant": "Kate H",
@@ -1711,7 +1737,46 @@
       "gd": 6,
       "gf": 7,
       "ga": 1,
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "participant": "Joel R",
+      "team": "Netherlands",
+      "points": 5,
+      "matchPoints": 5,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 1,
+      "gd": 4,
+      "gf": 7,
+      "ga": 3,
+      "rank": 5
+    },
+    {
+      "participant": "Jackson W",
+      "team": "Japan",
+      "points": 5,
+      "matchPoints": 5,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 1,
+      "gd": 4,
+      "gf": 6,
+      "ga": 2,
+      "rank": 6
+    },
+    {
+      "participant": "Gerard C",
+      "team": "Spain",
+      "points": 5,
+      "matchPoints": 5,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 1,
+      "gd": 4,
+      "gf": 4,
+      "ga": 0,
+      "rank": 7
     },
     {
       "participant": "Andrew S",
@@ -1724,46 +1789,59 @@
       "gd": 3,
       "gf": 5,
       "ga": 2,
-      "rank": 3
+      "rank": 8
     },
     {
-      "participant": "Angelique B",
-      "team": "Germany",
-      "points": 3,
-      "matchPoints": 3,
+      "participant": "Beau P",
+      "team": "Brazil",
+      "points": 5,
+      "matchPoints": 5,
       "quiz": 0,
       "wins": 1,
-      "draws": 0,
-      "gd": 6,
-      "gf": 7,
-      "ga": 1,
-      "rank": 4
-    },
-    {
-      "participant": "Cheari L",
-      "team": "Sweden",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
-      "gd": 4,
-      "gf": 5,
-      "ga": 1,
-      "rank": 5
-    },
-    {
-      "participant": "Sean F",
-      "team": "United States",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 6
+      "rank": 9
+    },
+    {
+      "participant": "Krystal G",
+      "team": "Morocco",
+      "points": 5,
+      "matchPoints": 5,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 1,
+      "gd": 1,
+      "gf": 2,
+      "ga": 1,
+      "rank": 10
+    },
+    {
+      "participant": "Andrew K",
+      "team": "Iran",
+      "points": 4,
+      "matchPoints": 4,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 2,
+      "gd": 0,
+      "gf": 2,
+      "ga": 2,
+      "rank": 11
+    },
+    {
+      "participant": "Lorraine M",
+      "team": "Belgium",
+      "points": 4,
+      "matchPoints": 4,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 2,
+      "gd": 0,
+      "gf": 1,
+      "ga": 1,
+      "rank": 12
     },
     {
       "participant": "Tamara E",
@@ -1776,7 +1854,7 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 7
+      "rank": 13
     },
     {
       "participant": "Michael E",
@@ -1789,7 +1867,7 @@
       "gd": 3,
       "gf": 3,
       "ga": 0,
-      "rank": 8
+      "rank": 14
     },
     {
       "participant": "Tanya O",
@@ -1802,7 +1880,7 @@
       "gd": 2,
       "gf": 4,
       "ga": 2,
-      "rank": 9
+      "rank": 15
     },
     {
       "participant": "Brad M",
@@ -1815,7 +1893,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 10
+      "rank": 16
     },
     {
       "participant": "Michael C",
@@ -1828,7 +1906,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 11
+      "rank": 17
     },
     {
       "participant": "Theo P",
@@ -1841,46 +1919,7 @@
       "gd": 2,
       "gf": 3,
       "ga": 1,
-      "rank": 12
-    },
-    {
-      "participant": "Prasantha N",
-      "team": "Australia",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
-      "gd": 2,
-      "gf": 2,
-      "ga": 0,
-      "rank": 13
-    },
-    {
-      "participant": "Elizabeth D",
-      "team": "Scotland",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
-      "gd": 1,
-      "gf": 1,
-      "ga": 0,
-      "rank": 14
-    },
-    {
-      "participant": "Kate I",
-      "team": "Ivory Coast",
-      "points": 3,
-      "matchPoints": 3,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 0,
-      "gd": 1,
-      "gf": 1,
-      "ga": 0,
-      "rank": 15
+      "rank": 18
     },
     {
       "participant": "Phantom 5",
@@ -1893,7 +1932,20 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 16
+      "rank": 19
+    },
+    {
+      "participant": "Cheari L",
+      "team": "Sweden",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": 0,
+      "gf": 6,
+      "ga": 6,
+      "rank": 20
     },
     {
       "participant": "Kamini G",
@@ -1906,46 +1958,59 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 17
+      "rank": 21
     },
     {
-      "participant": "Andrew K",
-      "team": "Iran",
-      "points": 2,
-      "matchPoints": 2,
+      "participant": "Kate I",
+      "team": "Ivory Coast",
+      "points": 3,
+      "matchPoints": 3,
       "quiz": 0,
-      "wins": 0,
-      "draws": 1,
+      "wins": 1,
+      "draws": 0,
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 18
+      "rank": 22
     },
     {
-      "participant": "Jackson W",
-      "team": "Japan",
-      "points": 2,
-      "matchPoints": 2,
+      "participant": "Prasantha N",
+      "team": "Australia",
+      "points": 3,
+      "matchPoints": 3,
       "quiz": 0,
-      "wins": 0,
-      "draws": 1,
+      "wins": 1,
+      "draws": 0,
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 19
+      "rank": 23
     },
     {
-      "participant": "Joel R",
-      "team": "Netherlands",
-      "points": 2,
-      "matchPoints": 2,
+      "participant": "Elizabeth D",
+      "team": "Scotland",
+      "points": 3,
+      "matchPoints": 3,
       "quiz": 0,
-      "wins": 0,
-      "draws": 1,
+      "wins": 1,
+      "draws": 0,
       "gd": 0,
+      "gf": 1,
+      "ga": 1,
+      "rank": 24
+    },
+    {
+      "participant": "Reg P",
+      "team": "Paraguay",
+      "points": 3,
+      "matchPoints": 3,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 0,
+      "gd": -2,
       "gf": 2,
-      "ga": 2,
-      "rank": 20
+      "ga": 4,
+      "rank": 25
     },
     {
       "participant": "Phantom 8",
@@ -1958,20 +2023,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 21
-    },
-    {
-      "participant": "Beau P",
-      "team": "Brazil",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
-      "rank": 22
+      "rank": 26
     },
     {
       "participant": "Hugh K",
@@ -1984,33 +2036,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 23
-    },
-    {
-      "participant": "Krystal G",
-      "team": "Morocco",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
-      "rank": 24
-    },
-    {
-      "participant": "Lorraine M",
-      "team": "Belgium",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
-      "rank": 25
+      "rank": 27
     },
     {
       "participant": "Mitchell T",
@@ -2023,7 +2049,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 26
+      "rank": 28
     },
     {
       "participant": "Owen S",
@@ -2036,20 +2062,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 27
-    },
-    {
-      "participant": "Phantom 1",
-      "team": "Saudi Arabia",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
-      "rank": 28
+      "rank": 29
     },
     {
       "participant": "Suhail J",
@@ -2062,19 +2075,6 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 29
-    },
-    {
-      "participant": "Gerard C",
-      "team": "Spain",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
       "rank": 30
     },
     {
@@ -2104,6 +2104,19 @@
       "rank": 32
     },
     {
+      "participant": "Sarah K",
+      "team": "Ecuador",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": -1,
+      "gf": 0,
+      "ga": 1,
+      "rank": 33
+    },
+    {
       "participant": "Shane S",
       "team": "South Africa",
       "points": 2,
@@ -2114,7 +2127,7 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 33
+      "rank": 34
     },
     {
       "participant": "Phantom 3",
@@ -2127,7 +2140,20 @@
       "gd": -3,
       "gf": 2,
       "ga": 5,
-      "rank": 34
+      "rank": 35
+    },
+    {
+      "participant": "Phantom 1",
+      "team": "Saudi Arabia",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": -4,
+      "gf": 1,
+      "ga": 5,
+      "rank": 36
     },
     {
       "participant": "Matthew J",
@@ -2140,7 +2166,20 @@
       "gd": -6,
       "gf": 1,
       "ga": 7,
-      "rank": 35
+      "rank": 37
+    },
+    {
+      "participant": "Phantom 6",
+      "team": "Curaçao",
+      "points": 2,
+      "matchPoints": 2,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 1,
+      "gd": -6,
+      "gf": 1,
+      "ga": 7,
+      "rank": 38
     },
     {
       "participant": "Mark K",
@@ -2153,33 +2192,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 36
-    },
-    {
-      "participant": "Phantom 7",
-      "team": "Haiti",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": -1,
-      "gf": 0,
-      "ga": 1,
-      "rank": 37
-    },
-    {
-      "participant": "Sarah K",
-      "team": "Ecuador",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": -1,
-      "gf": 0,
-      "ga": 1,
-      "rank": 38
+      "rank": 39
     },
     {
       "participant": "Joel G",
@@ -2192,7 +2205,7 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 39
+      "rank": 40
     },
     {
       "participant": "Dionne H",
@@ -2205,7 +2218,7 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 40
+      "rank": 41
     },
     {
       "participant": "Jigar V",
@@ -2218,7 +2231,7 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 41
+      "rank": 42
     },
     {
       "participant": "Phantom 2",
@@ -2231,33 +2244,7 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
-      "rank": 42
-    },
-    {
-      "participant": "Rodney T",
-      "team": "Türkiye",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": -2,
-      "gf": 0,
-      "ga": 2,
       "rank": 43
-    },
-    {
-      "participant": "Reg P",
-      "team": "Paraguay",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": -3,
-      "gf": 1,
-      "ga": 4,
-      "rank": 44
     },
     {
       "participant": "Theresa M",
@@ -2270,7 +2257,7 @@
       "gd": -3,
       "gf": 1,
       "ga": 4,
-      "rank": 45
+      "rank": 44
     },
     {
       "participant": "Helen P",
@@ -2283,7 +2270,33 @@
       "gd": -3,
       "gf": 0,
       "ga": 3,
+      "rank": 45
+    },
+    {
+      "participant": "Rodney T",
+      "team": "Türkiye",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -3,
+      "gf": 0,
+      "ga": 3,
       "rank": 46
+    },
+    {
+      "participant": "Phantom 7",
+      "team": "Haiti",
+      "points": 0,
+      "matchPoints": 0,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 0,
+      "gd": -4,
+      "gf": 0,
+      "ga": 4,
+      "rank": 47
     },
     {
       "participant": "Cyndie B",
@@ -2293,22 +2306,9 @@
       "quiz": 0,
       "wins": 0,
       "draws": 0,
-      "gd": -4,
+      "gd": -8,
       "gf": 1,
-      "ga": 5,
-      "rank": 47
-    },
-    {
-      "participant": "Phantom 6",
-      "team": "Curaçao",
-      "points": 0,
-      "matchPoints": 0,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 0,
-      "gd": -6,
-      "gf": 1,
-      "ga": 7,
+      "ga": 9,
       "rank": 48
     }
   ],
@@ -2417,170 +2417,170 @@
     },
     {
       "rank": 18,
+      "participant": "Hugh K",
+      "player": "Cody Gakpo",
+      "goals": 2
+    },
+    {
+      "rank": 19,
       "participant": "Joel R",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 19,
+      "rank": 20,
       "participant": "Kamini G",
       "player": "Harry Kane",
       "goals": 2
     },
     {
-      "rank": 20,
+      "rank": 21,
+      "participant": "Kate H",
+      "player": "Mikel Oyarzabal",
+      "goals": 2
+    },
+    {
+      "rank": 22,
       "participant": "Lorraine M",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 21,
+      "rank": 23,
       "participant": "Mark K",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 22,
+      "rank": 24,
       "participant": "Matthew J",
       "player": "Erling Haaland",
       "goals": 2
     },
     {
-      "rank": 23,
+      "rank": 25,
       "participant": "Michael C",
       "player": "Harry Kane",
       "goals": 2
     },
     {
-      "rank": 24,
+      "rank": 26,
+      "participant": "Mitchell T",
+      "player": "Mikel Oyarzabal",
+      "goals": 2
+    },
+    {
+      "rank": 27,
       "participant": "Mitchell W",
       "player": "Erling Haaland",
       "goals": 2
     },
     {
-      "rank": 25,
+      "rank": 28,
       "participant": "Owen S",
       "player": "Harry Kane",
       "goals": 2
     },
     {
-      "rank": 26,
+      "rank": 29,
       "participant": "Phantom 1",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 27,
+      "rank": 30,
       "participant": "Phantom 2",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 28,
+      "rank": 31,
       "participant": "Phantom 3",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 29,
+      "rank": 32,
       "participant": "Phantom 4",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 30,
+      "rank": 33,
       "participant": "Phantom 5",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 31,
+      "rank": 34,
       "participant": "Phantom 6",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 32,
+      "rank": 35,
       "participant": "Phantom 7",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 33,
+      "rank": 36,
       "participant": "Phantom 8",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 34,
+      "rank": 37,
       "participant": "Reg P",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 35,
+      "rank": 38,
       "participant": "Sean F",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 36,
+      "rank": 39,
       "participant": "Suhail J",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 37,
+      "rank": 40,
       "participant": "Tamara E",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 38,
+      "rank": 41,
       "participant": "Theo P",
       "player": "Kylian Mbappé",
       "goals": 2
     },
     {
-      "rank": 39,
+      "rank": 42,
+      "participant": "Joel G",
+      "player": "Lamine Yamal",
+      "goals": 1
+    },
+    {
+      "rank": 43,
+      "participant": "Michael E",
+      "player": "Lamine Yamal",
+      "goals": 1
+    },
+    {
+      "rank": 44,
       "participant": "Brad M",
       "player": "Lautaro Martínez",
       "goals": 0
     },
     {
-      "rank": 40,
-      "participant": "Hugh K",
-      "player": "Cody Gapko",
-      "goals": 0
-    },
-    {
-      "rank": 41,
+      "rank": 45,
       "participant": "Jackson W",
       "player": "Ousmane Dembele",
-      "goals": 0
-    },
-    {
-      "rank": 42,
-      "participant": "Joel G",
-      "player": "Lamine Yamal",
-      "goals": 0
-    },
-    {
-      "rank": 43,
-      "participant": "Kate H",
-      "player": "Mikel Oyarzabal",
-      "goals": 0
-    },
-    {
-      "rank": 44,
-      "participant": "Michael E",
-      "player": "Lamine Yamal",
-      "goals": 0
-    },
-    {
-      "rank": 45,
-      "participant": "Mitchell T",
-      "player": "Mikel Oyarzabal",
       "goals": 0
     },
     {
