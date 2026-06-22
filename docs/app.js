@@ -37,6 +37,7 @@ async function init() {
         renderFixtures();
         renderGroups();
         renderGoldenBoot();
+            renderQuizAndSideQuests();
         setupNav();
         setupFilters();
     } catch (err) {
@@ -74,7 +75,7 @@ function renderLeaderboard() {
             <div class="podium-name">${escapeHtml(e.participant)}</div>
             <div class="podium-team">${escapeHtml(e.team)}</div>
             <div class="podium-pts">${e.points}</div>
-            <div class="podium-pts-label">points</div>
+            <div class="podium-pts-label">sweep points</div>
         </div>
     `).join('');
 
@@ -86,8 +87,7 @@ function renderLeaderboard() {
             <td class="rank-cell ${rankClass}">${e.rank}</td>
             <td>${escapeHtml(e.participant)}</td>
             <td><div class="team-cell">${flagImg(e.team)} <span>${escapeHtml(e.team)}</span></div></td>
-            <td class="pts-cell">${e.points}</td>
-            <td class="num-cell">${e.quiz}</td>
+            <td class="pts-cell">${e.matchPoints}</td>
             <td class="num-cell">${e.wins}</td>
             <td class="num-cell">${e.draws}</td>
             <td class="num-cell">${e.gf}</td>
@@ -95,6 +95,25 @@ function renderLeaderboard() {
             <td class="num-cell">${e.gd}</td>
         </tr>`;
     }).join('');
+// --- QUIZ AND SIDE QUESTS ---
+function renderQuizAndSideQuests() {
+    if (!DATA.quizAndSideQuests) return;
+    const tbody = document.querySelector('#quizAndSideQuestsTable tbody');
+    const filtered = DATA.quizAndSideQuests.filter(e => !/^Phantom\s?\d*$/i.test(e.participant));
+    let rank = 0;
+    tbody.innerHTML = filtered.map((e, i) => {
+        rank = i + 1;
+        const cls = i < 3 ? ' class="top-three"' : '';
+        return `<tr${cls}>
+            <td class="col-rank">${rank}</td>
+            <td class="col-name">${escapeHtml(e.participant)}</td>
+            <td class="col-num">${e.quizPoints}</td>
+            <td class="col-num">${e.goldenBootGoals}</td>
+            <td class="col-num"><strong>${e.points}</strong></td>
+        </tr>`;
+    }).join('');
+}
+
 }
 
 // --- FIXTURES ---

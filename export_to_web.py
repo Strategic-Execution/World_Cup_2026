@@ -30,6 +30,7 @@ def export():
         "fixtures": extract_fixtures(wb),
         "groups": build_group_standings(wb),
         "leaderboard": extract_leaderboard(wb),
+        "quizAndSideQuests": extract_quiz_and_side_quests(wb),
         "goldenBoot": extract_golden_boot(wb),
     }
 
@@ -247,13 +248,68 @@ def extract_leaderboard(wb):
         })
 
     # Sort: points desc → goal difference desc → goals scored desc → alphabetical
-    entries.sort(key=lambda x: (-x["points"], -x["gd"], -x["gf"], x["participant"]))
+    entries.sort(key=lambda x: (-x["matchPoints"], -x["gd"], -x["gf"], x["participant"]))
 
     # Add rank
     for i, e in enumerate(entries):
         e["rank"] = i + 1
 
     return entries
+def extract_quiz_and_side_quests(wb):
+    """Extract quiz and side quests leaderboard combined with golden boot goals."""
+    ws = wb["Allocation"]
+    
+    # Read quiz/side quest scores from Quiz sheet (col B = participant, col M = total)
+    quiz_scores = {}
+    if "Quiz" in wb.sheetnames:
+        ws_quiz = wb["Quiz"]
+        for row in range(5, 200):
+            name = ws_quiz.cell(row=row, column=2).value
+            if not name:
+                break
+            total = ws_quiz.cell(row=row, column=13).value
+            quiz_scores[str(name).strip()] = int(total) if total else 0
+    
+    # Read golden boot goals by participant
+    golden_boot_goals = {}
+    if "Golden Boot" in wb.sheetnames:
+        ws_gb = wb["Golden Boot"]
+        for row in range(6, 200):
+            participant = ws_gb.cell(row=row, column=12).value
+            goals = ws_gb.cell(row=row, column=14).value
+            if not participant:
+                break
+            golden_boot_goals[str(participant).strip()] = int(goals) if goals else 0
+    
+    # Build entries from participants
+    entries = []
+    for row in range(6, 200):
+        participant = ws.cell(row=row, column=2).value
+        if not participant:
+            break
+        quiz = quiz_scores.get(str(participant).strip(), 0)
+        gb_goals = golden_boot_goals.get(str(participant).strip(), 0)
+        total_pts = quiz + gb_goals
+        # Privacy: show "First L" instead of full name
+        name_parts = str(participant).strip().split()
+        display_name = name_parts[0] + " " + name_parts[-1][0] if len(name_parts) > 1 else name_parts[0]
+        entries.append({
+            "participant": display_name,
+            "quizPoints": quiz,
+            "goldenBootGoals": gb_goals,
+            "points": total_pts,
+        })
+    
+    # Sort by total points desc, then alphabetical
+    entries.sort(key=lambda x: (-x["points"], x["participant"]))
+    
+    # Add rank
+    for i, e in enumerate(entries):
+        e["rank"] = i + 1
+    
+    return entries
+
+
 
 
 def extract_golden_boot(wb):
