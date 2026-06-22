@@ -73,7 +73,7 @@ function renderLeaderboard() {
             ${flagImg(e.team, 48)}
             <div class="podium-name">${escapeHtml(e.participant)}</div>
             <div class="podium-team">${escapeHtml(e.team)}</div>
-            <div class="podium-pts">${e.points}</div>
+            <div class="podium-pts">${e.matchPoints}</div>
             <div class="podium-pts-label">sweep points</div>
         </div>
     `).join('');
