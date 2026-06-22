@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22 09:18",
+  "lastUpdated": "2026-06-22 10:12",
   "teams": [
     {
       "name": "Mexico",
@@ -525,8 +525,8 @@
       "stage": "H",
       "home": "Uruguay",
       "away": "Cape Verde",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "match": 38,
@@ -1470,24 +1470,24 @@
       {
         "team": "Uruguay",
         "group": "H",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 0,
-        "gf": 1,
-        "ga": 1,
-        "pts": 2
+        "gf": 3,
+        "ga": 3,
+        "pts": 4
       },
       {
         "team": "Cape Verde",
         "group": "H",
-        "p": 1,
+        "p": 2,
         "w": 0,
-        "d": 1,
+        "d": 2,
         "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 2
+        "gf": 2,
+        "ga": 2,
+        "pts": 4
       },
       {
         "team": "Saudi Arabia",
@@ -2130,6 +2130,32 @@
       "rank": 34
     },
     {
+      "participant": "Hugh K",
+      "team": "Uruguay",
+      "points": 4,
+      "matchPoints": 4,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 2,
+      "gd": 0,
+      "gf": 3,
+      "ga": 3,
+      "rank": 35
+    },
+    {
+      "participant": "Phantom 4",
+      "team": "Cape Verde",
+      "points": 4,
+      "matchPoints": 4,
+      "quiz": 0,
+      "wins": 0,
+      "draws": 2,
+      "gd": 0,
+      "gf": 2,
+      "ga": 2,
+      "rank": 36
+    },
+    {
       "participant": "Lorraine M",
       "team": "Belgium",
       "points": 4,
@@ -2140,7 +2166,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 35
+      "rank": 37
     },
     {
       "participant": "Phantom 5",
@@ -2153,7 +2179,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 36
+      "rank": 38
     },
     {
       "participant": "Kate I",
@@ -2166,7 +2192,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 37
+      "rank": 39
     },
     {
       "participant": "Prasantha N",
@@ -2179,7 +2205,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 38
+      "rank": 40
     },
     {
       "participant": "Reg P",
@@ -2192,7 +2218,7 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 39
+      "rank": 41
     },
     {
       "participant": "Phantom 8",
@@ -2205,20 +2231,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 40
-    },
-    {
-      "participant": "Hugh K",
-      "team": "Uruguay",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 1,
-      "ga": 1,
-      "rank": 41
+      "rank": 42
     },
     {
       "participant": "Suhail J",
@@ -2231,19 +2244,6 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 42
-    },
-    {
-      "participant": "Phantom 4",
-      "team": "Cape Verde",
-      "points": 2,
-      "matchPoints": 2,
-      "quiz": 0,
-      "wins": 0,
-      "draws": 1,
-      "gd": 0,
-      "gf": 0,
-      "ga": 0,
       "rank": 43
     },
     {
