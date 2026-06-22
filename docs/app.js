@@ -36,8 +36,7 @@ async function init() {
         renderLeaderboard();
         renderFixtures();
         renderGroups();
-        renderGoldenBoot();
-            renderQuizAndSideQuests();
+        renderQuizAndSideQuests();
         setupNav();
         setupFilters();
     } catch (err) {
@@ -95,6 +94,8 @@ function renderLeaderboard() {
             <td class="num-cell">${e.gd}</td>
         </tr>`;
     }).join('');
+}
+
 // --- QUIZ AND SIDE QUESTS ---
 function renderQuizAndSideQuests() {
     if (!DATA.quizAndSideQuests) return;
@@ -112,8 +113,6 @@ function renderQuizAndSideQuests() {
             <td class="col-num"><strong>${e.points}</strong></td>
         </tr>`;
     }).join('');
-}
-
 }
 
 // --- FIXTURES ---
@@ -365,24 +364,6 @@ function escapeHtml(str) {
     const d = document.createElement('div');
     d.textContent = str;
     return d.innerHTML;
-}
-
-// --- GOLDEN BOOT ---
-function renderGoldenBoot() {
-    if (!DATA.goldenBoot) return;
-    const tbody = document.querySelector('#goldenBootTable tbody');
-    const filtered = DATA.goldenBoot.filter(e => !/^Phantom\s?\d*$/i.test(e.participant));
-    let rank = 0;
-    tbody.innerHTML = filtered.map((e, i) => {
-        rank = i + 1;
-        const cls = i < 3 ? ' class="top-three"' : '';
-        return `<tr${cls}>
-            <td class="col-rank">${rank}</td>
-            <td class="col-name">${escapeHtml(e.participant)}</td>
-            <td class="col-team">${escapeHtml(e.player)}</td>
-            <td class="col-num">${e.goals}</td>
-        </tr>`;
-    }).join('');
 }
 
 document.addEventListener('DOMContentLoaded', init);

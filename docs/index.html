@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=202606221313">
+    <link rel="stylesheet" href="style.css?v=202606221318">
 </head>
 <body>
     <header>
@@ -118,36 +118,19 @@
         <!-- GROUPS TAB -->
         <section id="groups" class="tab-content">
             <div class="groups-grid" id="groupsGrid"></div>
-                <!-- QUIZ AND SIDE QUESTS TAB -->
-                <section id="quizAndSideQuests" class="tab-content">
-                    <div class="card">
-                        <table id="quizAndSideQuestsTable">
-                            <thead>
-                                <tr>
-                                    <th class="col-rank">#</th>
-                                    <th class="col-name">Participant</th>
-                                    <th class="col-num">Quiz & Side Quests</th>
-                                    <th class="col-num">Golden Boot Goals</th>
-                                    <th class="col-num">Total</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                </section>
-
         </section>
 
-        <!-- GOLDEN BOOT TAB -->
-        <section id="goldenBoot" class="tab-content">
+        <!-- GOLDEN BOOT + QUIZ + SIDE QUESTS TAB -->
+        <section id="quizAndSideQuests" class="tab-content">
             <div class="card">
-                <table id="goldenBootTable">
+                <table id="quizAndSideQuestsTable">
                     <thead>
                         <tr>
                             <th class="col-rank">#</th>
                             <th class="col-name">Participant</th>
-                            <th class="col-team">Player</th>
-                            <th class="col-num">Goals</th>
+                            <th class="col-num">Quiz & Side Quests</th>
+                            <th class="col-num">Golden Boot Goals</th>
+                            <th class="col-num">Total</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -160,7 +143,7 @@
         <p>World Cup 2026 Sweepstake</p>
     </footer>
 
-    <script src="app.js?v=202606221313"></script>
+    <script src="app.js?v=202606221318"></script>
     <script>
         document.getElementById('openRules').addEventListener('click', () => {
             document.getElementById('rulesModal').classList.add('active');
