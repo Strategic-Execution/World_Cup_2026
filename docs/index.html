@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=202606221353">
+    <link rel="stylesheet" href="style.css?v=202606221356">
 </head>
 <body>
     <header>
@@ -30,7 +30,9 @@
 
     <nav>
         <div class="nav-inner">
-            <button class="nav-btn active" data-tab="leaderboard">Leaderboard</button>
+            <button class="nav-btn active" data-tab="leaderboard">Sweep Leaderboard</button>
+            <button class="nav-btn" data-tab="quizOnly">Quiz &amp; Side Quests Leaderboard</button>
+            <button class="nav-btn" data-tab="quizAndSideQuests">Golden Boot + Quiz + Side Quests Leaderboard</button>
             <button class="nav-btn" data-tab="fixtures">Fixtures</button>
             <button class="nav-btn" data-tab="groups">Groups</button>
             <button class="nav-btn info-btn" id="openRules">&#9432; How It Works</button>
@@ -72,70 +74,60 @@
     </div>
 
     <main>
-        <!-- LEADERBOARD TAB -->
+        <!-- SWEEP LEADERBOARD TAB -->
         <section id="leaderboard" class="tab-content active">
             <div class="podium" id="podium"></div>
-            <div class="leaderboards-grid">
+            <div class="card">
+                <table id="leaderboardTable">
+                    <thead>
+                        <tr>
+                            <th class="col-rank">#</th>
+                            <th class="col-name">Participant</th>
+                            <th class="col-team">Team</th>
+                            <th class="col-num">Pts</th>
+                            <th class="col-num">W</th>
+                            <th class="col-num">D</th>
+                            <th class="col-num">GF</th>
+                            <th class="col-num">GA</th>
+                            <th class="col-num">GD</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
 
-                <!-- 1: SWEEP LEADERBOARD -->
-                <div class="leaderboard-panel">
-                    <div class="leaderboard-panel-title">Sweep Leaderboard</div>
-                    <div class="card">
-                        <table id="leaderboardTable">
-                            <thead>
-                                <tr>
-                                    <th class="col-rank">#</th>
-                                    <th class="col-name">Participant</th>
-                                    <th class="col-team">Team</th>
-                                    <th class="col-num">Pts</th>
-                                    <th class="col-num">W</th>
-                                    <th class="col-num">D</th>
-                                    <th class="col-num">GF</th>
-                                    <th class="col-num">GA</th>
-                                    <th class="col-num">GD</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                </div>
+        <!-- QUIZ AND SIDE QUESTS LEADERBOARD TAB -->
+        <section id="quizOnly" class="tab-content">
+            <div class="card">
+                <table id="quizOnlyTable">
+                    <thead>
+                        <tr>
+                            <th class="col-rank">#</th>
+                            <th class="col-name">Participant</th>
+                            <th class="col-num">Points</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
 
-                <!-- 2: QUIZ AND SIDE QUESTS LEADERBOARD -->
-                <div class="leaderboard-panel">
-                    <div class="leaderboard-panel-title">Quiz and Side Quests Leaderboard</div>
-                    <div class="card">
-                        <table id="quizOnlyTable">
-                            <thead>
-                                <tr>
-                                    <th class="col-rank">#</th>
-                                    <th class="col-name">Participant</th>
-                                    <th class="col-num">Points</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- 3: GOLDEN BOOT + QUIZ + SIDE QUESTS LEADERBOARD -->
-                <div class="leaderboard-panel">
-                    <div class="leaderboard-panel-title">Golden Boot + Quiz + Side Quests Leaderboard</div>
-                    <div class="card">
-                        <table id="quizAndSideQuestsTable">
-                            <thead>
-                                <tr>
-                                    <th class="col-rank">#</th>
-                                    <th class="col-name">Participant</th>
-                                    <th class="col-num">Quiz & Side Quests</th>
-                                    <th class="col-num">Golden Boot Goals</th>
-                                    <th class="col-num">Total</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                </div>
-
+        <!-- GOLDEN BOOT + QUIZ + SIDE QUESTS LEADERBOARD TAB -->
+        <section id="quizAndSideQuests" class="tab-content">
+            <div class="card">
+                <table id="quizAndSideQuestsTable">
+                    <thead>
+                        <tr>
+                            <th class="col-rank">#</th>
+                            <th class="col-name">Participant</th>
+                            <th class="col-num">Quiz &amp; Side Quests</th>
+                            <th class="col-num">Golden Boot Goals</th>
+                            <th class="col-num">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
             </div>
         </section>
 
@@ -172,7 +164,7 @@
         <p>World Cup 2026 Sweepstake</p>
     </footer>
 
-    <script src="app.js?v=202606221353"></script>
+    <script src="app.js?v=202606221356"></script>
     <script>
         document.getElementById('openRules').addEventListener('click', () => {
             document.getElementById('rulesModal').classList.add('active');
