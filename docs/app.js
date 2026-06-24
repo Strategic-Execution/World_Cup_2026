@@ -36,7 +36,7 @@ async function init() {
         renderLeaderboard();
         renderFixtures();
         renderGroups();
-        renderQuizOnlyLeaderboard();
+        renderGoldenBoot();
         renderQuizAndSideQuests();
         setupNav();
         setupFilters();
@@ -97,6 +97,24 @@ function renderLeaderboard() {
     }).join('');
 }
 
+// --- GOLDEN BOOT LEADERBOARD ---
+function renderGoldenBoot() {
+    if (!DATA.goldenBoot) return;
+    const tbody = document.querySelector('#goldenBootTable tbody');
+    const filtered = DATA.goldenBoot.filter(e => !/^Phantom\s?\d*$/i.test(e.participant));
+    let rank = 0;
+    tbody.innerHTML = filtered.map((e, i) => {
+        rank = i + 1;
+        const cls = i < 3 ? ' class="top-three"' : '';
+        return `<tr${cls}>
+            <td class="col-rank">${rank}</td>
+            <td class="col-name">${escapeHtml(e.participant)}</td>
+            <td class="col-team">${escapeHtml(e.player)}</td>
+            <td class="col-num">${e.goals}</td>
+        </tr>`;
+    }).join('');
+}
+
 // --- QUIZ AND SIDE QUESTS (combined) ---
 function renderQuizAndSideQuests() {
     if (!DATA.quizAndSideQuests) return;
@@ -112,24 +130,6 @@ function renderQuizAndSideQuests() {
             <td class="col-num">${e.quizPoints}</td>
             <td class="col-num">${e.goldenBootGoals}</td>
             <td class="col-num"><strong>${e.points}</strong></td>
-        </tr>`;
-    }).join('');
-}
-
-// --- QUIZ AND SIDE QUESTS ONLY ---
-function renderQuizOnlyLeaderboard() {
-    if (!DATA.quizAndSideQuests) return;
-    const tbody = document.querySelector('#quizOnlyTable tbody');
-    const filtered = DATA.quizAndSideQuests
-        .filter(e => !/^Phantom\s?\d*$/i.test(e.participant))
-        .slice()
-        .sort((a, b) => b.quizPoints - a.quizPoints || a.participant.localeCompare(b.participant));
-    tbody.innerHTML = filtered.map((e, i) => {
-        const cls = i < 3 ? ' class="top-three"' : '';
-        return `<tr${cls}>
-            <td class="col-rank">${i + 1}</td>
-            <td class="col-name">${escapeHtml(e.participant)}</td>
-            <td class="col-num"><strong>${e.quizPoints}</strong></td>
         </tr>`;
     }).join('');
 }

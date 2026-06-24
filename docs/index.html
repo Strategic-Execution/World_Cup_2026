@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=202606250916">
+    <link rel="stylesheet" href="style.css?v=202606250923">
 </head>
 <body>
     <header>
@@ -30,8 +30,8 @@
 
     <nav>
         <div class="nav-inner">
-            <button class="nav-btn active" data-tab="leaderboard">Sweep Leaderboard</button>
-            <button class="nav-btn" data-tab="quizOnly">Quiz &amp; Side Quests Leaderboard</button>
+            <button class="nav-btn active" data-tab="leaderboard">Sweepstake Leaderboard</button>
+            <button class="nav-btn" data-tab="goldenBoot">Golden Boot Leaderboard</button>
             <button class="nav-btn" data-tab="quizAndSideQuests">Golden Boot + Quiz + Side Quests Leaderboard</button>
             <button class="nav-btn" data-tab="fixtures">Fixtures</button>
             <button class="nav-btn" data-tab="groups">Groups</button>
@@ -53,8 +53,8 @@
                 </ul>
                 <p>Your allocated team earns points for every match they play in the tournament (group stage and knockouts). The participant whose team wins the World Cup wins the sweep.</p>
 
-                <h3>2. Quiz &amp; Side Quests Leaderboard</h3>
-                <p>Each week features either a quiz or a side quest (only one runs per week). Your scores accumulate over the tournament to form this standalone leaderboard.</p>
+                <h3>2. Golden Boot Leaderboard</h3>
+                <p>This leaderboard ranks participants by the number of goals scored by their nominated Golden Boot player.</p>
 
                 <h3>3. Golden Boot + Quiz + Side Quests Leaderboard</h3>
                 <p>This combined leaderboard adds your Quiz &amp; Side Quests score to the number of goals your nominated Golden Boot player has scored. The participant with the highest combined total wins this category.</p>
@@ -99,15 +99,16 @@
             </div>
         </section>
 
-        <!-- QUIZ AND SIDE QUESTS LEADERBOARD TAB -->
-        <section id="quizOnly" class="tab-content">
+        <!-- GOLDEN BOOT LEADERBOARD TAB -->
+        <section id="goldenBoot" class="tab-content">
             <div class="card">
-                <table id="quizOnlyTable">
+                <table id="goldenBootTable">
                     <thead>
                         <tr>
                             <th class="col-rank">#</th>
                             <th class="col-name">Participant</th>
-                            <th class="col-num">Points</th>
+                            <th class="col-team">Player</th>
+                            <th class="col-num">Goals</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -166,7 +167,7 @@
         <p>World Cup 2026 Sweepstake</p>
     </footer>
 
-    <script src="app.js?v=202606250916"></script>
+    <script src="app.js?v=202606250923"></script>
     <script>
         document.getElementById('openRules').addEventListener('click', () => {
             document.getElementById('rulesModal').classList.add('active');
