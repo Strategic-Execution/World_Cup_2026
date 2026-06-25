@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25 09:23",
+  "lastUpdated": "2026-06-26 09:37",
   "teams": [
     {
       "name": "Mexico",
@@ -633,8 +633,8 @@
       "stage": "C",
       "home": "Scotland",
       "away": "Brazil",
-      "homeScore": 2,
-      "awayScore": 1
+      "homeScore": 0,
+      "awayScore": 3
     },
     {
       "match": 50,
@@ -642,8 +642,8 @@
       "stage": "C",
       "home": "Morocco",
       "away": "Haiti",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 4,
+      "awayScore": 2
     },
     {
       "match": 51,
@@ -669,8 +669,8 @@
       "stage": "A",
       "home": "Czechia",
       "away": "Mexico",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 0,
+      "awayScore": 3
     },
     {
       "match": 54,
@@ -1137,13 +1137,13 @@
       {
         "team": "Mexico",
         "group": "A",
-        "p": 2,
-        "w": 2,
+        "p": 3,
+        "w": 3,
         "d": 0,
         "l": 0,
-        "gf": 3,
+        "gf": 6,
         "ga": 0,
-        "pts": 6
+        "pts": 9
       },
       {
         "team": "South Korea",
@@ -1157,17 +1157,6 @@
         "pts": 3
       },
       {
-        "team": "Czechia",
-        "group": "A",
-        "p": 2,
-        "w": 0,
-        "d": 1,
-        "l": 1,
-        "gf": 2,
-        "ga": 3,
-        "pts": 2
-      },
-      {
         "team": "South Africa",
         "group": "A",
         "p": 2,
@@ -1176,6 +1165,17 @@
         "l": 1,
         "gf": 1,
         "ga": 3,
+        "pts": 2
+      },
+      {
+        "team": "Czechia",
+        "group": "A",
+        "p": 3,
+        "w": 0,
+        "d": 1,
+        "l": 2,
+        "gf": 2,
+        "ga": 6,
         "pts": 2
       }
     ],
@@ -1227,47 +1227,47 @@
     ],
     "C": [
       {
-        "team": "Scotland",
-        "group": "C",
-        "p": 3,
-        "w": 2,
-        "d": 0,
-        "l": 1,
-        "gf": 3,
-        "ga": 2,
-        "pts": 6
-      },
-      {
         "team": "Brazil",
         "group": "C",
         "p": 3,
-        "w": 1,
+        "w": 2,
         "d": 1,
-        "l": 1,
-        "gf": 5,
-        "ga": 3,
-        "pts": 5
+        "l": 0,
+        "gf": 7,
+        "ga": 1,
+        "pts": 8
       },
       {
         "team": "Morocco",
         "group": "C",
-        "p": 2,
-        "w": 1,
+        "p": 3,
+        "w": 2,
         "d": 1,
         "l": 0,
-        "gf": 2,
-        "ga": 1,
-        "pts": 5
+        "gf": 6,
+        "ga": 3,
+        "pts": 8
+      },
+      {
+        "team": "Scotland",
+        "group": "C",
+        "p": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 4,
+        "pts": 3
       },
       {
         "team": "Haiti",
         "group": "C",
-        "p": 2,
+        "p": 3,
         "w": 0,
         "d": 0,
-        "l": 2,
-        "gf": 0,
-        "ga": 4,
+        "l": 3,
+        "gf": 2,
+        "ga": 8,
         "pts": 0
       }
     ],
@@ -1688,6 +1688,32 @@
   },
   "leaderboard": [
     {
+      "participant": "Connor S",
+      "team": "Mexico",
+      "points": 19,
+      "matchPoints": 9,
+      "quiz": 10,
+      "wins": 3,
+      "draws": 0,
+      "gd": 6,
+      "gf": 6,
+      "ga": 0,
+      "rank": 1
+    },
+    {
+      "participant": "Beau P",
+      "team": "Brazil",
+      "points": 18,
+      "matchPoints": 8,
+      "quiz": 10,
+      "wins": 2,
+      "draws": 1,
+      "gd": 6,
+      "gf": 7,
+      "ga": 1,
+      "rank": 2
+    },
+    {
       "participant": "Andrew S",
       "team": "Switzerland",
       "points": 18,
@@ -1698,7 +1724,20 @@
       "gd": 4,
       "gf": 7,
       "ga": 3,
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "participant": "Krystal G",
+      "team": "Morocco",
+      "points": 18,
+      "matchPoints": 8,
+      "quiz": 10,
+      "wins": 2,
+      "draws": 1,
+      "gd": 3,
+      "gf": 6,
+      "ga": 3,
+      "rank": 4
     },
     {
       "participant": "Angelique B",
@@ -1711,7 +1750,7 @@
       "gd": 7,
       "gf": 9,
       "ga": 2,
-      "rank": 2
+      "rank": 5
     },
     {
       "participant": "Michael C",
@@ -1724,7 +1763,7 @@
       "gd": 5,
       "gf": 6,
       "ga": 1,
-      "rank": 3
+      "rank": 6
     },
     {
       "participant": "Sean F",
@@ -1737,7 +1776,7 @@
       "gd": 5,
       "gf": 6,
       "ga": 1,
-      "rank": 4
+      "rank": 7
     },
     {
       "participant": "Michael E",
@@ -1750,7 +1789,7 @@
       "gd": 5,
       "gf": 5,
       "ga": 0,
-      "rank": 5
+      "rank": 8
     },
     {
       "participant": "Tamara E",
@@ -1763,7 +1802,7 @@
       "gd": 4,
       "gf": 7,
       "ga": 3,
-      "rank": 6
+      "rank": 9
     },
     {
       "participant": "Brad M",
@@ -1776,33 +1815,7 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 7
-    },
-    {
-      "participant": "Connor S",
-      "team": "Mexico",
-      "points": 16,
-      "matchPoints": 6,
-      "quiz": 10,
-      "wins": 2,
-      "draws": 0,
-      "gd": 3,
-      "gf": 3,
-      "ga": 0,
-      "rank": 8
-    },
-    {
-      "participant": "Elizabeth D",
-      "team": "Scotland",
-      "points": 16,
-      "matchPoints": 6,
-      "quiz": 10,
-      "wins": 2,
-      "draws": 0,
-      "gd": 1,
-      "gf": 3,
-      "ga": 2,
-      "rank": 9
+      "rank": 10
     },
     {
       "participant": "Kate H",
@@ -1815,7 +1828,7 @@
       "gd": 5,
       "gf": 8,
       "ga": 3,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Mitchell T",
@@ -1828,7 +1841,7 @@
       "gd": 5,
       "gf": 6,
       "ga": 1,
-      "rank": 11
+      "rank": 12
     },
     {
       "participant": "Joel R",
@@ -1841,7 +1854,7 @@
       "gd": 4,
       "gf": 7,
       "ga": 3,
-      "rank": 12
+      "rank": 13
     },
     {
       "participant": "Jackson W",
@@ -1854,7 +1867,7 @@
       "gd": 4,
       "gf": 6,
       "ga": 2,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Gerard C",
@@ -1867,19 +1880,6 @@
       "gd": 4,
       "gf": 4,
       "ga": 0,
-      "rank": 14
-    },
-    {
-      "participant": "Beau P",
-      "team": "Brazil",
-      "points": 15,
-      "matchPoints": 5,
-      "quiz": 10,
-      "wins": 1,
-      "draws": 1,
-      "gd": 2,
-      "gf": 5,
-      "ga": 3,
       "rank": 15
     },
     {
@@ -1909,19 +1909,6 @@
       "rank": 17
     },
     {
-      "participant": "Krystal G",
-      "team": "Morocco",
-      "points": 15,
-      "matchPoints": 5,
-      "quiz": 10,
-      "wins": 1,
-      "draws": 1,
-      "gd": 1,
-      "gf": 2,
-      "ga": 1,
-      "rank": 18
-    },
-    {
       "participant": "Phantom 5",
       "team": "Ghana",
       "points": 5,
@@ -1932,7 +1919,7 @@
       "gd": 1,
       "gf": 1,
       "ga": 0,
-      "rank": 19
+      "rank": 18
     },
     {
       "participant": "Phantom 3",
@@ -1945,7 +1932,7 @@
       "gd": -1,
       "gf": 5,
       "ga": 6,
-      "rank": 20
+      "rank": 19
     },
     {
       "participant": "Hugh K",
@@ -1958,7 +1945,7 @@
       "gd": 0,
       "gf": 3,
       "ga": 3,
-      "rank": 21
+      "rank": 20
     },
     {
       "participant": "Andrew K",
@@ -1971,7 +1958,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 22
+      "rank": 21
     },
     {
       "participant": "Phantom 4",
@@ -1984,7 +1971,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 23
+      "rank": 22
     },
     {
       "participant": "Lorraine M",
@@ -1997,7 +1984,7 @@
       "gd": 0,
       "gf": 1,
       "ga": 1,
-      "rank": 24
+      "rank": 23
     },
     {
       "participant": "Cheari L",
@@ -2010,7 +1997,7 @@
       "gd": 0,
       "gf": 6,
       "ga": 6,
-      "rank": 25
+      "rank": 24
     },
     {
       "participant": "Theo P",
@@ -2023,7 +2010,7 @@
       "gd": 0,
       "gf": 3,
       "ga": 3,
-      "rank": 26
+      "rank": 25
     },
     {
       "participant": "Kamini G",
@@ -2036,7 +2023,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 27
+      "rank": 26
     },
     {
       "participant": "Kate I",
@@ -2049,7 +2036,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 28
+      "rank": 27
     },
     {
       "participant": "Prasantha N",
@@ -2062,7 +2049,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 29
+      "rank": 28
     },
     {
       "participant": "Joel G",
@@ -2075,7 +2062,7 @@
       "gd": -1,
       "gf": 3,
       "ga": 4,
-      "rank": 30
+      "rank": 29
     },
     {
       "participant": "Helen P",
@@ -2088,7 +2075,7 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 31
+      "rank": 30
     },
     {
       "participant": "Reg P",
@@ -2101,20 +2088,20 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 32
+      "rank": 31
     },
     {
-      "participant": "Mitchell W",
-      "team": "Czechia",
-      "points": 12,
-      "matchPoints": 2,
+      "participant": "Elizabeth D",
+      "team": "Scotland",
+      "points": 13,
+      "matchPoints": 3,
       "quiz": 10,
-      "wins": 0,
-      "draws": 1,
-      "gd": -1,
-      "gf": 2,
-      "ga": 3,
-      "rank": 33
+      "wins": 1,
+      "draws": 0,
+      "gd": -3,
+      "gf": 1,
+      "ga": 4,
+      "rank": 32
     },
     {
       "participant": "Suhail J",
@@ -2127,7 +2114,7 @@
       "gd": -1,
       "gf": 1,
       "ga": 2,
-      "rank": 34
+      "rank": 33
     },
     {
       "participant": "Sarah K",
@@ -2140,7 +2127,7 @@
       "gd": -1,
       "gf": 0,
       "ga": 1,
-      "rank": 35
+      "rank": 34
     },
     {
       "participant": "Phantom 8",
@@ -2153,7 +2140,7 @@
       "gd": -2,
       "gf": 3,
       "ga": 5,
-      "rank": 36
+      "rank": 35
     },
     {
       "participant": "Shane S",
@@ -2166,6 +2153,19 @@
       "gd": -2,
       "gf": 1,
       "ga": 3,
+      "rank": 36
+    },
+    {
+      "participant": "Mitchell W",
+      "team": "Czechia",
+      "points": 12,
+      "matchPoints": 2,
+      "quiz": 10,
+      "wins": 0,
+      "draws": 1,
+      "gd": -4,
+      "gf": 2,
+      "ga": 6,
       "rank": 37
     },
     {
@@ -2267,9 +2267,9 @@
       "quiz": 0,
       "wins": 0,
       "draws": 0,
-      "gd": -4,
-      "gf": 0,
-      "ga": 4,
+      "gd": -6,
+      "gf": 2,
+      "ga": 8,
       "rank": 45
     },
     {
