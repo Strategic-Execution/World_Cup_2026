@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29 07:34",
+  "lastUpdated": "2026-06-29 08:34",
   "teams": [
     {
       "name": "Mexico",
@@ -2316,36 +2316,36 @@
     {
       "participant": "Andrew K",
       "quizPoints": 10,
-      "goldenBootGoals": 5,
-      "points": 15,
+      "goldenBootGoals": 6,
+      "points": 16,
       "rank": 1
     },
     {
       "participant": "Jigar V",
       "quizPoints": 10,
-      "goldenBootGoals": 5,
-      "points": 15,
+      "goldenBootGoals": 6,
+      "points": 16,
       "rank": 2
     },
     {
       "participant": "Krystal G",
       "quizPoints": 10,
-      "goldenBootGoals": 5,
-      "points": 15,
+      "goldenBootGoals": 6,
+      "points": 16,
       "rank": 3
     },
     {
       "participant": "Sarah K",
       "quizPoints": 10,
-      "goldenBootGoals": 5,
-      "points": 15,
+      "goldenBootGoals": 6,
+      "points": 16,
       "rank": 4
     },
     {
       "participant": "Shane S",
       "quizPoints": 10,
-      "goldenBootGoals": 5,
-      "points": 15,
+      "goldenBootGoals": 6,
+      "points": 16,
       "rank": 5
     },
     {
@@ -2405,94 +2405,94 @@
       "rank": 13
     },
     {
-      "participant": "Mark K",
+      "participant": "Jackson W",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
       "rank": 14
     },
     {
-      "participant": "Matthew J",
+      "participant": "Mark K",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
       "rank": 15
     },
     {
-      "participant": "Mitchell W",
+      "participant": "Matthew J",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
       "rank": 16
     },
     {
-      "participant": "Sean F",
+      "participant": "Mitchell W",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
       "rank": 17
     },
     {
-      "participant": "Tamara E",
+      "participant": "Sean F",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
       "rank": 18
     },
     {
-      "participant": "Theo P",
+      "participant": "Tamara E",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
       "rank": 19
     },
     {
+      "participant": "Theo P",
+      "quizPoints": 10,
+      "goldenBootGoals": 4,
+      "points": 14,
+      "rank": 20
+    },
+    {
       "participant": "Helen P",
       "quizPoints": 10,
-      "goldenBootGoals": 2,
-      "points": 12,
-      "rank": 20
+      "goldenBootGoals": 3,
+      "points": 13,
+      "rank": 21
     },
     {
       "participant": "Kamini G",
       "quizPoints": 10,
-      "goldenBootGoals": 2,
-      "points": 12,
-      "rank": 21
+      "goldenBootGoals": 3,
+      "points": 13,
+      "rank": 22
+    },
+    {
+      "participant": "Michael C",
+      "quizPoints": 10,
+      "goldenBootGoals": 3,
+      "points": 13,
+      "rank": 23
+    },
+    {
+      "participant": "Owen S",
+      "quizPoints": 10,
+      "goldenBootGoals": 3,
+      "points": 13,
+      "rank": 24
     },
     {
       "participant": "Kate H",
       "quizPoints": 10,
       "goldenBootGoals": 2,
       "points": 12,
-      "rank": 22
-    },
-    {
-      "participant": "Michael C",
-      "quizPoints": 10,
-      "goldenBootGoals": 2,
-      "points": 12,
-      "rank": 23
+      "rank": 25
     },
     {
       "participant": "Mitchell T",
       "quizPoints": 10,
       "goldenBootGoals": 2,
       "points": 12,
-      "rank": 24
-    },
-    {
-      "participant": "Owen S",
-      "quizPoints": 10,
-      "goldenBootGoals": 2,
-      "points": 12,
-      "rank": 25
-    },
-    {
-      "participant": "Jackson W",
-      "quizPoints": 10,
-      "goldenBootGoals": 1,
-      "points": 11,
       "rank": 26
     },
     {
@@ -2540,15 +2540,15 @@
     {
       "participant": "Kate I",
       "quizPoints": 0,
-      "goldenBootGoals": 5,
-      "points": 5,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 33
     },
     {
       "participant": "Prasantha N",
       "quizPoints": 0,
-      "goldenBootGoals": 5,
-      "points": 5,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 34
     },
     {
@@ -2655,43 +2655,43 @@
       "rank": 1,
       "participant": "Andrew K",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 2,
       "participant": "Jigar V",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 3,
       "participant": "Kate I",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 4,
       "participant": "Krystal G",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 5,
       "participant": "Prasantha N",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 6,
       "participant": "Sarah K",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 7,
       "participant": "Shane S",
       "player": "Lionel Messi",
-      "goals": 5
+      "goals": 6
     },
     {
       "rank": 8,
@@ -2749,159 +2749,159 @@
     },
     {
       "rank": 17,
+      "participant": "Jackson W",
+      "player": "Ousmane Dembele",
+      "goals": 4
+    },
+    {
+      "rank": 18,
       "participant": "Joel R",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 18,
+      "rank": 19,
       "participant": "Lorraine M",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 19,
+      "rank": 20,
       "participant": "Mark K",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 20,
+      "rank": 21,
       "participant": "Matthew J",
       "player": "Erling Haaland",
       "goals": 4
     },
     {
-      "rank": 21,
+      "rank": 22,
       "participant": "Mitchell W",
       "player": "Erling Haaland",
       "goals": 4
     },
     {
-      "rank": 22,
+      "rank": 23,
       "participant": "Phantom 1",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 23,
+      "rank": 24,
       "participant": "Phantom 2",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 24,
+      "rank": 25,
       "participant": "Phantom 3",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 25,
+      "rank": 26,
       "participant": "Phantom 4",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 26,
+      "rank": 27,
       "participant": "Phantom 5",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 27,
+      "rank": 28,
       "participant": "Phantom 6",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 28,
+      "rank": 29,
       "participant": "Phantom 7",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 29,
+      "rank": 30,
       "participant": "Phantom 8",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 30,
+      "rank": 31,
       "participant": "Reg P",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 31,
+      "rank": 32,
       "participant": "Sean F",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 32,
+      "rank": 33,
       "participant": "Suhail J",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 33,
+      "rank": 34,
       "participant": "Tamara E",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 34,
+      "rank": 35,
       "participant": "Theo P",
       "player": "Kylian Mbappé",
       "goals": 4
     },
     {
-      "rank": 35,
+      "rank": 36,
       "participant": "Helen P",
       "player": "Harry Kane",
-      "goals": 2
-    },
-    {
-      "rank": 36,
-      "participant": "Hugh K",
-      "player": "Cody Gakpo",
-      "goals": 2
+      "goals": 3
     },
     {
       "rank": 37,
       "participant": "Kamini G",
       "player": "Harry Kane",
-      "goals": 2
+      "goals": 3
     },
     {
       "rank": 38,
+      "participant": "Michael C",
+      "player": "Harry Kane",
+      "goals": 3
+    },
+    {
+      "rank": 39,
+      "participant": "Owen S",
+      "player": "Harry Kane",
+      "goals": 3
+    },
+    {
+      "rank": 40,
+      "participant": "Hugh K",
+      "player": "Cody Gakpo",
+      "goals": 2
+    },
+    {
+      "rank": 41,
       "participant": "Kate H",
       "player": "Mikel Oyarzabal",
       "goals": 2
     },
     {
-      "rank": 39,
-      "participant": "Michael C",
-      "player": "Harry Kane",
-      "goals": 2
-    },
-    {
-      "rank": 40,
+      "rank": 42,
       "participant": "Mitchell T",
       "player": "Mikel Oyarzabal",
       "goals": 2
-    },
-    {
-      "rank": 41,
-      "participant": "Owen S",
-      "player": "Harry Kane",
-      "goals": 2
-    },
-    {
-      "rank": 42,
-      "participant": "Jackson W",
-      "player": "Ousmane Dembele",
-      "goals": 1
     },
     {
       "rank": 43,
