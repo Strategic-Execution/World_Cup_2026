@@ -352,41 +352,41 @@ def build_points_sheet(wb):
             team_cell = f'B{row}'
             
             # Played = count of matches where this team appears AND scores are filled
-            played = (f'=COUNTIFS(Fixtures!D$5:D$76,{team_cell},Fixtures!E$5:E$76,"<>")'
-                     f'+COUNTIFS(Fixtures!G$5:G$76,{team_cell},Fixtures!F$5:F$76,"<>")')
+            played = (f'=COUNTIFS(Fixtures!D$5:D$108,{team_cell},Fixtures!E$5:E$108,"<>")'
+                     f'+COUNTIFS(Fixtures!G$5:G$108,{team_cell},Fixtures!F$5:F$108,"<>")')
             ws.cell(row=row, column=4, value=played)
             
             # Won = home wins + away wins
-            won = (f'=COUNTIFS(Fixtures!D$5:D$76,{team_cell},Fixtures!J$5:J$76,"W")'
-                  f'+COUNTIFS(Fixtures!G$5:G$76,{team_cell},Fixtures!K$5:K$76,"W")')
+            won = (f'=COUNTIFS(Fixtures!D$5:D$108,{team_cell},Fixtures!J$5:J$108,"W")'
+                f'+COUNTIFS(Fixtures!G$5:G$108,{team_cell},Fixtures!K$5:K$108,"W")')
             ws.cell(row=row, column=5, value=won)
             
             # Drawn
-            drawn = (f'=COUNTIFS(Fixtures!D$5:D$76,{team_cell},Fixtures!J$5:J$76,"D")'
-                    f'+COUNTIFS(Fixtures!G$5:G$76,{team_cell},Fixtures!K$5:K$76,"D")')
+                drawn = (f'=COUNTIFS(Fixtures!D$5:D$108,{team_cell},Fixtures!J$5:J$108,"D")'
+                    f'+COUNTIFS(Fixtures!G$5:G$108,{team_cell},Fixtures!K$5:K$108,"D")')
             ws.cell(row=row, column=6, value=drawn)
             
             # Lost
-            lost = (f'=COUNTIFS(Fixtures!D$5:D$76,{team_cell},Fixtures!J$5:J$76,"L")'
-                   f'+COUNTIFS(Fixtures!G$5:G$76,{team_cell},Fixtures!K$5:K$76,"L")')
+                 lost = (f'=COUNTIFS(Fixtures!D$5:D$108,{team_cell},Fixtures!J$5:J$108,"L")'
+                     f'+COUNTIFS(Fixtures!G$5:G$108,{team_cell},Fixtures!K$5:K$108,"L")')
             ws.cell(row=row, column=7, value=lost)
             
             # Goals For (home goals when home + away goals when away)
-            gf = (f'=SUMPRODUCT((Fixtures!D$5:D$76={team_cell})*(Fixtures!E$5:E$76<>"")*Fixtures!E$5:E$76)'
-                 f'+SUMPRODUCT((Fixtures!G$5:G$76={team_cell})*(Fixtures!F$5:F$76<>"")*Fixtures!F$5:F$76)')
+              gf = (f'=SUMPRODUCT((Fixtures!D$5:D$108={team_cell})*(Fixtures!E$5:E$108<>"")*Fixtures!E$5:E$108)'
+                  f'+SUMPRODUCT((Fixtures!G$5:G$108={team_cell})*(Fixtures!F$5:F$108<>"")*Fixtures!F$5:F$108)')
             ws.cell(row=row, column=8, value=gf)
             
             # Goals Against
-            ga = (f'=SUMPRODUCT((Fixtures!D$5:D$76={team_cell})*(Fixtures!F$5:F$76<>"")*Fixtures!F$5:F$76)'
-                 f'+SUMPRODUCT((Fixtures!G$5:G$76={team_cell})*(Fixtures!E$5:E$76<>"")*Fixtures!E$5:E$76)')
+              ga = (f'=SUMPRODUCT((Fixtures!D$5:D$108={team_cell})*(Fixtures!F$5:F$108<>"")*Fixtures!F$5:F$108)'
+                  f'+SUMPRODUCT((Fixtures!G$5:G$108={team_cell})*(Fixtures!E$5:E$108<>"")*Fixtures!E$5:E$108)')
             ws.cell(row=row, column=9, value=ga)
             
             # Goal Difference
             ws.cell(row=row, column=10, value=f'=H{row}-I{row}')
             
             # Total Points - calculate directly from scores to avoid "" multiplication issues
-            points = (f'=SUMPRODUCT((Fixtures!D$5:D$76={team_cell})*(Fixtures!E$5:E$76<>"")*(Fixtures!F$5:F$76<>"")*((Fixtures!E$5:E$76>Fixtures!F$5:F$76)*3+(Fixtures!E$5:E$76=Fixtures!F$5:F$76)*2))'
-                     f'+SUMPRODUCT((Fixtures!G$5:G$76={team_cell})*(Fixtures!E$5:E$76<>"")*(Fixtures!F$5:F$76<>"")*((Fixtures!F$5:F$76>Fixtures!E$5:E$76)*3+(Fixtures!E$5:E$76=Fixtures!F$5:F$76)*2))')
+            points = (f'=SUMPRODUCT((Fixtures!D$5:D$108={team_cell})*(Fixtures!E$5:E$108<>"")*(Fixtures!F$5:F$108<>"")*((Fixtures!E$5:E$108>Fixtures!F$5:F$108)*3+(Fixtures!E$5:E$108=Fixtures!F$5:F$108)*2))'
+                     f'+SUMPRODUCT((Fixtures!G$5:G$108={team_cell})*(Fixtures!E$5:E$108<>"")*(Fixtures!F$5:F$108<>"")*((Fixtures!F$5:F$108>Fixtures!E$5:E$108)*3+(Fixtures!E$5:E$108=Fixtures!F$5:F$108)*2))')
             ws.cell(row=row, column=11, value=points)
             
             # Formatting
@@ -469,24 +469,24 @@ def build_leaderboard_sheet(wb):
                 value=f'=IF(Allocation!C{alloc_row}="","",Allocation!C{alloc_row})')
         # J: Total Points (calculated directly from scores)
         ws.cell(row=row, column=10, 
-                value=f'=IF(I{row}="","",'
-                      f'SUMPRODUCT((Fixtures!D$5:D$76=I{row})*(Fixtures!E$5:E$76<>"")*(Fixtures!F$5:F$76<>"")*((Fixtures!E$5:E$76>Fixtures!F$5:F$76)*3+(Fixtures!E$5:E$76=Fixtures!F$5:F$76)*2))'
-                      f'+SUMPRODUCT((Fixtures!G$5:G$76=I{row})*(Fixtures!E$5:E$76<>"")*(Fixtures!F$5:F$76<>"")*((Fixtures!F$5:F$76>Fixtures!E$5:E$76)*3+(Fixtures!E$5:E$76=Fixtures!F$5:F$76)*2)))')
+                    value=f'=IF(I{row}="","",'
+                        f'SUMPRODUCT((Fixtures!D$5:D$108=I{row})*(Fixtures!E$5:E$108<>"")*(Fixtures!F$5:F$108<>"")*((Fixtures!E$5:E$108>Fixtures!F$5:F$108)*3+(Fixtures!E$5:E$108=Fixtures!F$5:F$108)*2))'
+                        f'+SUMPRODUCT((Fixtures!G$5:G$108=I{row})*(Fixtures!E$5:E$108<>"")*(Fixtures!F$5:F$108<>"")*((Fixtures!F$5:F$108>Fixtures!E$5:E$108)*3+(Fixtures!E$5:E$108=Fixtures!F$5:F$108)*2)))')
         # K: Wins
         ws.cell(row=row, column=11, 
-                value=f'=IF(I{row}="","",'
-                      f'COUNTIFS(Fixtures!D$5:D$76,I{row},Fixtures!J$5:J$76,"W")'
-                      f'+COUNTIFS(Fixtures!G$5:G$76,I{row},Fixtures!K$5:K$76,"W"))')
+                    value=f'=IF(I{row}="","",'
+                        f'COUNTIFS(Fixtures!D$5:D$108,I{row},Fixtures!J$5:J$108,"W")'
+                        f'+COUNTIFS(Fixtures!G$5:G$108,I{row},Fixtures!K$5:K$108,"W"))')
         # L: Draws
         ws.cell(row=row, column=12, 
-                value=f'=IF(I{row}="","",'
-                      f'COUNTIFS(Fixtures!D$5:D$76,I{row},Fixtures!J$5:J$76,"D")'
-                      f'+COUNTIFS(Fixtures!G$5:G$76,I{row},Fixtures!K$5:K$76,"D"))')
+                    value=f'=IF(I{row}="","",'
+                        f'COUNTIFS(Fixtures!D$5:D$108,I{row},Fixtures!J$5:J$108,"D")'
+                        f'+COUNTIFS(Fixtures!G$5:G$108,I{row},Fixtures!K$5:K$108,"D"))')
         # M: Goal Difference (tiebreaker)
         ws.cell(row=row, column=13, 
-                value=f'=IF(I{row}="","",'
-                      f'SUMPRODUCT((Fixtures!D$5:D$76=I{row})*(Fixtures!E$5:E$76<>"")*(Fixtures!F$5:F$76<>"")*(Fixtures!E$5:E$76-Fixtures!F$5:F$76))'
-                      f'+SUMPRODUCT((Fixtures!G$5:G$76=I{row})*(Fixtures!E$5:E$76<>"")*(Fixtures!F$5:F$76<>"")*(Fixtures!F$5:F$76-Fixtures!E$5:E$76)))')
+                    value=f'=IF(I{row}="","",'
+                        f'SUMPRODUCT((Fixtures!D$5:D$108=I{row})*(Fixtures!E$5:E$108<>"")*(Fixtures!F$5:F$108<>"")*(Fixtures!E$5:E$108-Fixtures!F$5:F$108))'
+                        f'+SUMPRODUCT((Fixtures!G$5:G$108=I{row})*(Fixtures!E$5:E$108<>"")*(Fixtures!F$5:F$108<>"")*(Fixtures!F$5:F$108-Fixtures!E$5:E$108)))')
 # N: Rank (unique - by points desc, then GD desc, then row order as tiebreaker)
         # COUNTIFS: count participants with more points, + count ties above this row
         ws.cell(row=row, column=14, 
