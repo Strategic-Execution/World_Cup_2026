@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29 08:34",
+  "lastUpdated": "2026-06-29 12:24",
   "teams": [
     {
       "name": "Mexico",
@@ -1690,9 +1690,9 @@
     {
       "participant": "Michael C",
       "team": "France",
-      "points": 19,
+      "points": 29,
       "matchPoints": 9,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 3,
       "draws": 0,
       "gd": 8,
@@ -1703,9 +1703,9 @@
     {
       "participant": "Michael E",
       "team": "Argentina",
-      "points": 19,
+      "points": 29,
       "matchPoints": 9,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 3,
       "draws": 0,
       "gd": 7,
@@ -1716,9 +1716,9 @@
     {
       "participant": "Connor S",
       "team": "Mexico",
-      "points": 19,
+      "points": 26,
       "matchPoints": 9,
-      "quiz": 10,
+      "quiz": 17,
       "wins": 3,
       "draws": 0,
       "gd": 6,
@@ -1742,9 +1742,9 @@
     {
       "participant": "Kate H",
       "team": "Canada",
-      "points": 18,
+      "points": 28,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 1,
       "gd": 6,
@@ -1755,9 +1755,9 @@
     {
       "participant": "Beau P",
       "team": "Brazil",
-      "points": 18,
+      "points": 28,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 1,
       "gd": 6,
@@ -1768,9 +1768,9 @@
     {
       "participant": "Gerard C",
       "team": "Spain",
-      "points": 18,
+      "points": 28,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 1,
       "gd": 5,
@@ -1781,9 +1781,9 @@
     {
       "participant": "Andrew S",
       "team": "Switzerland",
-      "points": 18,
+      "points": 28,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 1,
       "gd": 4,
@@ -1794,9 +1794,9 @@
     {
       "participant": "Tanya O",
       "team": "England",
-      "points": 18,
+      "points": 28,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 1,
       "gd": 4,
@@ -1807,9 +1807,9 @@
     {
       "participant": "Krystal G",
       "team": "Morocco",
-      "points": 18,
+      "points": 25,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 17,
       "wins": 2,
       "draws": 1,
       "gd": 3,
@@ -1820,9 +1820,9 @@
     {
       "participant": "Brad M",
       "team": "Colombia",
-      "points": 18,
+      "points": 28,
       "matchPoints": 8,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 1,
       "gd": 3,
@@ -1833,9 +1833,9 @@
     {
       "participant": "Mitchell T",
       "team": "Portugal",
-      "points": 17,
+      "points": 27,
       "matchPoints": 7,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 2,
       "gd": 5,
@@ -1846,9 +1846,9 @@
     {
       "participant": "Jackson W",
       "team": "Japan",
-      "points": 17,
+      "points": 27,
       "matchPoints": 7,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 2,
       "gd": 4,
@@ -1859,9 +1859,9 @@
     {
       "participant": "Lorraine M",
       "team": "Belgium",
-      "points": 7,
+      "points": 27,
       "matchPoints": 7,
-      "quiz": 0,
+      "quiz": 20,
       "wins": 1,
       "draws": 2,
       "gd": 4,
@@ -1872,9 +1872,9 @@
     {
       "participant": "Owen S",
       "team": "Egypt",
-      "points": 17,
+      "points": 27,
       "matchPoints": 7,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 2,
       "gd": 2,
@@ -1885,9 +1885,9 @@
     {
       "participant": "Angelique B",
       "team": "Germany",
-      "points": 6,
+      "points": 14,
       "matchPoints": 6,
-      "quiz": 0,
+      "quiz": 8,
       "wins": 2,
       "draws": 0,
       "gd": 6,
@@ -1898,9 +1898,9 @@
     {
       "participant": "Sean F",
       "team": "United States",
-      "points": 16,
+      "points": 26,
       "matchPoints": 6,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 0,
       "gd": 4,
@@ -1911,9 +1911,9 @@
     {
       "participant": "Kate I",
       "team": "Ivory Coast",
-      "points": 6,
+      "points": 24,
       "matchPoints": 6,
-      "quiz": 0,
+      "quiz": 18,
       "wins": 2,
       "draws": 0,
       "gd": 2,
@@ -1924,9 +1924,9 @@
     {
       "participant": "Tamara E",
       "team": "Norway",
-      "points": 16,
+      "points": 26,
       "matchPoints": 6,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 0,
       "gd": 1,
@@ -1937,9 +1937,9 @@
     {
       "participant": "Joel G",
       "team": "Croatia",
-      "points": 16,
+      "points": 26,
       "matchPoints": 6,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 2,
       "draws": 0,
       "gd": 0,
@@ -1989,9 +1989,9 @@
     {
       "participant": "Cheari L",
       "team": "Sweden",
-      "points": 15,
+      "points": 24,
       "matchPoints": 5,
-      "quiz": 10,
+      "quiz": 19,
       "wins": 1,
       "draws": 1,
       "gd": 0,
@@ -2002,9 +2002,9 @@
     {
       "participant": "Theo P",
       "team": "Austria",
-      "points": 15,
+      "points": 25,
       "matchPoints": 5,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 1,
       "gd": 0,
@@ -2028,9 +2028,9 @@
     {
       "participant": "Prasantha N",
       "team": "Australia",
-      "points": 5,
+      "points": 15,
       "matchPoints": 5,
-      "quiz": 0,
+      "quiz": 10,
       "wins": 1,
       "draws": 1,
       "gd": 0,
@@ -2067,9 +2067,9 @@
     {
       "participant": "Helen P",
       "team": "Algeria",
-      "points": 15,
+      "points": 25,
       "matchPoints": 5,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 1,
       "gd": -2,
@@ -2080,9 +2080,9 @@
     {
       "participant": "Reg P",
       "team": "Paraguay",
-      "points": 5,
+      "points": 25,
       "matchPoints": 5,
-      "quiz": 0,
+      "quiz": 20,
       "wins": 1,
       "draws": 1,
       "gd": -2,
@@ -2093,9 +2093,9 @@
     {
       "participant": "Shane S",
       "team": "South Africa",
-      "points": 15,
+      "points": 25,
       "matchPoints": 5,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 1,
       "gd": -2,
@@ -2132,9 +2132,9 @@
     {
       "participant": "Jigar V",
       "team": "Senegal",
-      "points": 13,
+      "points": 23,
       "matchPoints": 3,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 0,
       "gd": 2,
@@ -2145,9 +2145,9 @@
     {
       "participant": "Kamini G",
       "team": "South Korea",
-      "points": 13,
+      "points": 23,
       "matchPoints": 3,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 0,
       "gd": -1,
@@ -2158,9 +2158,9 @@
     {
       "participant": "Rodney T",
       "team": "Türkiye",
-      "points": 13,
+      "points": 23,
       "matchPoints": 3,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 0,
       "gd": -2,
@@ -2171,9 +2171,9 @@
     {
       "participant": "Elizabeth D",
       "team": "Scotland",
-      "points": 13,
+      "points": 23,
       "matchPoints": 3,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 1,
       "draws": 0,
       "gd": -3,
@@ -2184,9 +2184,9 @@
     {
       "participant": "Mitchell W",
       "team": "Czechia",
-      "points": 12,
+      "points": 21,
       "matchPoints": 2,
-      "quiz": 10,
+      "quiz": 19,
       "wins": 0,
       "draws": 1,
       "gd": -4,
@@ -2210,9 +2210,9 @@
     {
       "participant": "Matthew J",
       "team": "Qatar",
-      "points": 12,
+      "points": 22,
       "matchPoints": 2,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 0,
       "draws": 1,
       "gd": -8,
@@ -2236,9 +2236,9 @@
     {
       "participant": "Mark K",
       "team": "Panama",
-      "points": 10,
+      "points": 20,
       "matchPoints": 0,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 0,
       "draws": 0,
       "gd": -4,
@@ -2275,9 +2275,9 @@
     {
       "participant": "Dionne H",
       "team": "Uzbekistan",
-      "points": 10,
+      "points": 20,
       "matchPoints": 0,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 0,
       "draws": 0,
       "gd": -9,
@@ -2301,9 +2301,9 @@
     {
       "participant": "Theresa M",
       "team": "Iraq",
-      "points": 10,
+      "points": 20,
       "matchPoints": 0,
-      "quiz": 10,
+      "quiz": 20,
       "wins": 0,
       "draws": 0,
       "gd": -11,
@@ -2314,322 +2314,322 @@
   ],
   "quizAndSideQuests": [
     {
+      "participant": "Jigar V",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 1
+    },
+    {
+      "participant": "Shane S",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 2
+    },
+    {
+      "participant": "Andrew S",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 3
+    },
+    {
+      "participant": "Beau P",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 4
+    },
+    {
+      "participant": "Dionne H",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 5
+    },
+    {
+      "participant": "Elizabeth D",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 6
+    },
+    {
+      "participant": "Gerard C",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 7
+    },
+    {
+      "participant": "Jackson W",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 8
+    },
+    {
+      "participant": "Kate I",
+      "quizPoints": 18,
+      "goldenBootGoals": 6,
+      "points": 24,
+      "rank": 9
+    },
+    {
+      "participant": "Lorraine M",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 10
+    },
+    {
+      "participant": "Mark K",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 11
+    },
+    {
+      "participant": "Matthew J",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 12
+    },
+    {
+      "participant": "Reg P",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 13
+    },
+    {
+      "participant": "Sean F",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 14
+    },
+    {
+      "participant": "Tamara E",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 15
+    },
+    {
+      "participant": "Theo P",
+      "quizPoints": 20,
+      "goldenBootGoals": 4,
+      "points": 24,
+      "rank": 16
+    },
+    {
+      "participant": "Cheari L",
+      "quizPoints": 19,
+      "goldenBootGoals": 4,
+      "points": 23,
+      "rank": 17
+    },
+    {
+      "participant": "Helen P",
+      "quizPoints": 20,
+      "goldenBootGoals": 3,
+      "points": 23,
+      "rank": 18
+    },
+    {
+      "participant": "Kamini G",
+      "quizPoints": 20,
+      "goldenBootGoals": 3,
+      "points": 23,
+      "rank": 19
+    },
+    {
+      "participant": "Krystal G",
+      "quizPoints": 17,
+      "goldenBootGoals": 6,
+      "points": 23,
+      "rank": 20
+    },
+    {
+      "participant": "Michael C",
+      "quizPoints": 20,
+      "goldenBootGoals": 3,
+      "points": 23,
+      "rank": 21
+    },
+    {
+      "participant": "Mitchell W",
+      "quizPoints": 19,
+      "goldenBootGoals": 4,
+      "points": 23,
+      "rank": 22
+    },
+    {
+      "participant": "Owen S",
+      "quizPoints": 20,
+      "goldenBootGoals": 3,
+      "points": 23,
+      "rank": 23
+    },
+    {
+      "participant": "Kate H",
+      "quizPoints": 20,
+      "goldenBootGoals": 2,
+      "points": 22,
+      "rank": 24
+    },
+    {
+      "participant": "Mitchell T",
+      "quizPoints": 20,
+      "goldenBootGoals": 2,
+      "points": 22,
+      "rank": 25
+    },
+    {
+      "participant": "Connor S",
+      "quizPoints": 17,
+      "goldenBootGoals": 4,
+      "points": 21,
+      "rank": 26
+    },
+    {
+      "participant": "Joel G",
+      "quizPoints": 20,
+      "goldenBootGoals": 1,
+      "points": 21,
+      "rank": 27
+    },
+    {
+      "participant": "Michael E",
+      "quizPoints": 20,
+      "goldenBootGoals": 1,
+      "points": 21,
+      "rank": 28
+    },
+    {
+      "participant": "Brad M",
+      "quizPoints": 20,
+      "goldenBootGoals": 0,
+      "points": 20,
+      "rank": 29
+    },
+    {
+      "participant": "Rodney T",
+      "quizPoints": 20,
+      "goldenBootGoals": 0,
+      "points": 20,
+      "rank": 30
+    },
+    {
+      "participant": "Tanya O",
+      "quizPoints": 20,
+      "goldenBootGoals": 0,
+      "points": 20,
+      "rank": 31
+    },
+    {
+      "participant": "Theresa M",
+      "quizPoints": 20,
+      "goldenBootGoals": 0,
+      "points": 20,
+      "rank": 32
+    },
+    {
       "participant": "Andrew K",
       "quizPoints": 10,
       "goldenBootGoals": 6,
       "points": 16,
-      "rank": 1
+      "rank": 33
     },
     {
-      "participant": "Jigar V",
+      "participant": "Prasantha N",
       "quizPoints": 10,
       "goldenBootGoals": 6,
       "points": 16,
-      "rank": 2
-    },
-    {
-      "participant": "Krystal G",
-      "quizPoints": 10,
-      "goldenBootGoals": 6,
-      "points": 16,
-      "rank": 3
+      "rank": 34
     },
     {
       "participant": "Sarah K",
       "quizPoints": 10,
       "goldenBootGoals": 6,
       "points": 16,
-      "rank": 4
-    },
-    {
-      "participant": "Shane S",
-      "quizPoints": 10,
-      "goldenBootGoals": 6,
-      "points": 16,
-      "rank": 5
-    },
-    {
-      "participant": "Andrew S",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 6
-    },
-    {
-      "participant": "Beau P",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 7
-    },
-    {
-      "participant": "Cheari L",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 8
-    },
-    {
-      "participant": "Connor S",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 9
+      "rank": 35
     },
     {
       "participant": "Cyndie B",
       "quizPoints": 10,
       "goldenBootGoals": 4,
       "points": 14,
-      "rank": 10
-    },
-    {
-      "participant": "Dionne H",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 11
-    },
-    {
-      "participant": "Elizabeth D",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 12
-    },
-    {
-      "participant": "Gerard C",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 13
-    },
-    {
-      "participant": "Jackson W",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 14
-    },
-    {
-      "participant": "Mark K",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 15
-    },
-    {
-      "participant": "Matthew J",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 16
-    },
-    {
-      "participant": "Mitchell W",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 17
-    },
-    {
-      "participant": "Sean F",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 18
-    },
-    {
-      "participant": "Tamara E",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 19
-    },
-    {
-      "participant": "Theo P",
-      "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
-      "rank": 20
-    },
-    {
-      "participant": "Helen P",
-      "quizPoints": 10,
-      "goldenBootGoals": 3,
-      "points": 13,
-      "rank": 21
-    },
-    {
-      "participant": "Kamini G",
-      "quizPoints": 10,
-      "goldenBootGoals": 3,
-      "points": 13,
-      "rank": 22
-    },
-    {
-      "participant": "Michael C",
-      "quizPoints": 10,
-      "goldenBootGoals": 3,
-      "points": 13,
-      "rank": 23
-    },
-    {
-      "participant": "Owen S",
-      "quizPoints": 10,
-      "goldenBootGoals": 3,
-      "points": 13,
-      "rank": 24
-    },
-    {
-      "participant": "Kate H",
-      "quizPoints": 10,
-      "goldenBootGoals": 2,
-      "points": 12,
-      "rank": 25
-    },
-    {
-      "participant": "Mitchell T",
-      "quizPoints": 10,
-      "goldenBootGoals": 2,
-      "points": 12,
-      "rank": 26
-    },
-    {
-      "participant": "Joel G",
-      "quizPoints": 10,
-      "goldenBootGoals": 1,
-      "points": 11,
-      "rank": 27
-    },
-    {
-      "participant": "Michael E",
-      "quizPoints": 10,
-      "goldenBootGoals": 1,
-      "points": 11,
-      "rank": 28
-    },
-    {
-      "participant": "Brad M",
-      "quizPoints": 10,
-      "goldenBootGoals": 0,
-      "points": 10,
-      "rank": 29
-    },
-    {
-      "participant": "Rodney T",
-      "quizPoints": 10,
-      "goldenBootGoals": 0,
-      "points": 10,
-      "rank": 30
-    },
-    {
-      "participant": "Tanya O",
-      "quizPoints": 10,
-      "goldenBootGoals": 0,
-      "points": 10,
-      "rank": 31
-    },
-    {
-      "participant": "Theresa M",
-      "quizPoints": 10,
-      "goldenBootGoals": 0,
-      "points": 10,
-      "rank": 32
-    },
-    {
-      "participant": "Kate I",
-      "quizPoints": 0,
-      "goldenBootGoals": 6,
-      "points": 6,
-      "rank": 33
-    },
-    {
-      "participant": "Prasantha N",
-      "quizPoints": 0,
-      "goldenBootGoals": 6,
-      "points": 6,
-      "rank": 34
+      "rank": 36
     },
     {
       "participant": "Angelique B",
-      "quizPoints": 0,
+      "quizPoints": 8,
       "goldenBootGoals": 4,
-      "points": 4,
-      "rank": 35
+      "points": 12,
+      "rank": 37
     },
     {
       "participant": "Joel R",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 36
-    },
-    {
-      "participant": "Lorraine M",
-      "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
-      "rank": 37
+      "rank": 38
     },
     {
       "participant": "Phantom 1",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 38
+      "rank": 39
     },
     {
       "participant": "Phantom 2",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 39
+      "rank": 40
     },
     {
       "participant": "Phantom 3",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 40
+      "rank": 41
     },
     {
       "participant": "Phantom 4",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 41
+      "rank": 42
     },
     {
       "participant": "Phantom 5",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 42
+      "rank": 43
     },
     {
       "participant": "Phantom 6",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 43
+      "rank": 44
     },
     {
       "participant": "Phantom 7",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
-      "rank": 44
-    },
-    {
-      "participant": "Phantom 8",
-      "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
       "rank": 45
     },
     {
-      "participant": "Reg P",
+      "participant": "Phantom 8",
       "quizPoints": 0,
       "goldenBootGoals": 4,
       "points": 4,
