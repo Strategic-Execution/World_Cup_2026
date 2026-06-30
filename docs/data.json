@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29 12:24",
+  "lastUpdated": "2026-07-01 08:58",
   "teams": [
     {
       "name": "Mexico",
@@ -856,53 +856,53 @@
       "match": 74,
       "date": "29-Jun",
       "stage": "R32",
-      "home": "1st Group E",
-      "away": "3rd ABCDF",
-      "homeScore": null,
-      "awayScore": null
+      "home": "Germany",
+      "away": "Paraguay",
+      "homeScore": 3,
+      "awayScore": 4
     },
     {
       "match": 75,
       "date": "29-Jun",
       "stage": "R32",
-      "home": "1st Group F",
-      "away": "2nd Group C",
-      "homeScore": null,
-      "awayScore": null
+      "home": "Netherlands",
+      "away": "Morocco",
+      "homeScore": 2,
+      "awayScore": 3
     },
     {
       "match": 76,
       "date": "29-Jun",
       "stage": "R32",
-      "home": "1st Group C",
-      "away": "2nd Group F",
-      "homeScore": null,
-      "awayScore": null
+      "home": "Brazil",
+      "away": "Japan",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "match": 77,
       "date": "30-Jun",
       "stage": "R32",
-      "home": "1st Group I",
-      "away": "3rd CDFGH",
-      "homeScore": null,
-      "awayScore": null
+      "home": "France",
+      "away": "Sweden",
+      "homeScore": 3,
+      "awayScore": 0
     },
     {
       "match": 78,
       "date": "30-Jun",
       "stage": "R32",
-      "home": "2nd Group E",
-      "away": "2nd Group I",
-      "homeScore": null,
-      "awayScore": null
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "match": 79,
       "date": "30-Jun",
       "stage": "R32",
-      "home": "1st Group A",
-      "away": "3rd CEFHI",
+      "home": "Mexico",
+      "away": "Ecuador",
       "homeScore": null,
       "awayScore": null
     },
@@ -910,8 +910,8 @@
       "match": 80,
       "date": "01-Jul",
       "stage": "R32",
-      "home": "1st Group L",
-      "away": "3rd EHIJK",
+      "home": "England",
+      "away": "DR Congo",
       "homeScore": null,
       "awayScore": null
     },
@@ -919,8 +919,8 @@
       "match": 81,
       "date": "01-Jul",
       "stage": "R32",
-      "home": "1st Group D",
-      "away": "3rd BEFIJ",
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
       "homeScore": null,
       "awayScore": null
     },
@@ -928,8 +928,8 @@
       "match": 82,
       "date": "01-Jul",
       "stage": "R32",
-      "home": "1st Group G",
-      "away": "3rd AEHIJ",
+      "home": "Belgium",
+      "away": "Senegal",
       "homeScore": null,
       "awayScore": null
     },
@@ -937,8 +937,8 @@
       "match": 83,
       "date": "02-Jul",
       "stage": "R32",
-      "home": "2nd Group K",
-      "away": "2nd Group L",
+      "home": "Portugal",
+      "away": "Croatia",
       "homeScore": null,
       "awayScore": null
     },
@@ -946,8 +946,8 @@
       "match": 84,
       "date": "02-Jul",
       "stage": "R32",
-      "home": "1st Group H",
-      "away": "2nd Group J",
+      "home": "Spain",
+      "away": "Austria",
       "homeScore": null,
       "awayScore": null
     },
@@ -955,8 +955,8 @@
       "match": 85,
       "date": "02-Jul",
       "stage": "R32",
-      "home": "1st Group B",
-      "away": "3rd EFGIJ",
+      "home": "Switzerland",
+      "away": "Algeria",
       "homeScore": null,
       "awayScore": null
     },
@@ -964,8 +964,8 @@
       "match": 86,
       "date": "03-Jul",
       "stage": "R32",
-      "home": "1st Group J",
-      "away": "2nd Group H",
+      "home": "Argentina",
+      "away": "Cabo Verde",
       "homeScore": null,
       "awayScore": null
     },
@@ -973,8 +973,8 @@
       "match": 87,
       "date": "03-Jul",
       "stage": "R32",
-      "home": "1st Group K",
-      "away": "3rd DEIJL",
+      "home": "Colombia",
+      "away": "Ghana",
       "homeScore": null,
       "awayScore": null
     },
@@ -982,8 +982,8 @@
       "match": 88,
       "date": "03-Jul",
       "stage": "R32",
-      "home": "2nd Group D",
-      "away": "2nd Group G",
+      "home": "Australia",
+      "away": "Egypt",
       "homeScore": null,
       "awayScore": null
     },
@@ -1690,15 +1690,41 @@
     {
       "participant": "Michael C",
       "team": "France",
-      "points": 29,
-      "matchPoints": 9,
+      "points": 32,
+      "matchPoints": 12,
       "quiz": 20,
-      "wins": 3,
+      "wins": 4,
       "draws": 0,
-      "gd": 8,
-      "gf": 10,
+      "gd": 11,
+      "gf": 13,
       "ga": 2,
       "rank": 1
+    },
+    {
+      "participant": "Beau P",
+      "team": "Brazil",
+      "points": 31,
+      "matchPoints": 11,
+      "quiz": 20,
+      "wins": 3,
+      "draws": 1,
+      "gd": 7,
+      "gf": 9,
+      "ga": 2,
+      "rank": 2
+    },
+    {
+      "participant": "Krystal G",
+      "team": "Morocco",
+      "points": 28,
+      "matchPoints": 11,
+      "quiz": 17,
+      "wins": 3,
+      "draws": 1,
+      "gd": 4,
+      "gf": 9,
+      "ga": 5,
+      "rank": 3
     },
     {
       "participant": "Michael E",
@@ -1711,7 +1737,7 @@
       "gd": 7,
       "gf": 8,
       "ga": 1,
-      "rank": 2
+      "rank": 4
     },
     {
       "participant": "Connor S",
@@ -1724,20 +1750,20 @@
       "gd": 6,
       "gf": 6,
       "ga": 0,
-      "rank": 3
+      "rank": 5
     },
     {
-      "participant": "Joel R",
-      "team": "Netherlands",
-      "points": 8,
-      "matchPoints": 8,
-      "quiz": 0,
-      "wins": 2,
-      "draws": 1,
-      "gd": 6,
+      "participant": "Tamara E",
+      "team": "Norway",
+      "points": 29,
+      "matchPoints": 9,
+      "quiz": 20,
+      "wins": 3,
+      "draws": 0,
+      "gd": 2,
       "gf": 10,
-      "ga": 4,
-      "rank": 4
+      "ga": 8,
+      "rank": 6
     },
     {
       "participant": "Kate H",
@@ -1750,20 +1776,20 @@
       "gd": 6,
       "gf": 9,
       "ga": 3,
-      "rank": 5
+      "rank": 7
     },
     {
-      "participant": "Beau P",
-      "team": "Brazil",
-      "points": 28,
+      "participant": "Joel R",
+      "team": "Netherlands",
+      "points": 8,
       "matchPoints": 8,
-      "quiz": 20,
+      "quiz": 0,
       "wins": 2,
       "draws": 1,
-      "gd": 6,
-      "gf": 7,
-      "ga": 1,
-      "rank": 6
+      "gd": 5,
+      "gf": 12,
+      "ga": 7,
+      "rank": 8
     },
     {
       "participant": "Gerard C",
@@ -1776,7 +1802,7 @@
       "gd": 5,
       "gf": 5,
       "ga": 0,
-      "rank": 7
+      "rank": 9
     },
     {
       "participant": "Andrew S",
@@ -1789,7 +1815,7 @@
       "gd": 4,
       "gf": 7,
       "ga": 3,
-      "rank": 8
+      "rank": 10
     },
     {
       "participant": "Tanya O",
@@ -1802,20 +1828,7 @@
       "gd": 4,
       "gf": 6,
       "ga": 2,
-      "rank": 9
-    },
-    {
-      "participant": "Krystal G",
-      "team": "Morocco",
-      "points": 25,
-      "matchPoints": 8,
-      "quiz": 17,
-      "wins": 2,
-      "draws": 1,
-      "gd": 3,
-      "gf": 6,
-      "ga": 3,
-      "rank": 10
+      "rank": 11
     },
     {
       "participant": "Brad M",
@@ -1828,7 +1841,20 @@
       "gd": 3,
       "gf": 4,
       "ga": 1,
-      "rank": 11
+      "rank": 12
+    },
+    {
+      "participant": "Reg P",
+      "team": "Paraguay",
+      "points": 28,
+      "matchPoints": 8,
+      "quiz": 20,
+      "wins": 2,
+      "draws": 1,
+      "gd": -1,
+      "gf": 6,
+      "ga": 7,
+      "rank": 13
     },
     {
       "participant": "Mitchell T",
@@ -1841,20 +1867,7 @@
       "gd": 5,
       "gf": 6,
       "ga": 1,
-      "rank": 12
-    },
-    {
-      "participant": "Jackson W",
-      "team": "Japan",
-      "points": 27,
-      "matchPoints": 7,
-      "quiz": 20,
-      "wins": 1,
-      "draws": 2,
-      "gd": 4,
-      "gf": 7,
-      "ga": 3,
-      "rank": 13
+      "rank": 14
     },
     {
       "participant": "Lorraine M",
@@ -1867,7 +1880,20 @@
       "gd": 4,
       "gf": 6,
       "ga": 2,
-      "rank": 14
+      "rank": 15
+    },
+    {
+      "participant": "Jackson W",
+      "team": "Japan",
+      "points": 27,
+      "matchPoints": 7,
+      "quiz": 20,
+      "wins": 1,
+      "draws": 2,
+      "gd": 3,
+      "gf": 8,
+      "ga": 5,
+      "rank": 16
     },
     {
       "participant": "Owen S",
@@ -1880,7 +1906,7 @@
       "gd": 2,
       "gf": 5,
       "ga": 3,
-      "rank": 15
+      "rank": 17
     },
     {
       "participant": "Angelique B",
@@ -1890,10 +1916,10 @@
       "quiz": 8,
       "wins": 2,
       "draws": 0,
-      "gd": 6,
-      "gf": 10,
-      "ga": 4,
-      "rank": 16
+      "gd": 5,
+      "gf": 13,
+      "ga": 8,
+      "rank": 18
     },
     {
       "participant": "Sean F",
@@ -1906,7 +1932,7 @@
       "gd": 4,
       "gf": 8,
       "ga": 4,
-      "rank": 17
+      "rank": 19
     },
     {
       "participant": "Kate I",
@@ -1916,23 +1942,10 @@
       "quiz": 18,
       "wins": 2,
       "draws": 0,
-      "gd": 2,
-      "gf": 4,
-      "ga": 2,
-      "rank": 18
-    },
-    {
-      "participant": "Tamara E",
-      "team": "Norway",
-      "points": 26,
-      "matchPoints": 6,
-      "quiz": 20,
-      "wins": 2,
-      "draws": 0,
       "gd": 1,
-      "gf": 8,
-      "ga": 7,
-      "rank": 19
+      "gf": 5,
+      "ga": 4,
+      "rank": 20
     },
     {
       "participant": "Joel G",
@@ -1945,7 +1958,7 @@
       "gd": 0,
       "gf": 5,
       "ga": 5,
-      "rank": 20
+      "rank": 21
     },
     {
       "participant": "Andrew K",
@@ -1958,7 +1971,7 @@
       "gd": 0,
       "gf": 3,
       "ga": 3,
-      "rank": 21
+      "rank": 22
     },
     {
       "participant": "Phantom 4",
@@ -1971,7 +1984,7 @@
       "gd": 0,
       "gf": 2,
       "ga": 2,
-      "rank": 22
+      "rank": 23
     },
     {
       "participant": "Suhail J",
@@ -1984,19 +1997,6 @@
       "gd": 1,
       "gf": 4,
       "ga": 3,
-      "rank": 23
-    },
-    {
-      "participant": "Cheari L",
-      "team": "Sweden",
-      "points": 24,
-      "matchPoints": 5,
-      "quiz": 19,
-      "wins": 1,
-      "draws": 1,
-      "gd": 0,
-      "gf": 7,
-      "ga": 7,
       "rank": 24
     },
     {
@@ -2078,8 +2078,8 @@
       "rank": 30
     },
     {
-      "participant": "Reg P",
-      "team": "Paraguay",
+      "participant": "Shane S",
+      "team": "South Africa",
       "points": 25,
       "matchPoints": 5,
       "quiz": 20,
@@ -2091,16 +2091,16 @@
       "rank": 31
     },
     {
-      "participant": "Shane S",
-      "team": "South Africa",
-      "points": 25,
+      "participant": "Cheari L",
+      "team": "Sweden",
+      "points": 24,
       "matchPoints": 5,
-      "quiz": 20,
+      "quiz": 19,
       "wins": 1,
       "draws": 1,
-      "gd": -2,
-      "gf": 2,
-      "ga": 4,
+      "gd": -3,
+      "gf": 7,
+      "ga": 10,
       "rank": 32
     },
     {
@@ -2314,156 +2314,156 @@
   ],
   "quizAndSideQuests": [
     {
-      "participant": "Jigar V",
+      "participant": "Andrew S",
       "quizPoints": 20,
       "goldenBootGoals": 6,
       "points": 26,
       "rank": 1
     },
     {
-      "participant": "Shane S",
+      "participant": "Beau P",
       "quizPoints": 20,
       "goldenBootGoals": 6,
       "points": 26,
       "rank": 2
     },
     {
-      "participant": "Andrew S",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 3
-    },
-    {
-      "participant": "Beau P",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 4
-    },
-    {
-      "participant": "Dionne H",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 5
-    },
-    {
       "participant": "Elizabeth D",
       "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 6
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 3
     },
     {
       "participant": "Gerard C",
       "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 4
+    },
+    {
+      "participant": "Jigar V",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 5
+    },
+    {
+      "participant": "Lorraine M",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 6
+    },
+    {
+      "participant": "Mark K",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
       "rank": 7
+    },
+    {
+      "participant": "Reg P",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 8
+    },
+    {
+      "participant": "Sean F",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 9
+    },
+    {
+      "participant": "Shane S",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 10
+    },
+    {
+      "participant": "Tamara E",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 11
+    },
+    {
+      "participant": "Theo P",
+      "quizPoints": 20,
+      "goldenBootGoals": 6,
+      "points": 26,
+      "rank": 12
+    },
+    {
+      "participant": "Cheari L",
+      "quizPoints": 19,
+      "goldenBootGoals": 6,
+      "points": 25,
+      "rank": 13
+    },
+    {
+      "participant": "Dionne H",
+      "quizPoints": 20,
+      "goldenBootGoals": 5,
+      "points": 25,
+      "rank": 14
+    },
+    {
+      "participant": "Matthew J",
+      "quizPoints": 20,
+      "goldenBootGoals": 5,
+      "points": 25,
+      "rank": 15
     },
     {
       "participant": "Jackson W",
       "quizPoints": 20,
       "goldenBootGoals": 4,
       "points": 24,
-      "rank": 8
+      "rank": 16
     },
     {
       "participant": "Kate I",
       "quizPoints": 18,
       "goldenBootGoals": 6,
       "points": 24,
-      "rank": 9
-    },
-    {
-      "participant": "Lorraine M",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 10
-    },
-    {
-      "participant": "Mark K",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 11
-    },
-    {
-      "participant": "Matthew J",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 12
-    },
-    {
-      "participant": "Reg P",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 13
-    },
-    {
-      "participant": "Sean F",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 14
-    },
-    {
-      "participant": "Tamara E",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 15
-    },
-    {
-      "participant": "Theo P",
-      "quizPoints": 20,
-      "goldenBootGoals": 4,
-      "points": 24,
-      "rank": 16
-    },
-    {
-      "participant": "Cheari L",
-      "quizPoints": 19,
-      "goldenBootGoals": 4,
-      "points": 23,
       "rank": 17
+    },
+    {
+      "participant": "Mitchell W",
+      "quizPoints": 19,
+      "goldenBootGoals": 5,
+      "points": 24,
+      "rank": 18
     },
     {
       "participant": "Helen P",
       "quizPoints": 20,
       "goldenBootGoals": 3,
       "points": 23,
-      "rank": 18
+      "rank": 19
     },
     {
       "participant": "Kamini G",
       "quizPoints": 20,
       "goldenBootGoals": 3,
       "points": 23,
-      "rank": 19
+      "rank": 20
     },
     {
       "participant": "Krystal G",
       "quizPoints": 17,
       "goldenBootGoals": 6,
       "points": 23,
-      "rank": 20
+      "rank": 21
     },
     {
       "participant": "Michael C",
       "quizPoints": 20,
       "goldenBootGoals": 3,
-      "points": 23,
-      "rank": 21
-    },
-    {
-      "participant": "Mitchell W",
-      "quizPoints": 19,
-      "goldenBootGoals": 4,
       "points": 23,
       "rank": 22
     },
@@ -2475,24 +2475,24 @@
       "rank": 23
     },
     {
-      "participant": "Kate H",
-      "quizPoints": 20,
-      "goldenBootGoals": 2,
+      "participant": "Connor S",
+      "quizPoints": 17,
+      "goldenBootGoals": 5,
       "points": 22,
       "rank": 24
     },
     {
-      "participant": "Mitchell T",
+      "participant": "Kate H",
       "quizPoints": 20,
       "goldenBootGoals": 2,
       "points": 22,
       "rank": 25
     },
     {
-      "participant": "Connor S",
-      "quizPoints": 17,
-      "goldenBootGoals": 4,
-      "points": 21,
+      "participant": "Mitchell T",
+      "quizPoints": 20,
+      "goldenBootGoals": 2,
+      "points": 22,
       "rank": 26
     },
     {
@@ -2545,108 +2545,108 @@
       "rank": 33
     },
     {
-      "participant": "Prasantha N",
+      "participant": "Cyndie B",
       "quizPoints": 10,
       "goldenBootGoals": 6,
       "points": 16,
       "rank": 34
     },
     {
-      "participant": "Sarah K",
+      "participant": "Prasantha N",
       "quizPoints": 10,
       "goldenBootGoals": 6,
       "points": 16,
       "rank": 35
     },
     {
-      "participant": "Cyndie B",
+      "participant": "Sarah K",
       "quizPoints": 10,
-      "goldenBootGoals": 4,
-      "points": 14,
+      "goldenBootGoals": 6,
+      "points": 16,
       "rank": 36
     },
     {
       "participant": "Angelique B",
       "quizPoints": 8,
-      "goldenBootGoals": 4,
-      "points": 12,
+      "goldenBootGoals": 5,
+      "points": 13,
       "rank": 37
     },
     {
       "participant": "Joel R",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 38
     },
     {
       "participant": "Phantom 1",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 39
     },
     {
       "participant": "Phantom 2",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 40
     },
     {
       "participant": "Phantom 3",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 41
     },
     {
       "participant": "Phantom 4",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 42
     },
     {
       "participant": "Phantom 5",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 43
     },
     {
       "participant": "Phantom 6",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 44
     },
     {
       "participant": "Phantom 7",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 45
     },
     {
       "participant": "Phantom 8",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 46
     },
     {
       "participant": "Suhail J",
       "quizPoints": 0,
-      "goldenBootGoals": 4,
-      "points": 4,
+      "goldenBootGoals": 6,
+      "points": 6,
       "rank": 47
     },
     {
       "participant": "Hugh K",
       "quizPoints": 0,
-      "goldenBootGoals": 2,
-      "points": 2,
+      "goldenBootGoals": 3,
+      "points": 3,
       "rank": 48
     }
   ],
@@ -2659,206 +2659,206 @@
     },
     {
       "rank": 2,
+      "participant": "Andrew S",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 3,
+      "participant": "Beau P",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 4,
+      "participant": "Cheari L",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 5,
+      "participant": "Cyndie B",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 6,
+      "participant": "Elizabeth D",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 7,
+      "participant": "Gerard C",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 8,
       "participant": "Jigar V",
       "player": "Lionel Messi",
       "goals": 6
     },
     {
-      "rank": 3,
+      "rank": 9,
+      "participant": "Joel R",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 10,
       "participant": "Kate I",
       "player": "Lionel Messi",
       "goals": 6
     },
     {
-      "rank": 4,
+      "rank": 11,
       "participant": "Krystal G",
       "player": "Lionel Messi",
       "goals": 6
     },
     {
-      "rank": 5,
+      "rank": 12,
+      "participant": "Lorraine M",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 13,
+      "participant": "Mark K",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 14,
+      "participant": "Phantom 1",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 15,
+      "participant": "Phantom 2",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 16,
+      "participant": "Phantom 3",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 17,
+      "participant": "Phantom 4",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 18,
+      "participant": "Phantom 5",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 19,
+      "participant": "Phantom 6",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 20,
+      "participant": "Phantom 7",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 21,
+      "participant": "Phantom 8",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 22,
       "participant": "Prasantha N",
       "player": "Lionel Messi",
       "goals": 6
     },
     {
-      "rank": 6,
+      "rank": 23,
+      "participant": "Reg P",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 24,
       "participant": "Sarah K",
       "player": "Lionel Messi",
       "goals": 6
     },
     {
-      "rank": 7,
+      "rank": 25,
+      "participant": "Sean F",
+      "player": "Kylian Mbappé",
+      "goals": 6
+    },
+    {
+      "rank": 26,
       "participant": "Shane S",
       "player": "Lionel Messi",
       "goals": 6
     },
     {
-      "rank": 8,
-      "participant": "Andrew S",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 9,
-      "participant": "Angelique B",
-      "player": "Erling Haaland",
-      "goals": 4
-    },
-    {
-      "rank": 10,
-      "participant": "Beau P",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 11,
-      "participant": "Cheari L",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 12,
-      "participant": "Connor S",
-      "player": "Erling Haaland",
-      "goals": 4
-    },
-    {
-      "rank": 13,
-      "participant": "Cyndie B",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 14,
-      "participant": "Dionne H",
-      "player": "Erling Haaland",
-      "goals": 4
-    },
-    {
-      "rank": 15,
-      "participant": "Elizabeth D",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 16,
-      "participant": "Gerard C",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 17,
-      "participant": "Jackson W",
-      "player": "Ousmane Dembele",
-      "goals": 4
-    },
-    {
-      "rank": 18,
-      "participant": "Joel R",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 19,
-      "participant": "Lorraine M",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 20,
-      "participant": "Mark K",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 21,
-      "participant": "Matthew J",
-      "player": "Erling Haaland",
-      "goals": 4
-    },
-    {
-      "rank": 22,
-      "participant": "Mitchell W",
-      "player": "Erling Haaland",
-      "goals": 4
-    },
-    {
-      "rank": 23,
-      "participant": "Phantom 1",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 24,
-      "participant": "Phantom 2",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 25,
-      "participant": "Phantom 3",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
-      "rank": 26,
-      "participant": "Phantom 4",
-      "player": "Kylian Mbappé",
-      "goals": 4
-    },
-    {
       "rank": 27,
-      "participant": "Phantom 5",
+      "participant": "Suhail J",
       "player": "Kylian Mbappé",
-      "goals": 4
+      "goals": 6
     },
     {
       "rank": 28,
-      "participant": "Phantom 6",
+      "participant": "Tamara E",
       "player": "Kylian Mbappé",
-      "goals": 4
+      "goals": 6
     },
     {
       "rank": 29,
-      "participant": "Phantom 7",
+      "participant": "Theo P",
       "player": "Kylian Mbappé",
-      "goals": 4
+      "goals": 6
     },
     {
       "rank": 30,
-      "participant": "Phantom 8",
-      "player": "Kylian Mbappé",
-      "goals": 4
+      "participant": "Angelique B",
+      "player": "Erling Haaland",
+      "goals": 5
     },
     {
       "rank": 31,
-      "participant": "Reg P",
-      "player": "Kylian Mbappé",
-      "goals": 4
+      "participant": "Connor S",
+      "player": "Erling Haaland",
+      "goals": 5
     },
     {
       "rank": 32,
-      "participant": "Sean F",
-      "player": "Kylian Mbappé",
-      "goals": 4
+      "participant": "Dionne H",
+      "player": "Erling Haaland",
+      "goals": 5
     },
     {
       "rank": 33,
-      "participant": "Suhail J",
-      "player": "Kylian Mbappé",
-      "goals": 4
+      "participant": "Matthew J",
+      "player": "Erling Haaland",
+      "goals": 5
     },
     {
       "rank": 34,
-      "participant": "Tamara E",
-      "player": "Kylian Mbappé",
-      "goals": 4
+      "participant": "Mitchell W",
+      "player": "Erling Haaland",
+      "goals": 5
     },
     {
       "rank": 35,
-      "participant": "Theo P",
-      "player": "Kylian Mbappé",
+      "participant": "Jackson W",
+      "player": "Ousmane Dembele",
       "goals": 4
     },
     {
@@ -2869,27 +2869,27 @@
     },
     {
       "rank": 37,
+      "participant": "Hugh K",
+      "player": "Cody Gakpo",
+      "goals": 3
+    },
+    {
+      "rank": 38,
       "participant": "Kamini G",
       "player": "Harry Kane",
       "goals": 3
     },
     {
-      "rank": 38,
+      "rank": 39,
       "participant": "Michael C",
       "player": "Harry Kane",
       "goals": 3
     },
     {
-      "rank": 39,
+      "rank": 40,
       "participant": "Owen S",
       "player": "Harry Kane",
       "goals": 3
-    },
-    {
-      "rank": 40,
-      "participant": "Hugh K",
-      "player": "Cody Gakpo",
-      "goals": 2
     },
     {
       "rank": 41,
