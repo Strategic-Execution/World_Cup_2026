@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02 08:58",
+  "lastUpdated": "2026-07-02 16:24",
   "teams": [
     {
       "name": "Mexico",
@@ -921,8 +921,8 @@
       "stage": "R32",
       "home": "USA",
       "away": "Bosnia and Herzegovina",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "match": 82,
@@ -2039,19 +2039,6 @@
       "rank": 27
     },
     {
-      "participant": "Phantom 3",
-      "team": "Bosnia and Herzegovina",
-      "points": 5,
-      "matchPoints": 5,
-      "quiz": 0,
-      "wins": 1,
-      "draws": 1,
-      "gd": -1,
-      "gf": 5,
-      "ga": 6,
-      "rank": 28
-    },
-    {
       "participant": "Helen P",
       "team": "Algeria",
       "points": 25,
@@ -2062,7 +2049,7 @@
       "gd": -2,
       "gf": 5,
       "ga": 7,
-      "rank": 29
+      "rank": 28
     },
     {
       "participant": "Sarah K",
@@ -2075,7 +2062,7 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 30
+      "rank": 29
     },
     {
       "participant": "Shane S",
@@ -2088,7 +2075,7 @@
       "gd": -2,
       "gf": 2,
       "ga": 4,
-      "rank": 31
+      "rank": 30
     },
     {
       "participant": "Cheari L",
@@ -2101,6 +2088,19 @@
       "gd": -3,
       "gf": 7,
       "ga": 10,
+      "rank": 31
+    },
+    {
+      "participant": "Phantom 3",
+      "team": "Bosnia and Herzegovina",
+      "points": 5,
+      "matchPoints": 5,
+      "quiz": 0,
+      "wins": 1,
+      "draws": 1,
+      "gd": -3,
+      "gf": 5,
+      "ga": 8,
       "rank": 32
     },
     {
